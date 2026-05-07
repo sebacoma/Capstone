@@ -1,0 +1,198 @@
+{
+  "method": "maps_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_09",
+      "date": "2024-02-14",
+      "title": "Negociaciones se estancan por distribución del 6%"
+    },
+    {
+      "id": "doc_10",
+      "date": "2024-02-17",
+      "title": "Organizaciones de pensionados presionan por acuerdo"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 136.49560641602147,
+    "peak_memory_mb": 3.5661401748657227,
+    "avg_edge_coherence": 0.8800000000000001
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and logical progression of events, with each document building upon the previous one to tell a coherent story about the reforma previsional in Chile. The sequence is well-structured, and the language used is consistent throughout. However, there are minor inconsistencies in the dates (e.g., February 14th vs. February 17th) that slightly detract from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-07T16:38:59.302461+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-07T16:38:59.302752+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc_01",
+        "date": "2024-01-15",
+        "title": "Gobierno anuncia reforma previsional con 6% adicional"
+      },
+      {
+        "id": "doc_09",
+        "date": "2024-02-14",
+        "title": "Negociaciones se estancan por distribución del 6%"
+      },
+      {
+        "id": "doc_10",
+        "date": "2024-02-17",
+        "title": "Organizaciones de pensionados presionan por acuerdo"
+      },
+      {
+        "id": "doc_11",
+        "date": "2024-02-20",
+        "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+      },
+      {
+        "id": "doc_12",
+        "date": "2024-02-25",
+        "title": "Senado aprueba reforma previsional en votación histórica"
+      },
+      {
+        "id": "doc_15",
+        "date": "2024-03-15",
+        "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+      }
+    ],
+    "edges": [
+      {
+        "source": "doc_01",
+        "target": "doc_09",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_09",
+        "target": "doc_01",
+        "coherence_score": 0.4
+      },
+      {
+        "source": "doc_09",
+        "target": "doc_10",
+        "coherence_score": 0.9
+      },
+      {
+        "source": "doc_09",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_09",
+        "target": "doc_12",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_09",
+        "target": "doc_15",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_09",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_11",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_12",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_15",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_09",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_10",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_12",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_15",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_09",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_10",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_15",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_09",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_10",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_12",
+        "coherence_score": 0.8
+      }
+    ]
+  }
+}

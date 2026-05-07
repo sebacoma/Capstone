@@ -1,0 +1,47 @@
+{
+  "method": "trails_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_04",
+      "date": "2024-01-28",
+      "title": "Gobierno modifica propuesta tras presión empresarial"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_07",
+      "date": "2024-02-08",
+      "title": "AFP presentan contrapropuesta al Congreso"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 104.7587837500032,
+    "peak_memory_mb": 3.024982452392578,
+    "avg_edge_coherence": 0.8
+  },
+  "judge": {
+    "error": "Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download"
+  },
+  "timestamp": "2026-04-22T23:53:05.328590+00:00"
+}

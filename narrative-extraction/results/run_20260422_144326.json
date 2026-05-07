@@ -1,0 +1,45 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0006",
+      "date": "2019-11-15",
+      "title": "Mon Laferte ganó Grammy y dedicó mensaje a Chile"
+    },
+    {
+      "id": "art_0018",
+      "date": "2019-11-18",
+      "title": "Arturito vive su propia \"casa de papel\" en Chile"
+    },
+    {
+      "id": "art_0029",
+      "date": "2019-11-21",
+      "title": "Jorge González: \"El milagro chileno era que no se hubiese ..."
+    },
+    {
+      "id": "art_0025",
+      "date": "2019-11-20",
+      "title": "Felipe Alessandri: \"A muchas autoridades de gobierno les ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.710195541993016,
+    "peak_memory_mb": 22.948368072509766,
+    "avg_edge_coherence": 0.7111956000328064
+  },
+  "judge": {},
+  "timestamp": "2026-04-22T18:43:45.459510+00:00"
+}

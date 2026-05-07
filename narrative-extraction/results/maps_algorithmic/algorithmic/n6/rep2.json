@@ -1,0 +1,218 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_02",
+      "date": "2024-01-18",
+      "title": "Oposición critica costos de la reforma para pymes"
+    },
+    {
+      "id": "doc_04",
+      "date": "2024-01-28",
+      "title": "Gobierno modifica propuesta tras presión empresarial"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.24470204097451642,
+    "peak_memory_mb": 0.6866741180419922,
+    "avg_edge_coherence": 0.7519925951957702
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical progression of events, with each document building upon the previous one to convey a coherent story about the reforma previsional. The sequence of documents effectively explores different perspectives (AFP, oposición, gremios empresariales, CUT) and outcomes (modificación de la propuesta, acuerdo transversal), maintaining a clear narrative thread throughout.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-07T15:53:35.219958+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-07T15:53:35.220203+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc_01",
+        "date": "2024-01-15",
+        "title": "Gobierno anuncia reforma previsional con 6% adicional"
+      },
+      {
+        "id": "doc_02",
+        "date": "2024-01-18",
+        "title": "Oposición critica costos de la reforma para pymes"
+      },
+      {
+        "id": "doc_04",
+        "date": "2024-01-28",
+        "title": "Gobierno modifica propuesta tras presión empresarial"
+      },
+      {
+        "id": "doc_06",
+        "date": "2024-02-05",
+        "title": "Protestas de trabajadores exigen reforma sin recortes"
+      },
+      {
+        "id": "doc_08",
+        "date": "2024-02-10",
+        "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+      },
+      {
+        "id": "doc_11",
+        "date": "2024-02-20",
+        "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+      }
+    ],
+    "edges": [
+      {
+        "source": "doc_01",
+        "target": "doc_02",
+        "coherence_score": 0.677306
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_04",
+        "coherence_score": 0.729779
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_06",
+        "coherence_score": 0.700934
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_08",
+        "coherence_score": 0.685152
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_01",
+        "coherence_score": 0.677306
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_04",
+        "coherence_score": 0.825568
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_06",
+        "coherence_score": 0.535469
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_08",
+        "coherence_score": 0.600117
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_01",
+        "coherence_score": 0.729779
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_02",
+        "coherence_score": 0.825568
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_06",
+        "coherence_score": 0.655615
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_08",
+        "coherence_score": 0.634418
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_11",
+        "coherence_score": 0.57511
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_01",
+        "coherence_score": 0.700934
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_02",
+        "coherence_score": 0.535469
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_04",
+        "coherence_score": 0.655615
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_08",
+        "coherence_score": 0.794369
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_11",
+        "coherence_score": 0.655152
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_01",
+        "coherence_score": 0.685152
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_02",
+        "coherence_score": 0.600117
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_04",
+        "coherence_score": 0.634418
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_06",
+        "coherence_score": 0.794369
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_11",
+        "coherence_score": 0.807104
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_04",
+        "coherence_score": 0.57511
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_06",
+        "coherence_score": 0.655152
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_08",
+        "coherence_score": 0.807104
+      }
+    ]
+  }
+}

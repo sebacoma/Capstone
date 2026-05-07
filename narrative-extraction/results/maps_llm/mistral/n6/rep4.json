@@ -1,0 +1,198 @@
+{
+  "method": "maps_llm",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_13",
+      "date": "2024-02-26",
+      "title": "Mercados reaccionan positivamente a aprobación en Senado"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_14",
+      "date": "2024-03-01",
+      "title": "Cámara de Diputados agenda votación para marzo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 127.18076287501026,
+    "peak_memory_mb": 2.0012025833129883,
+    "avg_edge_coherence": 0.8800000000000001
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and logical progression of events, starting with the government's proposal for a reforma previsional, followed by public opinion polls and debates, culminating in an agreement between the government and opposition, and finally, the approval of the reform in both houses of Congress. The story is well-structured and easy to follow, with minimal inconsistencies or contradictions.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-07T16:13:09.810434+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-07T16:13:09.810513+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc_01",
+        "date": "2024-01-15",
+        "title": "Gobierno anuncia reforma previsional con 6% adicional"
+      },
+      {
+        "id": "doc_08",
+        "date": "2024-02-10",
+        "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+      },
+      {
+        "id": "doc_11",
+        "date": "2024-02-20",
+        "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+      },
+      {
+        "id": "doc_13",
+        "date": "2024-02-26",
+        "title": "Mercados reaccionan positivamente a aprobación en Senado"
+      },
+      {
+        "id": "doc_12",
+        "date": "2024-02-25",
+        "title": "Senado aprueba reforma previsional en votación histórica"
+      },
+      {
+        "id": "doc_14",
+        "date": "2024-03-01",
+        "title": "Cámara de Diputados agenda votación para marzo"
+      }
+    ],
+    "edges": [
+      {
+        "source": "doc_01",
+        "target": "doc_08",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_01",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_11",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_13",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_08",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_13",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_08",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_13",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_08",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_12",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_08",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_13",
+        "coherence_score": 0.7
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "method": "maps_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_09",
+      "date": "2024-02-14",
+      "title": "Negociaciones se estancan por distribución del 6%"
+    },
+    {
+      "id": "doc_10",
+      "date": "2024-02-17",
+      "title": "Organizaciones de pensionados presionan por acuerdo"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 119.79620720801177,
+    "peak_memory_mb": 3.5675535202026367,
+    "avg_edge_coherence": 0.8800000000000001
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and logical progression of events, with each document building upon the previous one to tell a coherent story about the reforma previsional in Chile. The sequence is well-structured, and the language used is consistent throughout. However, there are minor inconsistencies in the dates (e.g., February 14th vs. February 17th) that slightly detract from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-04-22T23:27:29.931717+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-04-22T23:27:29.931915+00:00"
+}

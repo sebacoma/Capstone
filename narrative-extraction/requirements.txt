@@ -1,0 +1,11 @@
+sentence-transformers
+networkx
+ollama
+openai
+python-dotenv
+numpy
+scipy
+pulp
+pandas
+tabulate
+matplotlib

@@ -1,0 +1,45 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.0014448750007431954,
+    "peak_memory_mb": 0.07574272155761719,
+    "avg_edge_coherence": 0.7508408427238464
+  },
+  "judge": {},
+  "timestamp": "2026-04-22T18:52:49.863908+00:00"
+}

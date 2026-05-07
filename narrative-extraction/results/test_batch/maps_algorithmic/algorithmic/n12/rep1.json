@@ -1,0 +1,75 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_07",
+      "date": "2024-02-08",
+      "title": "AFP presentan contrapropuesta al Congreso"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_04",
+      "date": "2024-01-28",
+      "title": "Gobierno modifica propuesta tras presión empresarial"
+    },
+    {
+      "id": "doc_02",
+      "date": "2024-01-18",
+      "title": "Oposición critica costos de la reforma para pymes"
+    },
+    {
+      "id": "doc_03",
+      "date": "2024-01-22",
+      "title": "Economistas debaten impacto de reforma en el empleo"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    },
+    {
+      "id": "doc_14",
+      "date": "2024-03-01",
+      "title": "Cámara de Diputados agenda votación para marzo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.34505499998340383,
+    "peak_memory_mb": 0.6825542449951172,
+    "avg_edge_coherence": 0.7415914264592257
+  },
+  "judge": {},
+  "timestamp": "2026-04-22T18:52:49.862019+00:00"
+}

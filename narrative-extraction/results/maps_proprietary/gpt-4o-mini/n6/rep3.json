@@ -1,0 +1,188 @@
+{
+  "method": "maps_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_10",
+      "date": "2024-02-17",
+      "title": "Organizaciones de pensionados presionan por acuerdo"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 123.03331258404069,
+    "peak_memory_mb": 3.551605224609375,
+    "avg_edge_coherence": 0.9199999999999999
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical progression of events, from the government's announcement to the final approval by both chambers of Congress. However, some minor inconsistencies in dates and minor omissions of details prevent it from achieving perfect coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-07T16:33:59.003389+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-07T16:33:59.003702+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc_01",
+        "date": "2024-01-15",
+        "title": "Gobierno anuncia reforma previsional con 6% adicional"
+      },
+      {
+        "id": "doc_05",
+        "date": "2024-02-02",
+        "title": "Comisión del Senado inicia discusión del proyecto"
+      },
+      {
+        "id": "doc_10",
+        "date": "2024-02-17",
+        "title": "Organizaciones de pensionados presionan por acuerdo"
+      },
+      {
+        "id": "doc_11",
+        "date": "2024-02-20",
+        "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+      },
+      {
+        "id": "doc_12",
+        "date": "2024-02-25",
+        "title": "Senado aprueba reforma previsional en votación histórica"
+      },
+      {
+        "id": "doc_15",
+        "date": "2024-03-15",
+        "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+      }
+    ],
+    "edges": [
+      {
+        "source": "doc_01",
+        "target": "doc_05",
+        "coherence_score": 0.9
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_01",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_10",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_12",
+        "coherence_score": 0.9
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_05",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_11",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_12",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_10",
+        "target": "doc_15",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_05",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_10",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_12",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_15",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_05",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_10",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_15",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_10",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_12",
+        "coherence_score": 0.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "method": "maps_llm",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_02",
+      "date": "2024-01-18",
+      "title": "Oposición critica costos de la reforma para pymes"
+    },
+    {
+      "id": "doc_04",
+      "date": "2024-01-28",
+      "title": "Gobierno modifica propuesta tras presión empresarial"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_07",
+      "date": "2024-02-08",
+      "title": "AFP presentan contrapropuesta al Congreso"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_13",
+      "date": "2024-02-26",
+      "title": "Mercados reaccionan positivamente a aprobación en Senado"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_14",
+      "date": "2024-03-01",
+      "title": "Cámara de Diputados agenda votación para marzo"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 127.46827066602418,
+    "peak_memory_mb": 1.9987115859985352,
+    "avg_edge_coherence": 0.8227272727272728
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical progression of events, from the initial announcement of the reform to its eventual approval in both the Senate and the Chamber of Deputies. The story is well-structured, with each document building on the previous one to provide a comprehensive understanding of the reform's development. However, some minor inconsistencies and abrupt transitions between documents slightly detract from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-07T16:22:29.345675+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-07T16:22:29.345905+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "doc_01",
+        "date": "2024-01-15",
+        "title": "Gobierno anuncia reforma previsional con 6% adicional"
+      },
+      {
+        "id": "doc_02",
+        "date": "2024-01-18",
+        "title": "Oposición critica costos de la reforma para pymes"
+      },
+      {
+        "id": "doc_04",
+        "date": "2024-01-28",
+        "title": "Gobierno modifica propuesta tras presión empresarial"
+      },
+      {
+        "id": "doc_05",
+        "date": "2024-02-02",
+        "title": "Comisión del Senado inicia discusión del proyecto"
+      },
+      {
+        "id": "doc_07",
+        "date": "2024-02-08",
+        "title": "AFP presentan contrapropuesta al Congreso"
+      },
+      {
+        "id": "doc_06",
+        "date": "2024-02-05",
+        "title": "Protestas de trabajadores exigen reforma sin recortes"
+      },
+      {
+        "id": "doc_08",
+        "date": "2024-02-10",
+        "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+      },
+      {
+        "id": "doc_11",
+        "date": "2024-02-20",
+        "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+      },
+      {
+        "id": "doc_13",
+        "date": "2024-02-26",
+        "title": "Mercados reaccionan positivamente a aprobación en Senado"
+      },
+      {
+        "id": "doc_12",
+        "date": "2024-02-25",
+        "title": "Senado aprueba reforma previsional en votación histórica"
+      },
+      {
+        "id": "doc_14",
+        "date": "2024-03-01",
+        "title": "Cámara de Diputados agenda votación para marzo"
+      },
+      {
+        "id": "doc_15",
+        "date": "2024-03-15",
+        "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+      }
+    ],
+    "edges": [
+      {
+        "source": "doc_01",
+        "target": "doc_02",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_04",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_05",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_06",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_07",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_01",
+        "target": "doc_08",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_01",
+        "coherence_score": 0.65
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_04",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_05",
+        "coherence_score": 0.35
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_06",
+        "coherence_score": 0.35
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_07",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_02",
+        "target": "doc_08",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_01",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_02",
+        "coherence_score": 0.65
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_05",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_06",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_07",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_08",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_11",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_12",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_04",
+        "target": "doc_13",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_01",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_02",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_04",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_06",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_07",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_08",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_11",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_12",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_13",
+        "coherence_score": 0.4
+      },
+      {
+        "source": "doc_05",
+        "target": "doc_14",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_01",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_02",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_04",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_05",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_07",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_08",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_11",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_12",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_13",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_06",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_01",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_02",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_04",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_05",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_06",
+        "coherence_score": 0.65
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_08",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_11",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_12",
+        "coherence_score": 0.0
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_13",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_07",
+        "target": "doc_14",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_01",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_02",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_04",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_05",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_06",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_07",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_11",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_13",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_08",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_04",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_05",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_06",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_07",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_08",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_13",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_11",
+        "target": "doc_15",
+        "coherence_score": 0.75
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_04",
+        "coherence_score": 0.4
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_05",
+        "coherence_score": 0.75
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_06",
+        "coherence_score": 0.4
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_07",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_08",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_13",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_12",
+        "target": "doc_15",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_04",
+        "coherence_score": 0.3
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_05",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_06",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_07",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_08",
+        "coherence_score": 0.25
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_12",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_14",
+        "coherence_score": 0.8
+      },
+      {
+        "source": "doc_13",
+        "target": "doc_15",
+        "coherence_score": 0.75
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_05",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_06",
+        "coherence_score": 0.6
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_07",
+        "coherence_score": 0.2
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_08",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_11",
+        "coherence_score": 0.95
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_12",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_13",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_14",
+        "target": "doc_15",
+        "coherence_score": 0.7
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_11",
+        "coherence_score": 0.85
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_12",
+        "coherence_score": 0.5
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_13",
+        "coherence_score": 0.4
+      },
+      {
+        "source": "doc_15",
+        "target": "doc_14",
+        "coherence_score": 0.75
+      }
+    ]
+  }
+}

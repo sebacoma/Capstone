@@ -1,0 +1,45 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0106",
+      "date": "2019-12-19",
+      "title": "Las fotos del estallido social: libros retratan ..."
+    },
+    {
+      "id": "art_0071",
+      "date": "2019-12-05",
+      "title": "La TV ya no es la misma"
+    },
+    {
+      "id": "art_0067",
+      "date": "2019-12-04",
+      "title": "Paul Vásquez, el Flaco: “En nuestra generación ..."
+    },
+    {
+      "id": "art_0060",
+      "date": "2019-12-01",
+      "title": "En busca de \"recuperar su rol en el movimiento social\": Cómo se ha movido el PC tras el estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 77.86786462497548,
+    "peak_memory_mb": 187.275372505188,
+    "avg_edge_coherence": 0.5875993371009827
+  },
+  "judge": {},
+  "timestamp": "2026-04-22T18:47:55.005220+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "method": "maps_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_14",
+      "date": "2024-03-01",
+      "title": "Cámara de Diputados agenda votación para marzo"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 106.8420974999899,
+    "peak_memory_mb": 3.567347526550293,
+    "avg_edge_coherence": 0.9
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical progression of events, from the government's announcement to the approval by both chambers of Congress. However, some minor inconsistencies in dates (e.g., document [2] mentions February 2nd, while document [6] mentions February 20th) and minor omissions (e.g., no mention of opposition parties' concerns or reactions) prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-04-22T23:31:31.463615+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-04-22T23:31:31.463820+00:00"
+}

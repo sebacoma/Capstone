@@ -1,0 +1,288 @@
+{
+  "completed_at": "2026-05-07T12:51:18.184581",
+  "input": "data/sample.jsonl",
+  "window": 30,
+  "total_experiments": 40,
+  "experiments": [
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 1,
+      "output": "results/maps_algorithmic/algorithmic/n6/rep1.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 2,
+      "output": "results/maps_algorithmic/algorithmic/n6/rep2.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 3,
+      "output": "results/maps_algorithmic/algorithmic/n6/rep3.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 4,
+      "output": "results/maps_algorithmic/algorithmic/n6/rep4.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 5,
+      "output": "results/maps_algorithmic/algorithmic/n6/rep5.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 1,
+      "output": "results/maps_algorithmic/algorithmic/n12/rep1.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 2,
+      "output": "results/maps_algorithmic/algorithmic/n12/rep2.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 3,
+      "output": "results/maps_algorithmic/algorithmic/n12/rep3.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 4,
+      "output": "results/maps_algorithmic/algorithmic/n12/rep4.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 5,
+      "output": "results/maps_algorithmic/algorithmic/n12/rep5.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 6,
+      "rep": 1,
+      "output": "results/maps_llm/llama3.2/n6/rep1.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 6,
+      "rep": 2,
+      "output": "results/maps_llm/llama3.2/n6/rep2.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 6,
+      "rep": 3,
+      "output": "results/maps_llm/llama3.2/n6/rep3.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 6,
+      "rep": 4,
+      "output": "results/maps_llm/llama3.2/n6/rep4.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 6,
+      "rep": 5,
+      "output": "results/maps_llm/llama3.2/n6/rep5.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 12,
+      "rep": 1,
+      "output": "results/maps_llm/llama3.2/n12/rep1.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 12,
+      "rep": 2,
+      "output": "results/maps_llm/llama3.2/n12/rep2.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 12,
+      "rep": 3,
+      "output": "results/maps_llm/llama3.2/n12/rep3.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 12,
+      "rep": 4,
+      "output": "results/maps_llm/llama3.2/n12/rep4.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "llama3.2",
+      "n": 12,
+      "rep": 5,
+      "output": "results/maps_llm/llama3.2/n12/rep5.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 6,
+      "rep": 1,
+      "output": "results/maps_llm/mistral/n6/rep1.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 6,
+      "rep": 2,
+      "output": "results/maps_llm/mistral/n6/rep2.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 6,
+      "rep": 3,
+      "output": "results/maps_llm/mistral/n6/rep3.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 6,
+      "rep": 4,
+      "output": "results/maps_llm/mistral/n6/rep4.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 6,
+      "rep": 5,
+      "output": "results/maps_llm/mistral/n6/rep5.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 12,
+      "rep": 1,
+      "output": "results/maps_llm/mistral/n12/rep1.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 12,
+      "rep": 2,
+      "output": "results/maps_llm/mistral/n12/rep2.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 12,
+      "rep": 3,
+      "output": "results/maps_llm/mistral/n12/rep3.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 12,
+      "rep": 4,
+      "output": "results/maps_llm/mistral/n12/rep4.json"
+    },
+    {
+      "method": "maps_llm",
+      "model": "mistral",
+      "n": 12,
+      "rep": 5,
+      "output": "results/maps_llm/mistral/n12/rep5.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 6,
+      "rep": 1,
+      "output": "results/maps_proprietary/gpt-4o-mini/n6/rep1.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 6,
+      "rep": 2,
+      "output": "results/maps_proprietary/gpt-4o-mini/n6/rep2.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 6,
+      "rep": 3,
+      "output": "results/maps_proprietary/gpt-4o-mini/n6/rep3.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 6,
+      "rep": 4,
+      "output": "results/maps_proprietary/gpt-4o-mini/n6/rep4.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 6,
+      "rep": 5,
+      "output": "results/maps_proprietary/gpt-4o-mini/n6/rep5.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 12,
+      "rep": 1,
+      "output": "results/maps_proprietary/gpt-4o-mini/n12/rep1.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 12,
+      "rep": 2,
+      "output": "results/maps_proprietary/gpt-4o-mini/n12/rep2.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 12,
+      "rep": 3,
+      "output": "results/maps_proprietary/gpt-4o-mini/n12/rep3.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 12,
+      "rep": 4,
+      "output": "results/maps_proprietary/gpt-4o-mini/n12/rep4.json"
+    },
+    {
+      "method": "maps_proprietary",
+      "model": "gpt-4o-mini",
+      "n": 12,
+      "rep": 5,
+      "output": "results/maps_proprietary/gpt-4o-mini/n12/rep5.json"
+    }
+  ]
+}

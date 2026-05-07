@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Large data files
+FINAL_DATA.json
+
+# Office documents (no need in repo)
+*.docx
+*.xlsx
+*.pptx
+
+# Reuniones
+reuniones/

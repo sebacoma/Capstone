@@ -1,0 +1,52 @@
+{
+  "method": "maps_proprietary",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_08",
+      "date": "2024-02-10",
+      "title": "Encuesta revela alto apoyo ciudadano a reforma solidaria"
+    },
+    {
+      "id": "doc_11",
+      "date": "2024-02-20",
+      "title": "Acuerdo transversal: 3.5% solidario y 2.5% individual"
+    },
+    {
+      "id": "doc_12",
+      "date": "2024-02-25",
+      "title": "Senado aprueba reforma previsional en votación histórica"
+    },
+    {
+      "id": "doc_14",
+      "date": "2024-03-01",
+      "title": "Cámara de Diputados agenda votación para marzo"
+    },
+    {
+      "id": "doc_15",
+      "date": "2024-03-15",
+      "title": "Cámara aprueba reforma: nueva era para pensiones en Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 115.90181162502267,
+    "peak_memory_mb": 12.314983367919922,
+    "avg_edge_coherence": 0.9
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and logical progression of events, from the government's proposal to the final approval in the Cámara de Diputados. The documents are well-structured and provide sufficient context for each step in the process. However, there is a minor inconsistency in document [5], where diputados from the ala más izquierda announce indications to increase the component solidario, which could be seen as a deviation from the agreed-upon accord.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-04-22T23:23:25.449633+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-04-22T23:23:25.449748+00:00"
+}

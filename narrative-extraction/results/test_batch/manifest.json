@@ -1,0 +1,36 @@
+{
+  "completed_at": "2026-04-22T14:52:49.865765",
+  "input": "data/sample.jsonl",
+  "window": 30,
+  "total_experiments": 4,
+  "experiments": [
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 1,
+      "output": "results/test_batch/maps_algorithmic/algorithmic/n6/rep1.json"
+    },
+    {
+      "method": "maps_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 1,
+      "output": "results/test_batch/maps_algorithmic/algorithmic/n12/rep1.json"
+    },
+    {
+      "method": "trails_algorithmic",
+      "model": null,
+      "n": 6,
+      "rep": 1,
+      "output": "results/test_batch/trails_algorithmic/algorithmic/n6/rep1.json"
+    },
+    {
+      "method": "trails_algorithmic",
+      "model": null,
+      "n": 12,
+      "rep": 1,
+      "output": "results/test_batch/trails_algorithmic/algorithmic/n12/rep1.json"
+    }
+  ]
+}

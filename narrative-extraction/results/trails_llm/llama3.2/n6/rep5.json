@@ -1,0 +1,52 @@
+{
+  "method": "trails_llm",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "narrative": [
+    {
+      "id": "doc_01",
+      "date": "2024-01-15",
+      "title": "Gobierno anuncia reforma previsional con 6% adicional"
+    },
+    {
+      "id": "doc_02",
+      "date": "2024-01-18",
+      "title": "Oposición critica costos de la reforma para pymes"
+    },
+    {
+      "id": "doc_07",
+      "date": "2024-02-08",
+      "title": "AFP presentan contrapropuesta al Congreso"
+    },
+    {
+      "id": "doc_05",
+      "date": "2024-02-02",
+      "title": "Comisión del Senado inicia discusión del proyecto"
+    },
+    {
+      "id": "doc_06",
+      "date": "2024-02-05",
+      "title": "Protestas de trabajadores exigen reforma sin recortes"
+    },
+    {
+      "id": "doc_04",
+      "date": "2024-01-28",
+      "title": "Gobierno modifica propuesta tras presión empresarial"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 55.768539082986536,
+    "peak_memory_mb": 1.4353923797607422,
+    "avg_edge_coherence": 0.8
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical progression of events, with each document building upon the previous one to convey a coherent story about the reform proposal and its reception. However, some minor inconsistencies and unclear transitions between documents prevent it from achieving perfect coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-04-23T00:16:33.413447+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-04-23T00:16:33.413646+00:00"
+}
