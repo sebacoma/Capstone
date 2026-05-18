@@ -1,0 +1,28 @@
+{
+  "model": "gemma3:4b",
+  "n": 18,
+  "start_index": 0,
+  "seed": 5,
+  "selected_ids": [
+    "art_0703",
+    "art_0703",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0801",
+    "art_0801",
+    "art_0852",
+    "art_0880",
+    "art_0880",
+    "art_0880",
+    "art_0890",
+    "art_0890",
+    "art_0904",
+    "art_0918"
+  ],
+  "justification": "Estos IDs corresponden a artículos relacionados con el estallido social de 2019 en Chile, abarcando diferentes perspectivas y eventos asociados a la crisis.",
+  "api_cost_usd": 0.0
+}

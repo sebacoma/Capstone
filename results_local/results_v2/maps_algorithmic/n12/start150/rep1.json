@@ -1,0 +1,235 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.24842274992261082,
+    "peak_memory_mb": 0.5095281600952148,
+    "avg_edge_coherence": 0.5676965767687018,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple plot threads and ideas, but they are not fully integrated or consistently supported throughout the text. The coherence is mostly maintained through logical connections between the author's opinions and examples, but some transitions and conclusions feel abrupt or forced.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:15.433903+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:09:15.434213+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0703",
+        "coherence_score": 0.635134
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0713",
+        "coherence_score": 0.635975
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0717",
+        "coherence_score": 0.681381
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0722",
+        "coherence_score": 0.55465
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0713",
+        "coherence_score": 0.591367
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0717",
+        "coherence_score": 0.555054
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0722",
+        "coherence_score": 0.534244
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0722",
+        "coherence_score": 0.576754
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0741",
+        "coherence_score": 0.456605
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0745",
+        "coherence_score": 0.509005
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0755",
+        "coherence_score": 0.452585
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0759",
+        "coherence_score": 0.451471
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0764",
+        "coherence_score": 0.593395
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0769",
+        "coherence_score": 0.616142
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0773",
+        "coherence_score": 0.653106
+      }
+    ]
+  }
+}

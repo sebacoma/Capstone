@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0843",
+      "date": "2023-07-28",
+      "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+    },
+    {
+      "id": "art_0862",
+      "date": "2023-09-07",
+      "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 14.423307750024833,
+    "peak_memory_mb": 0.4481782913208008,
+    "avg_edge_coherence": 0.7713075551119718,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives on the same event (the conmemoration of the 50th anniversary of the coup d'etat) and explores different aspects of the topic, such as the impact of the event on Chilean society and the challenges of establishing a truth about the past. However, some transitions between ideas could be smoother, and a few threads are not fully developed, preventing the narrative from reaching a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:05:39.501562+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:05:39.501838+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0843",
+        "date": "2023-07-28",
+        "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+      },
+      {
+        "id": "art_0862",
+        "date": "2023-09-07",
+        "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0736",
+        "coherence_score": 0.608695
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0745",
+        "coherence_score": 0.68146
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0787",
+        "coherence_score": 0.62269
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0806",
+        "coherence_score": 0.663886
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0843",
+        "coherence_score": 0.647533
+      },
+      {
+        "source": "art_0843",
+        "target": "art_0862",
+        "coherence_score": 0.675077
+      }
+    ]
+  }
+}

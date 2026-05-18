@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 20.64671754196752,
+    "peak_memory_mb": 0.30877208709716797,
+    "avg_edge_coherence": 0.6697048783302307,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from various individuals, which adds to its coherence. However, some transitions between ideas could be smoother, resulting in a slightly lower score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:49:23.557667+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:49:23.557762+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0513",
+        "target": "art_0517",
+        "coherence_score": 0.541563
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0527",
+        "coherence_score": 0.575025
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0527",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0531",
+        "coherence_score": 0.651026
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0545",
+        "coherence_score": 0.58091
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "gemma3:4b",
+  "n": 6,
+  "start_index": 0,
+  "seed": 1,
+  "selected_ids": [
+    "art_0708",
+    "art_0713",
+    "art_0727",
+    "art_0731",
+    "art_0736",
+    "art_0750"
+  ],
+  "justification": "La secuencia presenta una narrativa coherente que comienza con la violencia del estallido social (art_0708), luego examina el contexto y las reacciones políticas (art_0713, art_0727), aborda la responsabilidad institucional y la manipulación de información (art_0731), explora las consecuencias sociales y la legitimidad de las evaluaciones educativas (art_0736), y finalmente, considera la rectificación gubernamental y la indultación (art_0750).",
+  "api_cost_usd": 0.0
+}

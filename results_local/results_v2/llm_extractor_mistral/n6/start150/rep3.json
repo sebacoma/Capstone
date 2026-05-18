@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.791996582993306,
+    "peak_memory_mb": 0.1942920684814453,
+    "avg_edge_coherence": 0.5084591269493103,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it lacks depth and nuance in its exploration of the topic. The author's personal connection to the subject and emotional tone add to the coherence, but also introduce some inconsistencies and biases.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:32:37.640544+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:32:37.640877+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0708",
+        "target": "art_0722",
+        "coherence_score": 0.598759
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0731",
+        "coherence_score": 0.460148
+      },
+      {
+        "source": "art_0731",
+        "target": "art_0736",
+        "coherence_score": 0.499511
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0741",
+        "coherence_score": 0.493892
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0764",
+        "coherence_score": 0.489986
+      }
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0298",
+      "date": "2020-08-24",
+      "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0331",
+      "date": "2020-10-16",
+      "title": "El balance del INDH a un año del estallido social"
+    },
+    {
+      "id": "art_0345",
+      "date": "2020-10-18",
+      "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+    },
+    {
+      "id": "art_0364",
+      "date": "2020-10-29",
+      "title": "Errática señal contra el vandalismo"
+    },
+    {
+      "id": "art_0387",
+      "date": "2020-12-17",
+      "title": "Dólar se cotiza con importante caída y vuelve a operar en mínimos en más de un año"
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0405",
+      "date": "2021-02-04",
+      "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+    },
+    {
+      "id": "art_0419",
+      "date": "2021-03-10",
+      "title": "Consejo de Monumentos Nacionales decide remover estatua del general Baquedano desde Plaza Italia \"para restauración\""
+    },
+    {
+      "id": "art_0424",
+      "date": "2021-03-16",
+      "title": "\"Casa okupa\": Universidad quemada durante el estallido ..."
+    },
+    {
+      "id": "art_0447",
+      "date": "2021-05-15",
+      "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0457",
+      "date": "2021-06-01",
+      "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+    },
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 15.748202916933224,
+    "peak_memory_mb": 0.36924076080322266,
+    "avg_edge_coherence": 0.5918554365634918,
+    "api_cost_usd": 0.0020121375
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative provides a clear and structured overview of the Chilean constitutional process, effectively conveying the key events, actors, and challenges involved. However, some minor inconsistencies and transitions between sections could be improved to enhance overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:21:57.627965+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:21:57.628010+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0298",
+        "date": "2020-08-24",
+        "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0331",
+        "date": "2020-10-16",
+        "title": "El balance del INDH a un año del estallido social"
+      },
+      {
+        "id": "art_0345",
+        "date": "2020-10-18",
+        "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+      },
+      {
+        "id": "art_0364",
+        "date": "2020-10-29",
+        "title": "Errática señal contra el vandalismo"
+      },
+      {
+        "id": "art_0387",
+        "date": "2020-12-17",
+        "title": "Dólar se cotiza con importante caída y vuelve a operar en mínimos en más de un año"
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0405",
+        "date": "2021-02-04",
+        "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+      },
+      {
+        "id": "art_0419",
+        "date": "2021-03-10",
+        "title": "Consejo de Monumentos Nacionales decide remover estatua del general Baquedano desde Plaza Italia \"para restauración\""
+      },
+      {
+        "id": "art_0424",
+        "date": "2021-03-16",
+        "title": "\"Casa okupa\": Universidad quemada durante el estallido ..."
+      },
+      {
+        "id": "art_0447",
+        "date": "2021-05-15",
+        "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0457",
+        "date": "2021-06-01",
+        "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+      },
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0261",
+        "target": "art_0298",
+        "coherence_score": 0.460585
+      },
+      {
+        "source": "art_0298",
+        "target": "art_0322",
+        "coherence_score": 0.671208
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0331",
+        "coherence_score": 0.634394
+      },
+      {
+        "source": "art_0331",
+        "target": "art_0345",
+        "coherence_score": 0.532404
+      },
+      {
+        "source": "art_0345",
+        "target": "art_0364",
+        "coherence_score": 0.5712
+      },
+      {
+        "source": "art_0364",
+        "target": "art_0387",
+        "coherence_score": 0.41409
+      },
+      {
+        "source": "art_0387",
+        "target": "art_0392",
+        "coherence_score": 0.536011
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0405",
+        "coherence_score": 0.57939
+      },
+      {
+        "source": "art_0405",
+        "target": "art_0419",
+        "coherence_score": 0.628096
+      },
+      {
+        "source": "art_0419",
+        "target": "art_0424",
+        "coherence_score": 0.571559
+      },
+      {
+        "source": "art_0424",
+        "target": "art_0447",
+        "coherence_score": 0.494663
+      },
+      {
+        "source": "art_0447",
+        "target": "art_0452",
+        "coherence_score": 0.638435
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0457",
+        "coherence_score": 0.677969
+      },
+      {
+        "source": "art_0457",
+        "target": "art_0466",
+        "coherence_score": 0.699226
+      },
+      {
+        "source": "art_0466",
+        "target": "art_0475",
+        "coherence_score": 0.620954
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0485",
+        "coherence_score": 0.659349
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0489",
+        "coherence_score": 0.672011
+      }
+    ]
+  }
+}

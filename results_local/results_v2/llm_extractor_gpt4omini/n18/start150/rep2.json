@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0810",
+      "date": "2023-05-16",
+      "title": "Condenan a “profesor del torniquete” por daños a estación ..."
+    },
+    {
+      "id": "art_0820",
+      "date": "2023-06-08",
+      "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    },
+    {
+      "id": "art_0890",
+      "date": "2023-10-15",
+      "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 12.10339116700925,
+    "peak_memory_mb": 0.6017122268676758,
+    "avg_edge_coherence": 0.5464768725283006,
+    "api_cost_usd": 0.0018233624999999998
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and structured account of the events surrounding the estallido social in Santiago, Chile, with a logical flow of information and effective use of quotes from key figures. The only minor issue is that some sentences are quite long, which could make the text slightly harder to follow.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:24:09.693245+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:24:09.693415+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0810",
+        "date": "2023-05-16",
+        "title": "Condenan a “profesor del torniquete” por daños a estación ..."
+      },
+      {
+        "id": "art_0820",
+        "date": "2023-06-08",
+        "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      },
+      {
+        "id": "art_0890",
+        "date": "2023-10-15",
+        "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0722",
+        "target": "art_0727",
+        "coherence_score": 0.616917
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0731",
+        "coherence_score": 0.529084
+      },
+      {
+        "source": "art_0731",
+        "target": "art_0736",
+        "coherence_score": 0.499511
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0741",
+        "coherence_score": 0.493892
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0745",
+        "coherence_score": 0.509005
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0750",
+        "coherence_score": 0.531798
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0764",
+        "coherence_score": 0.481924
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0773",
+        "coherence_score": 0.625324
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0787",
+        "coherence_score": 0.639147
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0792",
+        "coherence_score": 0.648891
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0801",
+        "coherence_score": 0.565223
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0806",
+        "coherence_score": 0.599755
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0810",
+        "coherence_score": 0.517471
+      },
+      {
+        "source": "art_0810",
+        "target": "art_0820",
+        "coherence_score": 0.631867
+      },
+      {
+        "source": "art_0820",
+        "target": "art_0852",
+        "coherence_score": 0.515813
+      },
+      {
+        "source": "art_0852",
+        "target": "art_0890",
+        "coherence_score": 0.510092
+      }
+    ]
+  }
+}

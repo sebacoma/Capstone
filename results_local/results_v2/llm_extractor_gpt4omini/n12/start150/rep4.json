@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    },
+    {
+      "id": "art_0862",
+      "date": "2023-09-07",
+      "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+    },
+    {
+      "id": "art_0866",
+      "date": "2023-09-10",
+      "title": "Ricardo Martínez: \"Pinochet se constituyó en un caudillo\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.751610209001228,
+    "peak_memory_mb": 0.45298099517822266,
+    "avg_edge_coherence": 0.6379029805010016,
+    "api_cost_usd": 0.0013618875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of events, with a focus on the role of the Ejército in the 1973 coup and its aftermath. However, some transitions between sections feel abrupt, and the author's personal opinions and biases occasionally influence the tone and language used.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:18:49.879442+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:18:49.879479+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      },
+      {
+        "id": "art_0862",
+        "date": "2023-09-07",
+        "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+      },
+      {
+        "id": "art_0866",
+        "date": "2023-09-10",
+        "title": "Ricardo Martínez: \"Pinochet se constituyó en un caudillo\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0727",
+        "coherence_score": 0.66433
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0759",
+        "coherence_score": 0.634678
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0787",
+        "coherence_score": 0.633862
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0792",
+        "coherence_score": 0.648891
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0801",
+        "coherence_score": 0.565223
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0806",
+        "coherence_score": 0.599755
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0852",
+        "coherence_score": 0.56595
+      },
+      {
+        "source": "art_0852",
+        "target": "art_0857",
+        "coherence_score": 0.606495
+      },
+      {
+        "source": "art_0857",
+        "target": "art_0862",
+        "coherence_score": 0.698962
+      },
+      {
+        "source": "art_0862",
+        "target": "art_0866",
+        "coherence_score": 0.68969
+      }
+    ]
+  }
+}

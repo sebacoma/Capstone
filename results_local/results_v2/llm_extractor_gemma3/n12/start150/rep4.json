@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 25.42950316600036,
+    "peak_memory_mb": 0.4481821060180664,
+    "avg_edge_coherence": 0.7578058486635034,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured argument about the crisis of housing in Chile, highlighting the need for a pacto habitacional. However, some minor inconsistencies and lack of depth in certain points prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:07:10.452084+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:07:10.452245+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0708",
+        "target": "art_0727",
+        "coherence_score": 0.612828
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0741",
+        "coherence_score": 0.434794
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0769",
+        "coherence_score": 0.551728
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0787",
+        "coherence_score": 0.745883
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0815",
+        "coherence_score": 0.704805
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0838",
+        "coherence_score": 0.623763
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0848",
+        "coherence_score": 0.662065
+      },
+      {
+        "source": "art_0848",
+        "target": "art_0848",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0848",
+        "target": "art_0848",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0848",
+        "target": "art_0848",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0848",
+        "target": "art_0848",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

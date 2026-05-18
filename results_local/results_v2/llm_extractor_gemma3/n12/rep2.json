@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 23.62216766702477,
+    "peak_memory_mb": 0.44562530517578125,
+    "avg_edge_coherence": 0.7241135889833624,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, with a clear flow from one topic to another. However, some sections feel disconnected or repetitive, which prevents it from reaching a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:54:09.153922+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T16:54:09.154051+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0033",
+        "target": "art_0047",
+        "coherence_score": 0.603801
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0052",
+        "coherence_score": 0.530854
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0098",
+        "coherence_score": 0.658692
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0149",
+        "coherence_score": 0.52483
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0177",
+        "coherence_score": 0.535877
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0182",
+        "coherence_score": 0.608254
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0215",
+        "coherence_score": 0.502941
+      }
+    ]
+  }
+}

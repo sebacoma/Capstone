@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0634",
+      "date": "2022-06-16",
+      "title": "Víctimas critican exposición sobre el estallido social en el Palacio Vergara de Viña del Mar: \"Es una apología de la violencia\""
+    },
+    {
+      "id": "art_0689",
+      "date": "2022-10-14",
+      "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 7.046802500030026,
+    "peak_memory_mb": 0.37793636322021484,
+    "avg_edge_coherence": 0.8768664037480074,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative provides a clear structure and explores multiple angles on the reasons behind President Boric's low approval ratings, including structural issues in Chile's politics and economy, as well as mistakes made by his administration. However, some connections between these points could be more explicitly stated to achieve a higher coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:24:44.511843+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:24:44.511880+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0634",
+        "date": "2022-06-16",
+        "title": "Víctimas critican exposición sobre el estallido social en el Palacio Vergara de Viña del Mar: \"Es una apología de la violencia\""
+      },
+      {
+        "id": "art_0689",
+        "date": "2022-10-14",
+        "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0485",
+        "target": "art_0503",
+        "coherence_score": 0.688533
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0540",
+        "coherence_score": 0.676651
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0634",
+        "coherence_score": 0.731045
+      },
+      {
+        "source": "art_0634",
+        "target": "art_0689",
+        "coherence_score": 0.623405
+      },
+      {
+        "source": "art_0689",
+        "target": "art_0703",
+        "coherence_score": 0.632041
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0717",
+        "coherence_score": 0.555054
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0717",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

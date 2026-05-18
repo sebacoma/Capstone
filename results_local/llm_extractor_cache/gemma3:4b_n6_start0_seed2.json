@@ -1,0 +1,16 @@
+{
+  "model": "gemma3:4b",
+  "n": 6,
+  "start_index": 0,
+  "seed": 2,
+  "selected_ids": [
+    "art_0722",
+    "art_0731",
+    "art_0745",
+    "art_0750",
+    "art_0759",
+    "art_0769"
+  ],
+  "justification": "La secuencia narra la evolución de la crisis política y social en Chile, desde la rectificación del gobierno Boric sobre los indultos, pasando por el análisis de figuras como Manuel Pellegrini sobre las fake news, la discusión sobre el SIMCE, el recuerdo del concierto de Stratovarius y finalmente, la redacción de la nueva Constitución, ofreciendo una visión cronológica de los eventos y debates relacionados con el estallido social.",
+  "api_cost_usd": 0.0
+}

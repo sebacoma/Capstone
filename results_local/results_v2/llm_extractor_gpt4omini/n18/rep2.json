@@ -1,0 +1,296 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0061",
+      "date": "2019-12-01",
+      "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    },
+    {
+      "id": "art_0122",
+      "date": "2019-12-23",
+      "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+    },
+    {
+      "id": "art_0131",
+      "date": "2019-12-28",
+      "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+    },
+    {
+      "id": "art_0145",
+      "date": "2020-01-08",
+      "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0201",
+      "date": "2020-02-11",
+      "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 34.931071375031024,
+    "peak_memory_mb": 0.8145513534545898,
+    "avg_edge_coherence": 0.584684761131511,
+    "api_cost_usd": 0.009978975
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but lacks depth and context, primarily due to the brevity of the article and the lack of analysis or critique of the data presented.",
+    "contextualization": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:19:59.626789+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:19:59.626834+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0061",
+        "date": "2019-12-01",
+        "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      },
+      {
+        "id": "art_0122",
+        "date": "2019-12-23",
+        "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+      },
+      {
+        "id": "art_0131",
+        "date": "2019-12-28",
+        "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+      },
+      {
+        "id": "art_0145",
+        "date": "2020-01-08",
+        "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0201",
+        "date": "2020-02-11",
+        "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0010",
+        "coherence_score": 0.595091
+      },
+      {
+        "source": "art_0010",
+        "target": "art_0024",
+        "coherence_score": 0.559366
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0028",
+        "coherence_score": 0.634773
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0056",
+        "coherence_score": 0.46882
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0061",
+        "coherence_score": 0.489272
+      },
+      {
+        "source": "art_0061",
+        "target": "art_0075",
+        "coherence_score": 0.479299
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0112",
+        "coherence_score": 0.589148
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0122",
+        "coherence_score": 0.730891
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0131",
+        "coherence_score": 0.668818
+      },
+      {
+        "source": "art_0131",
+        "target": "art_0145",
+        "coherence_score": 0.55633
+      },
+      {
+        "source": "art_0145",
+        "target": "art_0177",
+        "coherence_score": 0.651266
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0191",
+        "coherence_score": 0.655946
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0196",
+        "coherence_score": 0.568665
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0201",
+        "coherence_score": 0.597583
+      },
+      {
+        "source": "art_0201",
+        "target": "art_0224",
+        "coherence_score": 0.674869
+      },
+      {
+        "source": "art_0224",
+        "target": "art_0243",
+        "coherence_score": 0.491625
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0312",
+        "coherence_score": 0.527879
+      }
+    ]
+  }
+}

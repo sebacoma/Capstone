@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0601",
+      "date": "2022-03-26",
+      "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+    },
+    {
+      "id": "art_0601",
+      "date": "2022-03-26",
+      "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 24.22925362503156,
+    "peak_memory_mb": 0.3054685592651367,
+    "avg_edge_coherence": 0.8059848221865568,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, effectively conveying the experiences of several individuals who suffered from traumas oculares during protests in Colombia. However, some minor inconsistencies and repetitive information detract slightly from its overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:02:59.722790+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:02:59.722975+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0601",
+        "date": "2022-03-26",
+        "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+      },
+      {
+        "id": "art_0601",
+        "date": "2022-03-26",
+        "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0503",
+        "target": "art_0503",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0517",
+        "coherence_score": 0.614524
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0517",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0536",
+        "coherence_score": 0.708306
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0554",
+        "coherence_score": 0.639583
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0554",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0559",
+        "coherence_score": 0.626226
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0559",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0601",
+        "coherence_score": 0.667843
+      },
+      {
+        "source": "art_0601",
+        "target": "art_0601",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0601",
+        "target": "art_0615",
+        "coherence_score": 0.609353
+      }
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0405",
+      "date": "2021-02-04",
+      "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+    },
+    {
+      "id": "art_0405",
+      "date": "2021-02-04",
+      "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+    },
+    {
+      "id": "art_0405",
+      "date": "2021-02-04",
+      "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    },
+    {
+      "id": "art_0410",
+      "date": "2021-02-13",
+      "title": "Blik: la startup que nació un día antes del estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 7.037638709065504,
+    "peak_memory_mb": 0.3641166687011719,
+    "avg_edge_coherence": 0.8866417267743278,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but lacks depth and detail in some areas, resulting in an average coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:24:05.135672+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:24:05.135823+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0405",
+        "date": "2021-02-04",
+        "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+      },
+      {
+        "id": "art_0405",
+        "date": "2021-02-04",
+        "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+      },
+      {
+        "id": "art_0405",
+        "date": "2021-02-04",
+        "title": "Tamara Acosta y rol del Ministerio de Cultura en pandemia"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      },
+      {
+        "id": "art_0410",
+        "date": "2021-02-13",
+        "title": "Blik: la startup que nació un día antes del estallido social"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0270",
+        "target": "art_0340",
+        "coherence_score": 0.544107
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0373",
+        "coherence_score": 0.606725
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0392",
+        "coherence_score": 0.763307
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0392",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0405",
+        "coherence_score": 0.57939
+      },
+      {
+        "source": "art_0405",
+        "target": "art_0405",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0405",
+        "target": "art_0405",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0405",
+        "target": "art_0410",
+        "coherence_score": 0.579381
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0410",
+        "target": "art_0410",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

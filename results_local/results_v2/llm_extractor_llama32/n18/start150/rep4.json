@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0913",
+      "date": "2023-10-20",
+      "title": "Plaza Baquedano, corazón de cemento"
+    },
+    {
+      "id": "art_0913",
+      "date": "2023-10-20",
+      "title": "Plaza Baquedano, corazón de cemento"
+    },
+    {
+      "id": "art_0913",
+      "date": "2023-10-20",
+      "title": "Plaza Baquedano, corazón de cemento"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 21.03588308300823,
+    "peak_memory_mb": 0.7045736312866211,
+    "avg_edge_coherence": 0.9244341639911428,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the symbolic significance of the Estación Baquedano and its access B, conveying a sense of disjointedness and unresolved trauma in Chile's recent history. However, some transitions between ideas could be smoother, leading to a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:27:16.794055+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:27:16.794170+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0913",
+        "date": "2023-10-20",
+        "title": "Plaza Baquedano, corazón de cemento"
+      },
+      {
+        "id": "art_0913",
+        "date": "2023-10-20",
+        "title": "Plaza Baquedano, corazón de cemento"
+      },
+      {
+        "id": "art_0913",
+        "date": "2023-10-20",
+        "title": "Plaza Baquedano, corazón de cemento"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0787",
+        "coherence_score": 0.745883
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0815",
+        "coherence_score": 0.704805
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0815",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0815",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0815",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0838",
+        "coherence_score": 0.623763
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0838",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0838",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0838",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0913",
+        "coherence_score": 0.64093
+      },
+      {
+        "source": "art_0913",
+        "target": "art_0913",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0913",
+        "target": "art_0913",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

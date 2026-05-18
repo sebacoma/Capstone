@@ -1,0 +1,295 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0131",
+      "date": "2019-12-28",
+      "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+    },
+    {
+      "id": "art_0122",
+      "date": "2019-12-23",
+      "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+    },
+    {
+      "id": "art_0117",
+      "date": "2019-12-22",
+      "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+    },
+    {
+      "id": "art_0094",
+      "date": "2019-12-12",
+      "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+    },
+    {
+      "id": "art_0126",
+      "date": "2019-12-27",
+      "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0163",
+      "date": "2020-01-18",
+      "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0201",
+      "date": "2020-02-11",
+      "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+    },
+    {
+      "id": "art_0210",
+      "date": "2020-02-19",
+      "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.03498979192227125,
+    "peak_memory_mb": 0.5999269485473633,
+    "avg_edge_coherence": 0.7125600295908311,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of the Chilean protests, providing details on the events, their impact on the economy and institutions, and the reactions of various actors. However, some minor inconsistencies and lack of depth in certain aspects prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:10:35.289011+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:10:35.289171+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0131",
+        "date": "2019-12-28",
+        "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+      },
+      {
+        "id": "art_0122",
+        "date": "2019-12-23",
+        "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+      },
+      {
+        "id": "art_0117",
+        "date": "2019-12-22",
+        "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+      },
+      {
+        "id": "art_0094",
+        "date": "2019-12-12",
+        "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+      },
+      {
+        "id": "art_0126",
+        "date": "2019-12-27",
+        "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0163",
+        "date": "2020-01-18",
+        "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0201",
+        "date": "2020-02-11",
+        "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+      },
+      {
+        "id": "art_0210",
+        "date": "2020-02-19",
+        "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0028",
+        "coherence_score": 0.687526
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0098",
+        "coherence_score": 0.700615
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0014",
+        "coherence_score": 0.767889
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0024",
+        "coherence_score": 0.697683
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0052",
+        "coherence_score": 0.721553
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0112",
+        "coherence_score": 0.7554
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0140",
+        "coherence_score": 0.751152
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0131",
+        "coherence_score": 0.708212
+      },
+      {
+        "source": "art_0131",
+        "target": "art_0122",
+        "coherence_score": 0.668818
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0117",
+        "coherence_score": 0.721808
+      },
+      {
+        "source": "art_0117",
+        "target": "art_0094",
+        "coherence_score": 0.666841
+      },
+      {
+        "source": "art_0094",
+        "target": "art_0126",
+        "coherence_score": 0.705353
+      },
+      {
+        "source": "art_0126",
+        "target": "art_0177",
+        "coherence_score": 0.688566
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0163",
+        "coherence_score": 0.659178
+      },
+      {
+        "source": "art_0163",
+        "target": "art_0191",
+        "coherence_score": 0.801312
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0201",
+        "coherence_score": 0.740335
+      },
+      {
+        "source": "art_0201",
+        "target": "art_0210",
+        "coherence_score": 0.67128
+      }
+    ]
+  }
+}

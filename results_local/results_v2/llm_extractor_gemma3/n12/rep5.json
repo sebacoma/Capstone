@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0210",
+      "date": "2020-02-19",
+      "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 24.164282917045057,
+    "peak_memory_mb": 0.44567012786865234,
+    "avg_edge_coherence": 0.8997854590415955,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives from different characters, which adds depth to the story and highlights the complexities of the situation. However, some transitions between scenes and conversations could be smoother, leading to a slight decrease in coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:56:48.338950+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T16:56:48.339168+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0210",
+        "date": "2020-02-19",
+        "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0028",
+        "coherence_score": 0.667548
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0028",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0028",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0028",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0028",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0210",
+        "coherence_score": 0.742795
+      },
+      {
+        "source": "art_0210",
+        "target": "art_0275",
+        "coherence_score": 0.487298
+      }
+    ]
+  }
+}

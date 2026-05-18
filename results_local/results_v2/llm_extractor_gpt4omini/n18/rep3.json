@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0066",
+      "date": "2019-12-04",
+      "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0094",
+      "date": "2019-12-12",
+      "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0159",
+      "date": "2020-01-16",
+      "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0201",
+      "date": "2020-02-11",
+      "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 11.208835499943234,
+    "peak_memory_mb": 0.6042509078979492,
+    "avg_edge_coherence": 0.5677494459292468,
+    "api_cost_usd": 0.003322725
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a detailed account of the events surrounding the 18 de octubre 2019 protests in Chile, including the role of Carabineros and the general director Mario Rozas. However, the coherence score is slightly lower due to some minor inconsistencies and abrupt transitions between sections.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:20:16.916043+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:20:16.916204+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0066",
+        "date": "2019-12-04",
+        "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0094",
+        "date": "2019-12-12",
+        "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0159",
+        "date": "2020-01-16",
+        "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0201",
+        "date": "2020-02-11",
+        "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0014",
+        "coherence_score": 0.609102
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0019",
+        "coherence_score": 0.602372
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0042",
+        "coherence_score": 0.503603
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0052",
+        "coherence_score": 0.595882
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0056",
+        "coherence_score": 0.544133
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0066",
+        "coherence_score": 0.457084
+      },
+      {
+        "source": "art_0066",
+        "target": "art_0070",
+        "coherence_score": 0.35349
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0080",
+        "coherence_score": 0.555962
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0094",
+        "coherence_score": 0.48056
+      },
+      {
+        "source": "art_0094",
+        "target": "art_0103",
+        "coherence_score": 0.693536
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0159",
+        "coherence_score": 0.561511
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0182",
+        "coherence_score": 0.503397
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0191",
+        "coherence_score": 0.655501
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0201",
+        "coherence_score": 0.740335
+      },
+      {
+        "source": "art_0201",
+        "target": "art_0270",
+        "coherence_score": 0.698882
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0284",
+        "coherence_score": 0.577681
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0340",
+        "coherence_score": 0.518708
+      }
+    ]
+  }
+}

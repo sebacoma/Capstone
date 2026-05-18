@@ -1,0 +1,296 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0564",
+      "date": "2021-12-15",
+      "title": "Â¿Chile, en peligro?"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0624",
+      "date": "2022-06-01",
+      "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+    },
+    {
+      "id": "art_0648",
+      "date": "2022-08-05",
+      "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+    },
+    {
+      "id": "art_0662",
+      "date": "2022-09-03",
+      "title": "Pablo Altikes y la polémica que sacude a arquitectos"
+    },
+    {
+      "id": "art_0675",
+      "date": "2022-09-22",
+      "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.7847835830179974,
+    "peak_memory_mb": 0.38355541229248047,
+    "avg_edge_coherence": 0.6182203152600456,
+    "api_cost_usd": 0.002089275
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics, such as music reviews and band interviews, without clear connections or transitions.",
+    "contextualization": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:22:20.904571+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:22:20.904745+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0564",
+        "date": "2021-12-15",
+        "title": "Â¿Chile, en peligro?"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0624",
+        "date": "2022-06-01",
+        "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+      },
+      {
+        "id": "art_0648",
+        "date": "2022-08-05",
+        "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+      },
+      {
+        "id": "art_0662",
+        "date": "2022-09-03",
+        "title": "Pablo Altikes y la polémica que sacude a arquitectos"
+      },
+      {
+        "id": "art_0675",
+        "date": "2022-09-22",
+        "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0475",
+        "target": "art_0489",
+        "coherence_score": 0.693949
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0513",
+        "coherence_score": 0.527868
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0517",
+        "coherence_score": 0.541563
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0536",
+        "coherence_score": 0.708306
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0540",
+        "coherence_score": 0.616545
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0545",
+        "coherence_score": 0.619844
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0554",
+        "coherence_score": 0.569569
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0564",
+        "coherence_score": 0.649094
+      },
+      {
+        "source": "art_0564",
+        "target": "art_0582",
+        "coherence_score": 0.569016
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0624",
+        "coherence_score": 0.621664
+      },
+      {
+        "source": "art_0624",
+        "target": "art_0648",
+        "coherence_score": 0.676092
+      },
+      {
+        "source": "art_0648",
+        "target": "art_0662",
+        "coherence_score": 0.57212
+      },
+      {
+        "source": "art_0662",
+        "target": "art_0675",
+        "coherence_score": 0.592615
+      },
+      {
+        "source": "art_0675",
+        "target": "art_0680",
+        "coherence_score": 0.758864
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0699",
+        "coherence_score": 0.63952
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0708",
+        "coherence_score": 0.554357
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0722",
+        "coherence_score": 0.598759
+      }
+    ]
+  }
+}

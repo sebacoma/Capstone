@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0005",
+      "date": "2019-11-15",
+      "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0084",
+      "date": "2019-12-07",
+      "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+    },
+    {
+      "id": "art_0173",
+      "date": "2020-01-23",
+      "title": "Las protestas de Chile cuestionan\nla historia oficial de las esculturas"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.44256570795551,
+    "peak_memory_mb": 0.4507436752319336,
+    "avg_edge_coherence": 0.5164118761366064,
+    "api_cost_usd": 0.0024857250000000003
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of various economic indicators in Chile, including employment rates, occupation levels, and informal work. However, the coherence score is slightly lower due to some minor inconsistencies and lack of depth in certain sections.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:15:53.932257+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:15:53.932417+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0005",
+        "date": "2019-11-15",
+        "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0084",
+        "date": "2019-12-07",
+        "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+      },
+      {
+        "id": "art_0173",
+        "date": "2020-01-23",
+        "title": "Las protestas de Chile cuestionan\nla historia oficial de las esculturas"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0005",
+        "target": "art_0075",
+        "coherence_score": 0.492196
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0084",
+        "coherence_score": 0.389789
+      },
+      {
+        "source": "art_0084",
+        "target": "art_0173",
+        "coherence_score": 0.448145
+      },
+      {
+        "source": "art_0173",
+        "target": "art_0177",
+        "coherence_score": 0.568965
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0224",
+        "coherence_score": 0.484502
+      },
+      {
+        "source": "art_0224",
+        "target": "art_0229",
+        "coherence_score": 0.460158
+      },
+      {
+        "source": "art_0229",
+        "target": "art_0243",
+        "coherence_score": 0.429605
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0308",
+        "coherence_score": 0.651683
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0312",
+        "coherence_score": 0.64033
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0317",
+        "coherence_score": 0.655226
+      }
+    ]
+  }
+}

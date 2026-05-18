@@ -1,0 +1,16 @@
+{
+  "model": "gemma3:4b",
+  "n": 6,
+  "start_index": 0,
+  "seed": 4,
+  "selected_ids": [
+    "art_0708",
+    "art_0713",
+    "art_0722",
+    "art_0727",
+    "art_0755",
+    "art_0764"
+  ],
+  "justification": "La secuencia narra desde la descripción de la plaza Baquedano post-estallido, pasando por un evento musical (Stratovarius), la interpretación del estallido social por un político, un incidente de saqueo, la descripción de la situación en Plaza Italia y finalmente, la reflexión sobre el impacto del estallido social en la popularidad del presidente Boric.",
+  "api_cost_usd": 0.0
+}

@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0117",
+      "date": "2019-12-22",
+      "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 16.256494833971374,
+    "peak_memory_mb": 8.301969528198242,
+    "avg_edge_coherence": 0.5904643654823303,
+    "api_cost_usd": 0.0019198875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and consistent voice from Luis Escobar, a priest who has experienced trauma and violence in his work. However, some sections feel disjointed or repetitive, which slightly detracts from the overall coherence of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:11:15.778121+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:11:15.778155+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0117",
+        "date": "2019-12-22",
+        "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0010",
+        "target": "art_0042",
+        "coherence_score": 0.589417
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0052",
+        "coherence_score": 0.595882
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0117",
+        "coherence_score": 0.566341
+      },
+      {
+        "source": "art_0117",
+        "target": "art_0135",
+        "coherence_score": 0.598407
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0229",
+        "coherence_score": 0.602275
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0834",
+      "date": "2023-07-10",
+      "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+    },
+    {
+      "id": "art_0834",
+      "date": "2023-07-10",
+      "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.597342750057578,
+    "peak_memory_mb": 0.4450416564941406,
+    "avg_edge_coherence": 0.8216145905581388,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 6,
+    "justification": "The narrative is coherent in its exploration of the controversy surrounding the renaming of streets in Santiago, Chile, but it lacks depth and nuance in its analysis, often relying on simplistic statements and quotes from individuals. The story could benefit from more context and critical evaluation of the motivations behind the decision.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:50:55.319797+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:50:55.319872+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0834",
+        "date": "2023-07-10",
+        "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+      },
+      {
+        "id": "art_0834",
+        "date": "2023-07-10",
+        "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0703",
+        "target": "art_0703",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0769",
+        "coherence_score": 0.58374
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0773",
+        "coherence_score": 0.653106
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0801",
+        "coherence_score": 0.587628
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0801",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0834",
+        "coherence_score": 0.660287
+      },
+      {
+        "source": "art_0834",
+        "target": "art_0834",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0834",
+        "target": "art_0852",
+        "coherence_score": 0.552999
+      },
+      {
+        "source": "art_0852",
+        "target": "art_0852",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

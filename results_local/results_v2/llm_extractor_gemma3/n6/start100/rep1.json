@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.639047750039026,
+    "peak_memory_mb": 0.21731853485107422,
+    "avg_edge_coherence": 0.6290472030639649,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El texto presenta una narrativa coherente que aborda varios temas relacionados con el estallido social en Chile, incluyendo la crisis económica, las violaciones a los DD.HH., la política y la vida de figuras políticas. Sin embargo, la transición entre estos temas puede ser un poco abrupta y algunas conexiones entre ellos no están explícitamente establecidas.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:48:27.949634+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:48:27.949940+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0471",
+        "target": "art_0475",
+        "coherence_score": 0.638907
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0485",
+        "coherence_score": 0.659349
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0499",
+        "coherence_score": 0.585348
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0503",
+        "coherence_score": 0.682221
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0522",
+        "coherence_score": 0.579411
+      }
+    ]
+  }
+}

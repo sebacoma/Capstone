@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0205",
+      "date": "2020-02-13",
+      "title": "La comentada respuesta de Américo a usuaria que lo trató ..."
+    },
+    {
+      "id": "art_0219",
+      "date": "2020-02-25",
+      "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.12311187502928,
+    "peak_memory_mb": 0.3461456298828125,
+    "avg_edge_coherence": 0.5732533216476441,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative shows a clear connection between the events in Chile and the global economic situation, highlighting the impact of the coronavirus pandemic on the country's economy and commodity prices. However, the coherence score is slightly reduced due to some minor transitions and connections that could be smoother.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:26:56.699346+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:26:56.699540+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0205",
+        "date": "2020-02-13",
+        "title": "La comentada respuesta de Américo a usuaria que lo trató ..."
+      },
+      {
+        "id": "art_0219",
+        "date": "2020-02-25",
+        "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0075",
+        "target": "art_0103",
+        "coherence_score": 0.579884
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0182",
+        "coherence_score": 0.632343
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0205",
+        "coherence_score": 0.559281
+      },
+      {
+        "source": "art_0205",
+        "target": "art_0219",
+        "coherence_score": 0.51198
+      },
+      {
+        "source": "art_0219",
+        "target": "art_0238",
+        "coherence_score": 0.582778
+      }
+    ]
+  }
+}

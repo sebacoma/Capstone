@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0797",
+      "date": "2023-04-24",
+      "title": "La tortuosa vía chilena al cambio constitucional"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0871",
+      "date": "2023-09-15",
+      "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+    },
+    {
+      "id": "art_0876",
+      "date": "2023-09-22",
+      "title": "expresidente Piñera dice que durante el estallido social su ..."
+    },
+    {
+      "id": "art_0880",
+      "date": "2023-09-30",
+      "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+    },
+    {
+      "id": "art_0890",
+      "date": "2023-10-15",
+      "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+    },
+    {
+      "id": "art_0894",
+      "date": "2023-10-16",
+      "title": "Preso del estallido social visitado por Boric es condenado ..."
+    },
+    {
+      "id": "art_0904",
+      "date": "2023-10-18",
+      "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+    },
+    {
+      "id": "art_0908",
+      "date": "2023-10-18",
+      "title": "Aniversario del estallido social: carabinero que estaba ..."
+    },
+    {
+      "id": "art_0913",
+      "date": "2023-10-20",
+      "title": "Plaza Baquedano, corazón de cemento"
+    },
+    {
+      "id": "art_0918",
+      "date": "2023-11-06",
+      "title": "Estallido social: ratifican más de 12 años de cárcel a dos ..."
+    },
+    {
+      "id": "art_0922",
+      "date": "2023-11-10",
+      "title": "Constitución en Chile: Tras el estallido: un recuento"
+    },
+    {
+      "id": "art_0927",
+      "date": "2023-12-10",
+      "title": "El fin de un periodo | EL PAÍS Chile"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 12.357915874919854,
+    "peak_memory_mb": 0.6018819808959961,
+    "avg_edge_coherence": 0.5927344402846169,
+    "api_cost_usd": 0.0018097124999999997
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the four moments in Chile's constitutional process, from the destituyente moment to the procedimental moment. However, the coherence score is slightly lower due to some abrupt transitions and lack of clear connections between ideas.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:24:43.900263+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:24:43.900391+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0797",
+        "date": "2023-04-24",
+        "title": "La tortuosa vía chilena al cambio constitucional"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0871",
+        "date": "2023-09-15",
+        "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+      },
+      {
+        "id": "art_0876",
+        "date": "2023-09-22",
+        "title": "expresidente Piñera dice que durante el estallido social su ..."
+      },
+      {
+        "id": "art_0880",
+        "date": "2023-09-30",
+        "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+      },
+      {
+        "id": "art_0890",
+        "date": "2023-10-15",
+        "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+      },
+      {
+        "id": "art_0894",
+        "date": "2023-10-16",
+        "title": "Preso del estallido social visitado por Boric es condenado ..."
+      },
+      {
+        "id": "art_0904",
+        "date": "2023-10-18",
+        "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+      },
+      {
+        "id": "art_0908",
+        "date": "2023-10-18",
+        "title": "Aniversario del estallido social: carabinero que estaba ..."
+      },
+      {
+        "id": "art_0913",
+        "date": "2023-10-20",
+        "title": "Plaza Baquedano, corazón de cemento"
+      },
+      {
+        "id": "art_0918",
+        "date": "2023-11-06",
+        "title": "Estallido social: ratifican más de 12 años de cárcel a dos ..."
+      },
+      {
+        "id": "art_0922",
+        "date": "2023-11-10",
+        "title": "Constitución en Chile: Tras el estallido: un recuento"
+      },
+      {
+        "id": "art_0927",
+        "date": "2023-12-10",
+        "title": "El fin de un periodo | EL PAÍS Chile"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0727",
+        "target": "art_0750",
+        "coherence_score": 0.601537
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0759",
+        "coherence_score": 0.583598
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0769",
+        "coherence_score": 0.705834
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0787",
+        "coherence_score": 0.745883
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0797",
+        "coherence_score": 0.660596
+      },
+      {
+        "source": "art_0797",
+        "target": "art_0801",
+        "coherence_score": 0.578198
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0871",
+        "coherence_score": 0.64226
+      },
+      {
+        "source": "art_0871",
+        "target": "art_0876",
+        "coherence_score": 0.579268
+      },
+      {
+        "source": "art_0876",
+        "target": "art_0880",
+        "coherence_score": 0.424798
+      },
+      {
+        "source": "art_0880",
+        "target": "art_0890",
+        "coherence_score": 0.429197
+      },
+      {
+        "source": "art_0890",
+        "target": "art_0894",
+        "coherence_score": 0.530147
+      },
+      {
+        "source": "art_0894",
+        "target": "art_0904",
+        "coherence_score": 0.60715
+      },
+      {
+        "source": "art_0904",
+        "target": "art_0908",
+        "coherence_score": 0.532386
+      },
+      {
+        "source": "art_0908",
+        "target": "art_0913",
+        "coherence_score": 0.641273
+      },
+      {
+        "source": "art_0913",
+        "target": "art_0918",
+        "coherence_score": 0.559194
+      },
+      {
+        "source": "art_0918",
+        "target": "art_0922",
+        "coherence_score": 0.564403
+      },
+      {
+        "source": "art_0922",
+        "target": "art_0927",
+        "coherence_score": 0.690764
+      }
+    ]
+  }
+}

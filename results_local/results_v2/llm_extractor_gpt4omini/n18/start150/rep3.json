@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0778",
+      "date": "2023-03-27",
+      "title": "Diputados UDI exigen disculpas públicas de Boric a ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0820",
+      "date": "2023-06-08",
+      "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+    },
+    {
+      "id": "art_0843",
+      "date": "2023-07-28",
+      "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+    },
+    {
+      "id": "art_0871",
+      "date": "2023-09-15",
+      "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+    },
+    {
+      "id": "art_0876",
+      "date": "2023-09-22",
+      "title": "expresidente Piñera dice que durante el estallido social su ..."
+    },
+    {
+      "id": "art_0904",
+      "date": "2023-10-18",
+      "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+    },
+    {
+      "id": "art_0908",
+      "date": "2023-10-18",
+      "title": "Aniversario del estallido social: carabinero que estaba ..."
+    },
+    {
+      "id": "art_0922",
+      "date": "2023-11-10",
+      "title": "Constitución en Chile: Tras el estallido: un recuento"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 8.89900762506295,
+    "peak_memory_mb": 0.6018037796020508,
+    "avg_edge_coherence": 0.5551619757624233,
+    "api_cost_usd": 0.0018095624999999998
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured argument about how Chile's political elite responded to the 2019 social unrest, highlighting the role of the Constitution in shaping their decisions. However, the score is slightly lower due to some minor inconsistencies and transitions between ideas that could be smoother.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:24:25.099453+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:24:25.099543+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0778",
+        "date": "2023-03-27",
+        "title": "Diputados UDI exigen disculpas públicas de Boric a ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0820",
+        "date": "2023-06-08",
+        "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+      },
+      {
+        "id": "art_0843",
+        "date": "2023-07-28",
+        "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+      },
+      {
+        "id": "art_0871",
+        "date": "2023-09-15",
+        "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+      },
+      {
+        "id": "art_0876",
+        "date": "2023-09-22",
+        "title": "expresidente Piñera dice que durante el estallido social su ..."
+      },
+      {
+        "id": "art_0904",
+        "date": "2023-10-18",
+        "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+      },
+      {
+        "id": "art_0908",
+        "date": "2023-10-18",
+        "title": "Aniversario del estallido social: carabinero que estaba ..."
+      },
+      {
+        "id": "art_0922",
+        "date": "2023-11-10",
+        "title": "Constitución en Chile: Tras el estallido: un recuento"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0727",
+        "coherence_score": 0.66433
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0741",
+        "coherence_score": 0.434794
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0750",
+        "coherence_score": 0.388686
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0769",
+        "coherence_score": 0.377743
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0778",
+        "coherence_score": 0.585751
+      },
+      {
+        "source": "art_0778",
+        "target": "art_0787",
+        "coherence_score": 0.618788
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0801",
+        "coherence_score": 0.632512
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0806",
+        "coherence_score": 0.599755
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0820",
+        "coherence_score": 0.537714
+      },
+      {
+        "source": "art_0820",
+        "target": "art_0843",
+        "coherence_score": 0.569062
+      },
+      {
+        "source": "art_0843",
+        "target": "art_0871",
+        "coherence_score": 0.623773
+      },
+      {
+        "source": "art_0871",
+        "target": "art_0876",
+        "coherence_score": 0.579268
+      },
+      {
+        "source": "art_0876",
+        "target": "art_0904",
+        "coherence_score": 0.67154
+      },
+      {
+        "source": "art_0904",
+        "target": "art_0908",
+        "coherence_score": 0.532386
+      },
+      {
+        "source": "art_0908",
+        "target": "art_0922",
+        "coherence_score": 0.538162
+      }
+    ]
+  }
+}

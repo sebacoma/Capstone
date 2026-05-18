@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0783",
+      "date": "2023-04-04",
+      "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0820",
+      "date": "2023-06-08",
+      "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+    },
+    {
+      "id": "art_0824",
+      "date": "2023-06-18",
+      "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+    },
+    {
+      "id": "art_0843",
+      "date": "2023-07-28",
+      "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+    },
+    {
+      "id": "art_0871",
+      "date": "2023-09-15",
+      "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+    },
+    {
+      "id": "art_0890",
+      "date": "2023-10-15",
+      "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+    },
+    {
+      "id": "art_0894",
+      "date": "2023-10-16",
+      "title": "Preso del estallido social visitado por Boric es condenado ..."
+    },
+    {
+      "id": "art_0904",
+      "date": "2023-10-18",
+      "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 4.28519254096318,
+    "peak_memory_mb": 0.6018877029418945,
+    "avg_edge_coherence": 0.5392326870385338,
+    "api_cost_usd": 0.0018259124999999998
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El texto presenta una narrativa coherente sobre el estallido social de 2019 en Chile, con detalles específicos y referencias a eventos y personajes relevantes. Sin embargo, la falta de profundidad y análisis crítico en algunos puntos reduce la cohesión del texto.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:24:54.768942+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:24:54.769120+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0783",
+        "date": "2023-04-04",
+        "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0820",
+        "date": "2023-06-08",
+        "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+      },
+      {
+        "id": "art_0824",
+        "date": "2023-06-18",
+        "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+      },
+      {
+        "id": "art_0843",
+        "date": "2023-07-28",
+        "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+      },
+      {
+        "id": "art_0871",
+        "date": "2023-09-15",
+        "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+      },
+      {
+        "id": "art_0890",
+        "date": "2023-10-15",
+        "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+      },
+      {
+        "id": "art_0894",
+        "date": "2023-10-16",
+        "title": "Preso del estallido social visitado por Boric es condenado ..."
+      },
+      {
+        "id": "art_0904",
+        "date": "2023-10-18",
+        "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0727",
+        "coherence_score": 0.66433
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0741",
+        "coherence_score": 0.434794
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0750",
+        "coherence_score": 0.388686
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0764",
+        "coherence_score": 0.481924
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0783",
+        "coherence_score": 0.598196
+      },
+      {
+        "source": "art_0783",
+        "target": "art_0792",
+        "coherence_score": 0.603462
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0801",
+        "coherence_score": 0.565223
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0820",
+        "coherence_score": 0.526429
+      },
+      {
+        "source": "art_0820",
+        "target": "art_0824",
+        "coherence_score": 0.294196
+      },
+      {
+        "source": "art_0824",
+        "target": "art_0843",
+        "coherence_score": 0.645589
+      },
+      {
+        "source": "art_0843",
+        "target": "art_0871",
+        "coherence_score": 0.623773
+      },
+      {
+        "source": "art_0871",
+        "target": "art_0890",
+        "coherence_score": 0.52376
+      },
+      {
+        "source": "art_0890",
+        "target": "art_0894",
+        "coherence_score": 0.530147
+      },
+      {
+        "source": "art_0894",
+        "target": "art_0904",
+        "coherence_score": 0.60715
+      }
+    ]
+  }
+}

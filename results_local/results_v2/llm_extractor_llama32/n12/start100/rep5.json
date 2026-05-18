@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 19.288682874990627,
+    "peak_memory_mb": 0.33519554138183594,
+    "avg_edge_coherence": 0.8208479556170377,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple news articles from different countries (Chile, Colombia) on protests and their respective government responses. The articles are well-structured and provide similar information about the incidents, but lack a clear connection or thread between them, resulting in an overall coherence score of 8.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:29:20.099115+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:29:20.099283+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0559",
+        "target": "art_0568",
+        "coherence_score": 0.555967
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0573",
+        "coherence_score": 0.679146
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0582",
+        "coherence_score": 0.606623
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0582",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0582",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0582",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0587",
+        "coherence_score": 0.59062
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0587",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0610",
+        "coherence_score": 0.596973
+      },
+      {
+        "source": "art_0610",
+        "target": "art_0610",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

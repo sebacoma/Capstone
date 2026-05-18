@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0331",
+      "date": "2020-10-16",
+      "title": "El balance del INDH a un año del estallido social"
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0354",
+      "date": "2020-10-19",
+      "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+    },
+    {
+      "id": "art_0364",
+      "date": "2020-10-29",
+      "title": "Errática señal contra el vandalismo"
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0447",
+      "date": "2021-05-15",
+      "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 13.786462167045102,
+    "peak_memory_mb": 0.3692178726196289,
+    "avg_edge_coherence": 0.5870697708690867,
+    "api_cost_usd": 0.0020347875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative provides a clear and structured overview of the Chilean constitutional process, effectively conveying the key events, actors, and challenges involved. However, some minor inconsistencies and transitions between sections could be improved to enhance overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:21:25.362613+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:21:25.362712+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0331",
+        "date": "2020-10-16",
+        "title": "El balance del INDH a un año del estallido social"
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0354",
+        "date": "2020-10-19",
+        "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+      },
+      {
+        "id": "art_0364",
+        "date": "2020-10-29",
+        "title": "Errática señal contra el vandalismo"
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0447",
+        "date": "2021-05-15",
+        "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0252",
+        "coherence_score": 0.440866
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0257",
+        "coherence_score": 0.532903
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0261",
+        "coherence_score": 0.693078
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0270",
+        "coherence_score": 0.593229
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0275",
+        "coherence_score": 0.412646
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0284",
+        "coherence_score": 0.351533
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0322",
+        "coherence_score": 0.576106
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0331",
+        "coherence_score": 0.634394
+      },
+      {
+        "source": "art_0331",
+        "target": "art_0340",
+        "coherence_score": 0.570784
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0354",
+        "coherence_score": 0.622756
+      },
+      {
+        "source": "art_0354",
+        "target": "art_0364",
+        "coherence_score": 0.607377
+      },
+      {
+        "source": "art_0364",
+        "target": "art_0373",
+        "coherence_score": 0.712603
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0447",
+        "coherence_score": 0.583515
+      },
+      {
+        "source": "art_0447",
+        "target": "art_0480",
+        "coherence_score": 0.558244
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0485",
+        "coherence_score": 0.673031
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0489",
+        "coherence_score": 0.672011
+      }
+    ]
+  }
+}

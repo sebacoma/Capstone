@@ -1,0 +1,115 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0457",
+      "date": "2021-06-01",
+      "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.0023489169543609023,
+    "peak_memory_mb": 0.070220947265625,
+    "avg_edge_coherence": 0.6996811628341675,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear structure and timeline of events, effectively conveying the inauguration of the Convención Constitucional and the initial challenges faced by its members. However, some minor inconsistencies and unclear transitions between sections prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:59.200038+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:09:59.200198+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0457",
+        "date": "2021-06-01",
+        "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0457",
+        "coherence_score": 0.699226
+      },
+      {
+        "source": "art_0457",
+        "target": "art_0471",
+        "coherence_score": 0.701379
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0480",
+        "coherence_score": 0.706572
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0489",
+        "coherence_score": 0.69728
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0475",
+        "coherence_score": 0.693949
+      }
+    ]
+  }
+}

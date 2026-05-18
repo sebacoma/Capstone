@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.4289806669112295,
+    "peak_memory_mb": 0.20996475219726562,
+    "avg_edge_coherence": 0.5724273085594177,
+    "api_cost_usd": 0.0007045125
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple storylines and opinions on Chile's current situation, but they are woven together in a logical and coherent manner, allowing the reader to understand the complexities of the country's politics and social issues. However, some transitions between ideas could be smoother, preventing a minor decrease in coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:13:02.391190+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:13:02.391281+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0489",
+        "target": "art_0513",
+        "coherence_score": 0.527868
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0531",
+        "coherence_score": 0.573169
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0527",
+        "coherence_score": 0.651026
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0540",
+        "coherence_score": 0.490229
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0545",
+        "coherence_score": 0.619844
+      }
+    ]
+  }
+}

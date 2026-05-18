@@ -1,0 +1,330 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0783",
+      "date": "2023-04-04",
+      "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+    },
+    {
+      "id": "art_0797",
+      "date": "2023-04-24",
+      "title": "La tortuosa vía chilena al cambio constitucional"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0815",
+      "date": "2023-05-29",
+      "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+    },
+    {
+      "id": "art_0824",
+      "date": "2023-06-18",
+      "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+    },
+    {
+      "id": "art_0834",
+      "date": "2023-07-10",
+      "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+    },
+    {
+      "id": "art_0843",
+      "date": "2023-07-28",
+      "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.18886408302932978,
+    "peak_memory_mb": 0.6690502166748047,
+    "avg_edge_coherence": 0.6282186438055599,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and opinions on the upcoming election, including Max Colodro's analysis of the CEP survey results. However, some transitions between ideas could be smoother, and a few points feel slightly disconnected from each other.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:40.829512+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:09:40.829637+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0783",
+        "date": "2023-04-04",
+        "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+      },
+      {
+        "id": "art_0797",
+        "date": "2023-04-24",
+        "title": "La tortuosa vía chilena al cambio constitucional"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0815",
+        "date": "2023-05-29",
+        "title": "Sergio Urzúa, economista: “En Chile está truncado ..."
+      },
+      {
+        "id": "art_0824",
+        "date": "2023-06-18",
+        "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+      },
+      {
+        "id": "art_0834",
+        "date": "2023-07-10",
+        "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+      },
+      {
+        "id": "art_0843",
+        "date": "2023-07-28",
+        "title": "Max Colodro: Evelyn Matthei es una mejor carta que Kast"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0703",
+        "coherence_score": 0.635134
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0717",
+        "coherence_score": 0.681381
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0722",
+        "coherence_score": 0.55465
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0736",
+        "coherence_score": 0.669457
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0717",
+        "coherence_score": 0.555054
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0722",
+        "coherence_score": 0.534244
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0736",
+        "coherence_score": 0.589273
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0722",
+        "coherence_score": 0.576754
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0736",
+        "coherence_score": 0.673534
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0736",
+        "coherence_score": 0.608695
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0745",
+        "coherence_score": 0.68146
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0750",
+        "coherence_score": 0.531798
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0759",
+        "coherence_score": 0.583598
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0764",
+        "coherence_score": 0.593395
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0769",
+        "coherence_score": 0.616142
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0773",
+        "coherence_score": 0.653106
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0783",
+        "coherence_score": 0.641612
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0783",
+        "coherence_score": 0.643528
+      },
+      {
+        "source": "art_0783",
+        "target": "art_0797",
+        "coherence_score": 0.674164
+      },
+      {
+        "source": "art_0797",
+        "target": "art_0806",
+        "coherence_score": 0.622051
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0815",
+        "coherence_score": 0.644725
+      },
+      {
+        "source": "art_0815",
+        "target": "art_0824",
+        "coherence_score": 0.692275
+      },
+      {
+        "source": "art_0824",
+        "target": "art_0834",
+        "coherence_score": 0.63549
+      },
+      {
+        "source": "art_0834",
+        "target": "art_0843",
+        "coherence_score": 0.732349
+      }
+    ]
+  }
+}

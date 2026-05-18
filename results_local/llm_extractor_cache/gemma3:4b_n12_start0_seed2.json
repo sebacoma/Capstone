@@ -1,0 +1,22 @@
+{
+  "model": "gemma3:4b",
+  "n": 12,
+  "start_index": 0,
+  "seed": 2,
+  "selected_ids": [
+    "art_0713",
+    "art_0722",
+    "art_0736",
+    "art_0745",
+    "art_0787",
+    "art_0787",
+    "art_0787",
+    "art_0787",
+    "art_0787",
+    "art_0806",
+    "art_0843",
+    "art_0862"
+  ],
+  "justification": "Los artículos seleccionados abarcan desde el contexto del estallido social hasta análisis posteriores y sus consecuencias, incluyendo informes de seguros y perspectivas de líderes de instituciones.",
+  "api_cost_usd": 0.0
+}

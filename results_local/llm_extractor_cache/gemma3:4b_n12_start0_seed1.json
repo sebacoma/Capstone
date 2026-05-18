@@ -1,0 +1,22 @@
+{
+  "model": "gemma3:4b",
+  "n": 12,
+  "start_index": 0,
+  "seed": 1,
+  "selected_ids": [
+    "art_0731",
+    "art_0731",
+    "art_0736",
+    "art_0769",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0773",
+    "art_0792",
+    "art_0792",
+    "art_0792"
+  ],
+  "justification": "Los IDs seleccionados representan una variedad de artículos relacionados con el estallido social en Chile, la crisis institucional, y las reacciones políticas y sociales posteriores, abarcando desde la redacción de la nueva constitución hasta las críticas a la gestión del gobierno y la polarización política.",
+  "api_cost_usd": 0.0
+}

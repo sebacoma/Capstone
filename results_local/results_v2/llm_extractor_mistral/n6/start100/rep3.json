@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.251077124965377,
+    "peak_memory_mb": 0.19942760467529297,
+    "avg_edge_coherence": 0.6209072947502137,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from various individuals, which adds to its coherence. However, some transitions between ideas could be smoother, resulting in a slightly lower score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:30:34.461462+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:30:34.461634+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0485",
+        "target": "art_0499",
+        "coherence_score": 0.585348
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0508",
+        "coherence_score": 0.626386
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0517",
+        "coherence_score": 0.684921
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0531",
+        "coherence_score": 0.626971
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0545",
+        "coherence_score": 0.58091
+      }
+    ]
+  }
+}

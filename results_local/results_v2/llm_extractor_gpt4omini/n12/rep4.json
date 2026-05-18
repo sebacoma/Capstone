@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    },
+    {
+      "id": "art_0122",
+      "date": "2019-12-23",
+      "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+    },
+    {
+      "id": "art_0131",
+      "date": "2019-12-28",
+      "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 8.566183833987452,
+    "peak_memory_mb": 0.6161508560180664,
+    "avg_edge_coherence": 0.587730044668371,
+    "api_cost_usd": 0.007456275
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple data points and statistics related to unemployment in Chile, but lacks a clear structure and connection between them. The text could benefit from more cohesive transitions and analysis to provide a more comprehensive understanding of the topic.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:15:38.559324+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:15:38.559552+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      },
+      {
+        "id": "art_0122",
+        "date": "2019-12-23",
+        "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+      },
+      {
+        "id": "art_0131",
+        "date": "2019-12-28",
+        "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0014",
+        "coherence_score": 0.609102
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0019",
+        "coherence_score": 0.602372
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0052",
+        "coherence_score": 0.558881
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0056",
+        "coherence_score": 0.544133
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0075",
+        "coherence_score": 0.473736
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0080",
+        "coherence_score": 0.500688
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0112",
+        "coherence_score": 0.63974
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0122",
+        "coherence_score": 0.730891
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0131",
+        "coherence_score": 0.668818
+      },
+      {
+        "source": "art_0131",
+        "target": "art_0196",
+        "coherence_score": 0.501226
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0312",
+        "coherence_score": 0.635441
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "gemma3:4b",
+  "n": 6,
+  "start_index": 0,
+  "seed": 3,
+  "selected_ids": [
+    "art_0713",
+    "art_0717",
+    "art_0745",
+    "art_0750",
+    "art_0755",
+    "art_0759"
+  ],
+  "justification": "La secuencia narra la caída en desgracia del gobierno de Boric, la controversia sobre los indultos, la discusión sobre fake news y la influencia de factores históricos, la intervención de la comunidad internacional y finalmente, la redacción de la nueva constitución.",
+  "api_cost_usd": 0.0
+}

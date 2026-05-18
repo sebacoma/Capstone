@@ -1,0 +1,207 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0387",
+      "date": "2020-12-17",
+      "title": "Dólar se cotiza con importante caída y vuelve a operar en mínimos en más de un año"
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0401",
+      "date": "2021-01-27",
+      "title": "Operadora de heladería Bravissimo solicita la quiebra"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 3.398548375000246,
+    "peak_memory_mb": 0.26193809509277344,
+    "avg_edge_coherence": 0.5404128703204069,
+    "api_cost_usd": 0.001353825
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but lacks depth and variety in its content, resulting in an average coherence score.",
+    "contextualization": null,
+    "inference": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:16:45.678091+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:16:45.678134+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0387",
+        "date": "2020-12-17",
+        "title": "Dólar se cotiza con importante caída y vuelve a operar en mínimos en más de un año"
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0401",
+        "date": "2021-01-27",
+        "title": "Operadora de heladería Bravissimo solicita la quiebra"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0243",
+        "target": "art_0252",
+        "coherence_score": 0.440866
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0261",
+        "coherence_score": 0.497555
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0284",
+        "coherence_score": 0.476945
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0294",
+        "coherence_score": 0.552413
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0312",
+        "coherence_score": 0.565836
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0322",
+        "coherence_score": 0.652317
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0340",
+        "coherence_score": 0.603558
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0387",
+        "coherence_score": 0.452558
+      },
+      {
+        "source": "art_0387",
+        "target": "art_0392",
+        "coherence_score": 0.536011
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0396",
+        "coherence_score": 0.620418
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0401",
+        "coherence_score": 0.546065
+      }
+    ]
+  }
+}

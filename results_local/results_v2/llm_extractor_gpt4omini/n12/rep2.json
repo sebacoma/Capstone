@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0089",
+      "date": "2019-12-10",
+      "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0122",
+      "date": "2019-12-23",
+      "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0210",
+      "date": "2020-02-19",
+      "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.445934166084044,
+    "peak_memory_mb": 0.4508333206176758,
+    "avg_edge_coherence": 0.5774325105276975,
+    "api_cost_usd": 0.002481075
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El narrativo presenta una estructura cronológica clara y explora diferentes aspectos de la crisis social en Chile, como las protestas, los ataques a instituciones y las violaciones de derechos humanos. Sin embargo, algunas conexiones entre los eventos y las explicaciones de las acciones de los actores involucrados podrían haberse profundizado para aumentar la coherencia del relato.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:15:08.485480+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:15:08.485596+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0089",
+        "date": "2019-12-10",
+        "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0122",
+        "date": "2019-12-23",
+        "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0210",
+        "date": "2020-02-19",
+        "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0014",
+        "coherence_score": 0.609102
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0028",
+        "coherence_score": 0.667548
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0042",
+        "coherence_score": 0.547537
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0075",
+        "coherence_score": 0.557482
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0089",
+        "coherence_score": 0.37563
+      },
+      {
+        "source": "art_0089",
+        "target": "art_0103",
+        "coherence_score": 0.581129
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0122",
+        "coherence_score": 0.638561
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0135",
+        "coherence_score": 0.650615
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0191",
+        "coherence_score": 0.560749
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0196",
+        "coherence_score": 0.568665
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0210",
+        "coherence_score": 0.59474
+      }
+    ]
+  }
+}

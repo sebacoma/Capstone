@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0108",
+      "date": "2019-12-19",
+      "title": "Luis Montes y la exposición que el estallido social postergó"
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0159",
+      "date": "2020-01-16",
+      "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 10.446491083013825,
+    "peak_memory_mb": 0.36066436767578125,
+    "avg_edge_coherence": 0.5201567649841309,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El informe presenta una narrativa coherente sobre las causas y consecuencias del estallido social en Chile, destacando la importancia de los subsidios y la inflación como factores que contribuyeron a la crisis. Sin embargo, la conexión entre estos factores y el aumento de disturbios civiles no es siempre explícita, lo que reduce la coherencia de la narrativa.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:44:44.968582+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:44:44.968668+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0108",
+        "date": "2019-12-19",
+        "title": "Luis Montes y la exposición que el estallido social postergó"
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0159",
+        "date": "2020-01-16",
+        "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0038",
+        "target": "art_0070",
+        "coherence_score": 0.553701
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0108",
+        "coherence_score": 0.444427
+      },
+      {
+        "source": "art_0108",
+        "target": "art_0140",
+        "coherence_score": 0.555422
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0159",
+        "coherence_score": 0.510839
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0177",
+        "coherence_score": 0.536394
+      }
+    ]
+  }
+}

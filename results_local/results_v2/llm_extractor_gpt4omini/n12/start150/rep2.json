@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0820",
+      "date": "2023-06-08",
+      "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    },
+    {
+      "id": "art_0862",
+      "date": "2023-09-07",
+      "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 3.467204791959375,
+    "peak_memory_mb": 0.45289134979248047,
+    "avg_edge_coherence": 0.5581609471277758,
+    "api_cost_usd": 0.0013617375
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative explores two distinct topics: the Chilean government's response to the Caso Convenios scandal and the upcoming conmemoration of the 50th anniversary of the coup d'etat. The coherence between these topics is moderate, with some connections made between the two, but overall, the narrative feels disjointed and could benefit from a clearer thread throughout.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:18:28.800403+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:18:28.800497+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0820",
+        "date": "2023-06-08",
+        "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      },
+      {
+        "id": "art_0862",
+        "date": "2023-09-07",
+        "title": "Sebastián Jans, líder de la masonería en Chile y los 50 ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0708",
+        "coherence_score": 0.554357
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0722",
+        "coherence_score": 0.576754
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0750",
+        "coherence_score": 0.477004
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0769",
+        "coherence_score": 0.377743
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0787",
+        "coherence_score": 0.745883
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0820",
+        "coherence_score": 0.654016
+      },
+      {
+        "source": "art_0820",
+        "target": "art_0848",
+        "coherence_score": 0.487386
+      },
+      {
+        "source": "art_0848",
+        "target": "art_0862",
+        "coherence_score": 0.58733
+      }
+    ]
+  }
+}

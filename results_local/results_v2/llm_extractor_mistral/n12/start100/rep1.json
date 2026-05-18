@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0578",
+      "date": "2022-01-14",
+      "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+    },
+    {
+      "id": "art_0578",
+      "date": "2022-01-14",
+      "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 62.33054474997334,
+    "peak_memory_mb": 0.35065364837646484,
+    "avg_edge_coherence": 0.839684090831063,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different characters and events without clear connections or transitions. The coherence score could be higher if the story were more cohesive and logically linked.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:52:45.372432+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T16:52:45.372503+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0578",
+        "date": "2022-01-14",
+        "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+      },
+      {
+        "id": "art_0578",
+        "date": "2022-01-14",
+        "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0480",
+        "target": "art_0485",
+        "coherence_score": 0.673031
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0485",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0503",
+        "coherence_score": 0.688532
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0503",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0536",
+        "coherence_score": 0.629883
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0536",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0536",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0578",
+        "coherence_score": 0.673711
+      },
+      {
+        "source": "art_0578",
+        "target": "art_0578",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0578",
+        "target": "art_0615",
+        "coherence_score": 0.571367
+      },
+      {
+        "source": "art_0615",
+        "target": "art_0615",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0675",
+      "date": "2022-09-22",
+      "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0685",
+      "date": "2022-10-13",
+      "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+    },
+    {
+      "id": "art_0671",
+      "date": "2022-09-21",
+      "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+    },
+    {
+      "id": "art_0657",
+      "date": "2022-08-27",
+      "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+    },
+    {
+      "id": "art_0648",
+      "date": "2022-08-05",
+      "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+    },
+    {
+      "id": "art_0643",
+      "date": "2022-07-23",
+      "title": "Chayanne y las veces en que sí “se mojó el potito” en política"
+    },
+    {
+      "id": "art_0638",
+      "date": "2022-06-27",
+      "title": "La pobreza y la inflación alimentan el nuevo estallido de ..."
+    },
+    {
+      "id": "art_0624",
+      "date": "2022-06-01",
+      "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+    },
+    {
+      "id": "art_0634",
+      "date": "2022-06-16",
+      "title": "Víctimas critican exposición sobre el estallido social en el Palacio Vergara de Viña del Mar: \"Es una apología de la violencia\""
+    },
+    {
+      "id": "art_0620",
+      "date": "2022-05-23",
+      "title": "Entre personajes pop y estallido social: la historia tras ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.014094249927438796,
+    "peak_memory_mb": 0.168121337890625,
+    "avg_edge_coherence": 0.6932019103657115,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics, such as art exhibitions and the Chilean social movement, without clear connections or transitions.",
+    "contextualization": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:10:29.221928+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:10:29.222105+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0675",
+        "date": "2022-09-22",
+        "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0685",
+        "date": "2022-10-13",
+        "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+      },
+      {
+        "id": "art_0671",
+        "date": "2022-09-21",
+        "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+      },
+      {
+        "id": "art_0657",
+        "date": "2022-08-27",
+        "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+      },
+      {
+        "id": "art_0648",
+        "date": "2022-08-05",
+        "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+      },
+      {
+        "id": "art_0643",
+        "date": "2022-07-23",
+        "title": "Chayanne y las veces en que sí “se mojó el potito” en política"
+      },
+      {
+        "id": "art_0638",
+        "date": "2022-06-27",
+        "title": "La pobreza y la inflación alimentan el nuevo estallido de ..."
+      },
+      {
+        "id": "art_0624",
+        "date": "2022-06-01",
+        "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+      },
+      {
+        "id": "art_0634",
+        "date": "2022-06-16",
+        "title": "Víctimas critican exposición sobre el estallido social en el Palacio Vergara de Viña del Mar: \"Es una apología de la violencia\""
+      },
+      {
+        "id": "art_0620",
+        "date": "2022-05-23",
+        "title": "Entre personajes pop y estallido social: la historia tras ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0675",
+        "coherence_score": 0.711462
+      },
+      {
+        "source": "art_0675",
+        "target": "art_0680",
+        "coherence_score": 0.758864
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0685",
+        "coherence_score": 0.713411
+      },
+      {
+        "source": "art_0685",
+        "target": "art_0671",
+        "coherence_score": 0.704267
+      },
+      {
+        "source": "art_0671",
+        "target": "art_0657",
+        "coherence_score": 0.65438
+      },
+      {
+        "source": "art_0657",
+        "target": "art_0648",
+        "coherence_score": 0.693486
+      },
+      {
+        "source": "art_0648",
+        "target": "art_0643",
+        "coherence_score": 0.652269
+      },
+      {
+        "source": "art_0643",
+        "target": "art_0638",
+        "coherence_score": 0.700628
+      },
+      {
+        "source": "art_0638",
+        "target": "art_0624",
+        "coherence_score": 0.703527
+      },
+      {
+        "source": "art_0624",
+        "target": "art_0634",
+        "coherence_score": 0.669865
+      },
+      {
+        "source": "art_0634",
+        "target": "art_0620",
+        "coherence_score": 0.663061
+      }
+    ]
+  }
+}

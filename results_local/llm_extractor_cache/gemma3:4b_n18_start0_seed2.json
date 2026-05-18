@@ -1,0 +1,28 @@
+{
+  "model": "gemma3:4b",
+  "n": 18,
+  "start_index": 0,
+  "seed": 2,
+  "selected_ids": [
+    "art_0713",
+    "art_0713",
+    "art_0722",
+    "art_0722",
+    "art_0745",
+    "art_0745",
+    "art_0745",
+    "art_0773",
+    "art_0773",
+    "art_0787",
+    "art_0787",
+    "art_0806",
+    "art_0806",
+    "art_0806",
+    "art_0894",
+    "art_0894",
+    "art_0922",
+    "art_0922"
+  ],
+  "justification": "Los artículos proporcionados detallan eventos y análisis relacionados con el estallido social en Chile, incluyendo costos económicos, reacciones políticas, y debates sobre la constitución.",
+  "api_cost_usd": 0.0
+}

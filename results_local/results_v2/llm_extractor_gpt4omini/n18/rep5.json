@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    },
+    {
+      "id": "art_0298",
+      "date": "2020-08-24",
+      "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    },
+    {
+      "id": "art_0326",
+      "date": "2020-10-14",
+      "title": "Estallido Social: Formalizarán a capitán del Ejército que ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0354",
+      "date": "2020-10-19",
+      "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+    },
+    {
+      "id": "art_0364",
+      "date": "2020-10-29",
+      "title": "Errática señal contra el vandalismo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.43926516699139,
+    "peak_memory_mb": 0.6043853759765625,
+    "avg_edge_coherence": 0.5340362682062036,
+    "api_cost_usd": 0.0033264749999999997
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple events and quotes from government officials in a chronological order, but lacks cohesion and depth in its analysis of the events. The justification for the proposed amnesty is not adequately explained or supported by evidence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:20:48.183421+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:20:48.183545+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      },
+      {
+        "id": "art_0298",
+        "date": "2020-08-24",
+        "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      },
+      {
+        "id": "art_0326",
+        "date": "2020-10-14",
+        "title": "Estallido Social: Formalizarán a capitán del Ejército que ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0354",
+        "date": "2020-10-19",
+        "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+      },
+      {
+        "id": "art_0364",
+        "date": "2020-10-29",
+        "title": "Errática señal contra el vandalismo"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0033",
+        "target": "art_0224",
+        "coherence_score": 0.450467
+      },
+      {
+        "source": "art_0224",
+        "target": "art_0229",
+        "coherence_score": 0.460158
+      },
+      {
+        "source": "art_0229",
+        "target": "art_0243",
+        "coherence_score": 0.429605
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0252",
+        "coherence_score": 0.4832
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0257",
+        "coherence_score": 0.532903
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0275",
+        "coherence_score": 0.65509
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0280",
+        "coherence_score": 0.579785
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0294",
+        "coherence_score": 0.397963
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0298",
+        "coherence_score": 0.436312
+      },
+      {
+        "source": "art_0298",
+        "target": "art_0303",
+        "coherence_score": 0.57837
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0312",
+        "coherence_score": 0.569813
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0317",
+        "coherence_score": 0.655226
+      },
+      {
+        "source": "art_0317",
+        "target": "art_0326",
+        "coherence_score": 0.547385
+      },
+      {
+        "source": "art_0326",
+        "target": "art_0340",
+        "coherence_score": 0.612276
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0354",
+        "coherence_score": 0.622756
+      },
+      {
+        "source": "art_0354",
+        "target": "art_0364",
+        "coherence_score": 0.607377
+      }
+    ]
+  }
+}

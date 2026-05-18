@@ -1,0 +1,16 @@
+{
+  "model": "gemma3:4b",
+  "n": 6,
+  "start_index": 0,
+  "seed": 5,
+  "selected_ids": [
+    "art_0699",
+    "art_0703",
+    "art_0713",
+    "art_0717",
+    "art_0727",
+    "art_0755"
+  ],
+  "justification": "La secuencia narra la evolución de eventos relacionados con el estallido social de 2019, desde el contexto político y social inicial (art_0699), pasando por la violencia y la respuesta del gobierno (art_0703), el debate sobre la legitimidad de las protestas (art_0713), la crisis de confianza en las instituciones y la polarización informativa (art_0717), la experiencia personal de un participante (art_0727) y finalmente, la reflexión sobre la falsa narrativa de torturas (art_0755).",
+  "api_cost_usd": 0.0
+}

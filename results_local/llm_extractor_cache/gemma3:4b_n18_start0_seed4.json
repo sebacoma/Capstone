@@ -1,0 +1,28 @@
+{
+  "model": "gemma3:4b",
+  "n": 18,
+  "start_index": 0,
+  "seed": 4,
+  "selected_ids": [
+    "art_0038",
+    "art_0038",
+    "art_0038",
+    "art_0038",
+    "art_0052",
+    "art_0052",
+    "art_0052",
+    "art_0061",
+    "art_0089",
+    "art_0089",
+    "art_0089",
+    "art_0089",
+    "art_0140",
+    "art_0177",
+    "art_0233",
+    "art_0233",
+    "art_0284",
+    "art_0284"
+  ],
+  "justification": "Los IDs seleccionados representan una serie de artículos de noticias relacionados con el estallido social en Chile, abarcando desde análisis académicos hasta reportes de eventos cotidianos y reacciones políticas, ordenados cronológicamente.",
+  "api_cost_usd": 0.0
+}

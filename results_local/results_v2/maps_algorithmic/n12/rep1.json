@@ -1,0 +1,280 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0066",
+      "date": "2019-12-04",
+      "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+    },
+    {
+      "id": "art_0117",
+      "date": "2019-12-22",
+      "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+    },
+    {
+      "id": "art_0159",
+      "date": "2020-01-16",
+      "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+    },
+    {
+      "id": "art_0168",
+      "date": "2020-01-19",
+      "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0205",
+      "date": "2020-02-13",
+      "title": "La comentada respuesta de Américo a usuaria que lo trató ..."
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.1901473340112716,
+    "peak_memory_mb": 1.7998723983764648,
+    "avg_edge_coherence": 0.539750643751838,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and consistent argument from Luis Escobar, a Catholic priest who has experienced trauma and violence in his work as a prison chaplain. However, some sections feel disjointed or tangential, which slightly detracts from the overall coherence of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:08:56.430078+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:08:56.430142+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0066",
+        "date": "2019-12-04",
+        "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+      },
+      {
+        "id": "art_0117",
+        "date": "2019-12-22",
+        "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+      },
+      {
+        "id": "art_0159",
+        "date": "2020-01-16",
+        "title": "Estudio británico posiciona a Chile como uno de los países \"más riesgosos\" tras el estallido social"
+      },
+      {
+        "id": "art_0168",
+        "date": "2020-01-19",
+        "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0205",
+        "date": "2020-02-13",
+        "title": "La comentada respuesta de Américo a usuaria que lo trató ..."
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0019",
+        "coherence_score": 0.657078
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0042",
+        "coherence_score": 0.534669
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0056",
+        "coherence_score": 0.510008
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0066",
+        "coherence_score": 0.290286
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0042",
+        "coherence_score": 0.503603
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0056",
+        "coherence_score": 0.488153
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0066",
+        "coherence_score": 0.375483
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0056",
+        "coherence_score": 0.517531
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0066",
+        "coherence_score": 0.406146
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0117",
+        "coherence_score": 0.556059
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0066",
+        "coherence_score": 0.457084
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0117",
+        "coherence_score": 0.532047
+      },
+      {
+        "source": "art_0066",
+        "target": "art_0117",
+        "coherence_score": 0.340192
+      },
+      {
+        "source": "art_0117",
+        "target": "art_0159",
+        "coherence_score": 0.484968
+      },
+      {
+        "source": "art_0117",
+        "target": "art_0168",
+        "coherence_score": 0.540483
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0168",
+        "coherence_score": 0.585023
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0177",
+        "coherence_score": 0.536394
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0182",
+        "coherence_score": 0.503397
+      },
+      {
+        "source": "art_0159",
+        "target": "art_0205",
+        "coherence_score": 0.45339
+      },
+      {
+        "source": "art_0168",
+        "target": "art_0177",
+        "coherence_score": 0.568259
+      },
+      {
+        "source": "art_0168",
+        "target": "art_0182",
+        "coherence_score": 0.590508
+      },
+      {
+        "source": "art_0168",
+        "target": "art_0205",
+        "coherence_score": 0.573551
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0182",
+        "coherence_score": 0.608254
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0205",
+        "coherence_score": 0.598194
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0205",
+        "coherence_score": 0.559281
+      },
+      {
+        "source": "art_0205",
+        "target": "art_0229",
+        "coherence_score": 0.655983
+      }
+    ]
+  }
+}

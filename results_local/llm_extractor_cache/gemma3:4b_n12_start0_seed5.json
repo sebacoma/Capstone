@@ -1,0 +1,22 @@
+{
+  "model": "gemma3:4b",
+  "n": 12,
+  "start_index": 0,
+  "seed": 5,
+  "selected_ids": [
+    "art_0703",
+    "art_0769",
+    "art_0769",
+    "art_0792",
+    "art_0792",
+    "art_0792",
+    "art_0801",
+    "art_0834",
+    "art_0834",
+    "art_0852",
+    "art_0857",
+    "art_0857"
+  ],
+  "justification": "Selecciono los artículos más recientes y relevantes para el contexto de polarización política y la influencia de figuras clave en Chile, incluyendo referencias a figuras históricas como Allende y Boric, así como la discusión sobre la legitimidad del gobierno y la percepción de crisis institucional.",
+  "api_cost_usd": 0.0
+}

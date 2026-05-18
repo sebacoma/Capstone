@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 20.450741584063508,
+    "peak_memory_mb": 0.29843902587890625,
+    "avg_edge_coherence": 0.6229622960090637,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative presents a clear and chronological structure, effectively connecting historical events to the current situation. The only minor disruption is the abrupt shift from discussing the Plebiscito constitucional to the recent march, but overall, the coherence of the narrative remains high.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:48:55.688533+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:48:55.688663+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0471",
+        "target": "art_0475",
+        "coherence_score": 0.638907
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0489",
+        "coherence_score": 0.693949
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0513",
+        "coherence_score": 0.527868
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0527",
+        "coherence_score": 0.597875
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0536",
+        "coherence_score": 0.656212
+      }
+    ]
+  }
+}

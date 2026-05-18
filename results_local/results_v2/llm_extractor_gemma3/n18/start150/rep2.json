@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0894",
+      "date": "2023-10-16",
+      "title": "Preso del estallido social visitado por Boric es condenado ..."
+    },
+    {
+      "id": "art_0894",
+      "date": "2023-10-16",
+      "title": "Preso del estallido social visitado por Boric es condenado ..."
+    },
+    {
+      "id": "art_0922",
+      "date": "2023-11-10",
+      "title": "Constitución en Chile: Tras el estallido: un recuento"
+    },
+    {
+      "id": "art_0922",
+      "date": "2023-11-10",
+      "title": "Constitución en Chile: Tras el estallido: un recuento"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 26.158293583081104,
+    "peak_memory_mb": 0.5970163345336914,
+    "avg_edge_coherence": 0.8405908346176147,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured argument about the Chilean constitutional process, effectively conveying the complexities and contradictions of the situation. However, some minor inconsistencies and repetitive details detract from an otherwise cohesive and engaging narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:25:34.721484+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:25:34.721640+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0894",
+        "date": "2023-10-16",
+        "title": "Preso del estallido social visitado por Boric es condenado ..."
+      },
+      {
+        "id": "art_0894",
+        "date": "2023-10-16",
+        "title": "Preso del estallido social visitado por Boric es condenado ..."
+      },
+      {
+        "id": "art_0922",
+        "date": "2023-11-10",
+        "title": "Constitución en Chile: Tras el estallido: un recuento"
+      },
+      {
+        "id": "art_0922",
+        "date": "2023-11-10",
+        "title": "Constitución en Chile: Tras el estallido: un recuento"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0745",
+        "coherence_score": 0.552563
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0745",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0745",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0773",
+        "coherence_score": 0.625153
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0787",
+        "coherence_score": 0.639147
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0787",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0806",
+        "coherence_score": 0.663886
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0806",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0806",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0894",
+        "coherence_score": 0.629294
+      },
+      {
+        "source": "art_0894",
+        "target": "art_0894",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0894",
+        "target": "art_0922",
+        "coherence_score": 0.59496
+      },
+      {
+        "source": "art_0922",
+        "target": "art_0922",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

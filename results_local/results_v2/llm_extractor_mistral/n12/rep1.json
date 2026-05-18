@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0145",
+      "date": "2020-01-08",
+      "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.232446999987587,
+    "peak_memory_mb": 0.44560718536376953,
+    "avg_edge_coherence": 0.7458419095386158,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a detailed and well-structured account of police brutality in Chile, with specific examples and quotes from a former Fuerzas Especiales officer. However, the coherence score is slightly lower due to some minor inconsistencies and transitions between sections that could be smoother.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:33:51.107434+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:33:51.107627+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0145",
+        "date": "2020-01-08",
+        "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0038",
+        "target": "art_0038",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0038",
+        "target": "art_0038",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0038",
+        "target": "art_0070",
+        "coherence_score": 0.553701
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0070",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0080",
+        "coherence_score": 0.555962
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0080",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0145",
+        "coherence_score": 0.545286
+      },
+      {
+        "source": "art_0145",
+        "target": "art_0149",
+        "coherence_score": 0.475215
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0149",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0266",
+        "coherence_score": 0.5284
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0294",
+        "coherence_score": 0.545697
+      }
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0094",
+      "date": "2019-12-12",
+      "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0331",
+      "date": "2020-10-16",
+      "title": "El balance del INDH a un año del estallido social"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 13.423491291003302,
+    "peak_memory_mb": 0.6043853759765625,
+    "avg_edge_coherence": 0.5643618054249707,
+    "api_cost_usd": 0.0033243749999999996
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of the events leading up to the estallido social in Chile, with a focus on the role of the Instituto Nacional de Derechos Humanos (INDH) and its efforts to document human rights violations. However, the transition between sections could be smoother, and some details, such as the specific actions taken by the government and the reactions of the students, are not fully explored.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:20:36.778334+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:20:36.778738+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0094",
+        "date": "2019-12-12",
+        "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0331",
+        "date": "2020-10-16",
+        "title": "El balance del INDH a un año del estallido social"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0010",
+        "target": "art_0014",
+        "coherence_score": 0.607045
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0024",
+        "coherence_score": 0.697683
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0028",
+        "coherence_score": 0.634773
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0042",
+        "coherence_score": 0.547537
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0047",
+        "coherence_score": 0.539588
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0056",
+        "coherence_score": 0.455158
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0070",
+        "coherence_score": 0.484779
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0080",
+        "coherence_score": 0.555962
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0094",
+        "coherence_score": 0.48056
+      },
+      {
+        "source": "art_0094",
+        "target": "art_0135",
+        "coherence_score": 0.615186
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0182",
+        "coherence_score": 0.576893
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0191",
+        "coherence_score": 0.655501
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0196",
+        "coherence_score": 0.568665
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0224",
+        "coherence_score": 0.509415
+      },
+      {
+        "source": "art_0224",
+        "target": "art_0280",
+        "coherence_score": 0.483308
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0322",
+        "coherence_score": 0.547704
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0331",
+        "coherence_score": 0.634394
+      }
+    ]
+  }
+}

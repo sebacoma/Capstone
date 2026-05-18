@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0550",
+      "date": "2021-11-17",
+      "title": "Algunos datos básicos que debes saber sobre Chile"
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0601",
+      "date": "2022-03-26",
+      "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+    },
+    {
+      "id": "art_0606",
+      "date": "2022-04-13",
+      "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+    },
+    {
+      "id": "art_0620",
+      "date": "2022-05-23",
+      "title": "Entre personajes pop y estallido social: la historia tras ..."
+    },
+    {
+      "id": "art_0648",
+      "date": "2022-08-05",
+      "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+    },
+    {
+      "id": "art_0662",
+      "date": "2022-09-03",
+      "title": "Pablo Altikes y la polémica que sacude a arquitectos"
+    },
+    {
+      "id": "art_0666",
+      "date": "2022-09-05",
+      "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+    },
+    {
+      "id": "art_0675",
+      "date": "2022-09-22",
+      "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0694",
+      "date": "2022-10-16",
+      "title": "Iván Poduje a tres años del 18-O: “Los que mandaban ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 13.020918791997246,
+    "peak_memory_mb": 0.3833913803100586,
+    "avg_edge_coherence": 0.5854340370963601,
+    "api_cost_usd": 0.0021092249999999997
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of the 2019 Chilean protests, providing specific details about the events and their impact on Santiago. However, some transitions between ideas could be smoother, and occasional statements feel somewhat disconnected from the rest of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:22:40.456655+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:22:40.456750+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0550",
+        "date": "2021-11-17",
+        "title": "Algunos datos básicos que debes saber sobre Chile"
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0601",
+        "date": "2022-03-26",
+        "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+      },
+      {
+        "id": "art_0606",
+        "date": "2022-04-13",
+        "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+      },
+      {
+        "id": "art_0620",
+        "date": "2022-05-23",
+        "title": "Entre personajes pop y estallido social: la historia tras ..."
+      },
+      {
+        "id": "art_0648",
+        "date": "2022-08-05",
+        "title": "Roberto Méndez: “En Chile se libra un conflicto de ..."
+      },
+      {
+        "id": "art_0662",
+        "date": "2022-09-03",
+        "title": "Pablo Altikes y la polémica que sacude a arquitectos"
+      },
+      {
+        "id": "art_0666",
+        "date": "2022-09-05",
+        "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+      },
+      {
+        "id": "art_0675",
+        "date": "2022-09-22",
+        "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0694",
+        "date": "2022-10-16",
+        "title": "Iván Poduje a tres años del 18-O: “Los que mandaban ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0489",
+        "target": "art_0494",
+        "coherence_score": 0.448878
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0503",
+        "coherence_score": 0.583797
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0508",
+        "coherence_score": 0.627647
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0531",
+        "coherence_score": 0.639506
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0536",
+        "coherence_score": 0.684692
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0550",
+        "coherence_score": 0.612338
+      },
+      {
+        "source": "art_0550",
+        "target": "art_0559",
+        "coherence_score": 0.520704
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0582",
+        "coherence_score": 0.57431
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0601",
+        "coherence_score": 0.500131
+      },
+      {
+        "source": "art_0601",
+        "target": "art_0606",
+        "coherence_score": 0.528483
+      },
+      {
+        "source": "art_0606",
+        "target": "art_0620",
+        "coherence_score": 0.537999
+      },
+      {
+        "source": "art_0620",
+        "target": "art_0648",
+        "coherence_score": 0.575293
+      },
+      {
+        "source": "art_0648",
+        "target": "art_0662",
+        "coherence_score": 0.57212
+      },
+      {
+        "source": "art_0662",
+        "target": "art_0666",
+        "coherence_score": 0.523112
+      },
+      {
+        "source": "art_0666",
+        "target": "art_0675",
+        "coherence_score": 0.688425
+      },
+      {
+        "source": "art_0675",
+        "target": "art_0680",
+        "coherence_score": 0.758864
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0694",
+        "coherence_score": 0.576079
+      }
+    ]
+  }
+}

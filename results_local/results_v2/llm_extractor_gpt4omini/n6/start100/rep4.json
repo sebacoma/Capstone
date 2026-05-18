@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.594968499965034,
+    "peak_memory_mb": 0.20966529846191406,
+    "avg_edge_coherence": 0.6104355335235596,
+    "api_cost_usd": 0.0007003125
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured argument, exploring various aspects of Chile's current political situation and its historical context. However, some transitions between ideas could be smoother, and a few points feel slightly disconnected from the overall flow.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:13:32.608505+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:13:32.608718+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0489",
+        "target": "art_0503",
+        "coherence_score": 0.639319
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0513",
+        "coherence_score": 0.529926
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0522",
+        "coherence_score": 0.598931
+      },
+      {
+        "source": "art_0522",
+        "target": "art_0536",
+        "coherence_score": 0.667456
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0540",
+        "coherence_score": 0.616545
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model": "mistral",
+  "n": 12,
+  "start_index": 0,
+  "seed": 1,
+  "selected_ids": [
+    "art_0480",
+    "art_0485",
+    "art_0485",
+    "art_0503",
+    "art_0503",
+    "art_0536",
+    "art_0536",
+    "art_0536",
+    "art_0578",
+    "art_0578",
+    "art_0615",
+    "art_0615"
+  ],
+  "justification": "Los artículos seleccionados discuten diferentes aspectos relacionados con los movimientos sociales y la violencia en Cuba, Colombia y Chile, así como la regulación de comisiones en la Convención Constitucional chilena.",
+  "api_cost_usd": 0.0
+}

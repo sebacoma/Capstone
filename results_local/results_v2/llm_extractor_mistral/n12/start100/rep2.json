@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 37.26021920796484,
+    "peak_memory_mb": 0.27580738067626953,
+    "avg_edge_coherence": 0.8507288965311918,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple instances of the term 'estallido social' in different contexts, which suggests a lack of coherence. However, the overall structure and flow of the article appear to be logical and easy to follow, indicating a moderate level of coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:44:04.731726+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:44:04.731862+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0475",
+        "target": "art_0475",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0480",
+        "coherence_score": 0.625508
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0480",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0489",
+        "coherence_score": 0.69728
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0489",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0517",
+        "coherence_score": 0.664905
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0517",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0587",
+        "coherence_score": 0.773352
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0587",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0610",
+        "coherence_score": 0.596973
+      },
+      {
+        "source": "art_0610",
+        "target": "art_0610",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

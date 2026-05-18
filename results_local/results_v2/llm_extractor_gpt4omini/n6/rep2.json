@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.545220542000607,
+    "peak_memory_mb": 0.352783203125,
+    "avg_edge_coherence": 0.607224452495575,
+    "api_cost_usd": 0.0019093875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a comprehensive overview of the Chilean protests and their impact on the country, providing specific details such as numbers and dates. However, some transitions between paragraphs could be smoother, and occasional sentences feel slightly disconnected from the rest of the text.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:11:31.281353+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:11:31.281485+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0010",
+        "target": "art_0014",
+        "coherence_score": 0.607045
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0042",
+        "coherence_score": 0.66943
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0070",
+        "coherence_score": 0.588519
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0135",
+        "coherence_score": 0.610379
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0191",
+        "coherence_score": 0.560749
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+method,judge_mean,judge_std,edge_coh_mean,wall_time_mean,wall_time_total,memory_mean,api_cost_total,experiments,failures
+llm_extractor_gemma3,7.878,0.714,0.7079,23.5274,964.6214,0.3729,0.0,41,0
+llm_extractor_gpt4omini,7.9828,0.439,0.5774,7.9358,460.2791,0.5087,0.1086,58,0
+llm_extractor_llama32,7.9545,0.3015,0.7208,8.912,401.0378,0.325,0.0,44,1
+llm_extractor_mistral,7.7692,0.8629,0.6248,22.9385,596.4023,0.275,0.0,26,0
+maps_algorithmic,7.8333,0.5774,0.581,0.3437,4.125,0.8861,0.0,12,0
+trails_algorithmic,8.0,0.0,0.6943,0.0189,0.2272,0.3259,0.0,12,0
