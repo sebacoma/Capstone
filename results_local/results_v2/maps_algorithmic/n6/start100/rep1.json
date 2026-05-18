@@ -1,0 +1,120 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.2397851669229567,
+    "peak_memory_mb": 0.3346061706542969,
+    "avg_edge_coherence": 0.6338535428047181,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics such as politics, literature and personal opinions without a clear connection or transition. The coherence score could be higher if the narrative was more cohesive and logically connected.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:08:44.135785+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:08:44.136024+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0471",
+        "coherence_score": 0.686235
+      },
+      {
+        "source": "art_0466",
+        "target": "art_0480",
+        "coherence_score": 0.672998
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0480",
+        "coherence_score": 0.706572
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0494",
+        "coherence_score": 0.565017
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0503",
+        "coherence_score": 0.583797
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0508",
+        "coherence_score": 0.627647
+      }
+    ]
+  }
+}

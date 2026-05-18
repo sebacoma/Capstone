@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.374471083981916,
+    "peak_memory_mb": 0.23978519439697266,
+    "avg_edge_coherence": 0.9323322989723899,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative has some inconsistencies and lacks specific details, but overall it presents a clear structure and flow, making it easy to follow the events described. However, the lack of concrete data and quotes from relevant sources reduces its credibility and coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:17:38.531620+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T14:17:38.531671+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0587",
+        "coherence_score": 0.658683
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0610",
+        "coherence_score": 0.596973
+      }
+    ]
+  }
+}

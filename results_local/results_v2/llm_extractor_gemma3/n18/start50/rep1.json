@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0378",
+      "date": "2020-12-07",
+      "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+    },
+    {
+      "id": "art_0401",
+      "date": "2021-01-27",
+      "title": "Operadora de heladería Bravissimo solicita la quiebra"
+    },
+    {
+      "id": "art_0457",
+      "date": "2021-06-01",
+      "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 27.32368479098659,
+    "peak_memory_mb": 0.5976696014404297,
+    "avg_edge_coherence": 0.8016373357352089,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives from different candidates, which is coherent and logical. However, some transitions between ideas could be smoother, resulting in a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:14:01.557149+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:14:01.557194+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0378",
+        "date": "2020-12-07",
+        "title": "Contigo en la Mañana de Chilevisión gana como el ..."
+      },
+      {
+        "id": "art_0401",
+        "date": "2021-01-27",
+        "title": "Operadora de heladería Bravissimo solicita la quiebra"
+      },
+      {
+        "id": "art_0457",
+        "date": "2021-06-01",
+        "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0252",
+        "target": "art_0266",
+        "coherence_score": 0.472383
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0270",
+        "coherence_score": 0.670127
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0280",
+        "coherence_score": 0.507712
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0308",
+        "coherence_score": 0.520772
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0308",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0378",
+        "coherence_score": 0.588291
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0378",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0378",
+        "target": "art_0401",
+        "coherence_score": 0.517215
+      },
+      {
+        "source": "art_0401",
+        "target": "art_0457",
+        "coherence_score": 0.649955
+      },
+      {
+        "source": "art_0457",
+        "target": "art_0471",
+        "coherence_score": 0.701379
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0471",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

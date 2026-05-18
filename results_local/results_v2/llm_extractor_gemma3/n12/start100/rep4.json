@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 24.57911337504629,
+    "peak_memory_mb": 0.25258636474609375,
+    "avg_edge_coherence": 0.7626252716237848,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the experiences of multiple victims of lesiones oculares in Colombia, providing a clear and coherent structure to the story. However, some transitions between sections could be smoother, and additional context or depth in certain areas might enhance the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:03:32.366700+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:03:32.366886+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0475",
+        "target": "art_0475",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0480",
+        "coherence_score": 0.625508
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0485",
+        "coherence_score": 0.673031
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0485",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0522",
+        "coherence_score": 0.605506
+      },
+      {
+        "source": "art_0522",
+        "target": "art_0522",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0522",
+        "target": "art_0536",
+        "coherence_score": 0.667456
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0554",
+        "coherence_score": 0.639583
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0573",
+        "coherence_score": 0.668211
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0573",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0615",
+        "coherence_score": 0.509584
+      }
+    ]
+  }
+}

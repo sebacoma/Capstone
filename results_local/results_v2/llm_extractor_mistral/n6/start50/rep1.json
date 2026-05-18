@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 22.21507716702763,
+    "peak_memory_mb": 0.18529415130615234,
+    "avg_edge_coherence": 0.48398213982582095,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and organized structure, effectively conveying the struggles and challenges faced by individuals who suffered trauma ocular during the Chilean social unrest. However, some minor inconsistencies and lack of depth in certain aspects prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:27:26.193748+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:27:26.193829+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0238",
+        "target": "art_0247",
+        "coherence_score": 0.370093
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0252",
+        "coherence_score": 0.4832
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0261",
+        "coherence_score": 0.497555
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0266",
+        "coherence_score": 0.619869
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0280",
+        "coherence_score": 0.449194
+      }
+    ]
+  }
+}

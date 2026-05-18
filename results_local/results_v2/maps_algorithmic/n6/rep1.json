@@ -1,0 +1,155 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0005",
+      "date": "2019-11-15",
+      "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+    },
+    {
+      "id": "art_0066",
+      "date": "2019-12-04",
+      "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+    },
+    {
+      "id": "art_0094",
+      "date": "2019-12-12",
+      "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 1.781159917009063,
+    "peak_memory_mb": 1.9771690368652344,
+    "avg_edge_coherence": 0.6006335437297821,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 6,
+    "justification": "The narrative is coherent in its analysis of the Chilean crisis, but lacks depth and nuance in its portrayal of the causes and consequences of the protests. The use of metaphors (e.g., comparing Chile to an airplane) adds a layer of complexity, but also detracts from the overall coherence of the argument.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:08:31.737969+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:08:31.738127+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0005",
+        "date": "2019-11-15",
+        "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+      },
+      {
+        "id": "art_0066",
+        "date": "2019-12-04",
+        "title": "Cifras por región de los controles de detención tras 18-0: 5,7% de los imputados ha quedado en prisión preventiva"
+      },
+      {
+        "id": "art_0094",
+        "date": "2019-12-12",
+        "title": "Piñera reconoce que estallido social \"no lo vi venir\" y ..."
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0005",
+        "coherence_score": 0.674997
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0066",
+        "coherence_score": 0.290286
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0094",
+        "coherence_score": 0.55808
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0098",
+        "coherence_score": 0.603196
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0066",
+        "coherence_score": 0.337761
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0094",
+        "coherence_score": 0.645255
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0098",
+        "coherence_score": 0.638598
+      },
+      {
+        "source": "art_0066",
+        "target": "art_0094",
+        "coherence_score": 0.498376
+      },
+      {
+        "source": "art_0066",
+        "target": "art_0098",
+        "coherence_score": 0.395288
+      },
+      {
+        "source": "art_0066",
+        "target": "art_0112",
+        "coherence_score": 0.469187
+      },
+      {
+        "source": "art_0094",
+        "target": "art_0098",
+        "coherence_score": 0.702013
+      },
+      {
+        "source": "art_0094",
+        "target": "art_0112",
+        "coherence_score": 0.709815
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0112",
+        "coherence_score": 0.790022
+      }
+    ]
+  }
+}

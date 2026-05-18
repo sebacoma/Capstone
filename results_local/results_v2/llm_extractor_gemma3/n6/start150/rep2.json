@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 23.274934791959822,
+    "peak_memory_mb": 0.20813274383544922,
+    "avg_edge_coherence": 0.5624579906463623,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple storylines about Chile's constitutional process, including the new commission of experts, the previous failed attempt, and the upcoming election. However, these threads are not consistently woven together, resulting in a somewhat disjointed narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:51:25.532694+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:51:25.532952+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0722",
+        "target": "art_0731",
+        "coherence_score": 0.460148
+      },
+      {
+        "source": "art_0731",
+        "target": "art_0745",
+        "coherence_score": 0.530913
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0750",
+        "coherence_score": 0.531798
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0759",
+        "coherence_score": 0.583598
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0769",
+        "coherence_score": 0.705834
+      }
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0550",
+      "date": "2021-11-17",
+      "title": "Algunos datos básicos que debes saber sobre Chile"
+    },
+    {
+      "id": "art_0564",
+      "date": "2021-12-15",
+      "title": "Â¿Chile, en peligro?"
+    },
+    {
+      "id": "art_0578",
+      "date": "2022-01-14",
+      "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0596",
+      "date": "2022-03-15",
+      "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+    },
+    {
+      "id": "art_0606",
+      "date": "2022-04-13",
+      "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.22559995902702212,
+    "peak_memory_mb": 0.7969636917114258,
+    "avg_edge_coherence": 0.6063677475732916,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, effectively conveying the experiences of several individuals who suffered from traumas oculares during protests in Colombia. However, some minor inconsistencies and transitions between stories could have been improved for a higher coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:34.247490+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:09:34.247659+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0550",
+        "date": "2021-11-17",
+        "title": "Algunos datos básicos que debes saber sobre Chile"
+      },
+      {
+        "id": "art_0564",
+        "date": "2021-12-15",
+        "title": "Â¿Chile, en peligro?"
+      },
+      {
+        "id": "art_0578",
+        "date": "2022-01-14",
+        "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0596",
+        "date": "2022-03-15",
+        "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+      },
+      {
+        "id": "art_0606",
+        "date": "2022-04-13",
+        "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0471",
+        "coherence_score": 0.686235
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0489",
+        "coherence_score": 0.680468
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0499",
+        "coherence_score": 0.647576
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0508",
+        "coherence_score": 0.626386
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0513",
+        "coherence_score": 0.533474
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0517",
+        "coherence_score": 0.684921
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0527",
+        "coherence_score": 0.650848
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0531",
+        "coherence_score": 0.639506
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0517",
+        "coherence_score": 0.541563
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0527",
+        "coherence_score": 0.597875
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0531",
+        "coherence_score": 0.573169
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0545",
+        "coherence_score": 0.609774
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0527",
+        "coherence_score": 0.575025
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0531",
+        "coherence_score": 0.626971
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0545",
+        "coherence_score": 0.543772
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0531",
+        "coherence_score": 0.651026
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0545",
+        "coherence_score": 0.569031
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0550",
+        "coherence_score": 0.42481
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0545",
+        "coherence_score": 0.58091
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0550",
+        "coherence_score": 0.520816
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0550",
+        "coherence_score": 0.402656
+      },
+      {
+        "source": "art_0550",
+        "target": "art_0564",
+        "coherence_score": 0.675708
+      },
+      {
+        "source": "art_0564",
+        "target": "art_0578",
+        "coherence_score": 0.605828
+      },
+      {
+        "source": "art_0578",
+        "target": "art_0582",
+        "coherence_score": 0.593192
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0596",
+        "coherence_score": 0.613896
+      },
+      {
+        "source": "art_0596",
+        "target": "art_0606",
+        "coherence_score": 0.641858
+      },
+      {
+        "source": "art_0606",
+        "target": "art_0610",
+        "coherence_score": 0.613751
+      },
+      {
+        "source": "art_0606",
+        "target": "art_0615",
+        "coherence_score": 0.559193
+      },
+      {
+        "source": "art_0610",
+        "target": "art_0615",
+        "coherence_score": 0.638698
+      }
+    ]
+  }
+}

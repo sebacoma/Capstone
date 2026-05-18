@@ -1,0 +1,207 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 22.934394416981377,
+    "peak_memory_mb": 0.5584478378295898,
+    "avg_edge_coherence": 0.78841172023253,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative evokes empathy and understanding for the author's experiences with gordofobia, but could be more effective in conveying a clear message or theme.",
+    "contextualization_score": 6,
+    "emotional_resonance_score": 7,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:59:35.591945+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T16:59:35.592022+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0243",
+        "coherence_score": 0.718322
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0261",
+        "coherence_score": 0.703381
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0275",
+        "coherence_score": 0.559855
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0322",
+        "coherence_score": 0.531247
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0350",
+        "coherence_score": 0.580537
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0382",
+        "coherence_score": 0.579187
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0382",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0382",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0382",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0382",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0382",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

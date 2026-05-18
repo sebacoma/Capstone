@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 4.711178292054683,
+    "peak_memory_mb": 0.19425010681152344,
+    "avg_edge_coherence": 0.6882466912269593,
+    "api_cost_usd": 0.000500175
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El reportaje presenta una narrativa coherente y bien estructurada, con un tema claro y consecuencias claras para las víctimas de trauma ocular. Sin embargo, la profundidad y el análisis de algunos aspectos del tema pueden haber sido más profundos y detallados.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:12:18.214832+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:12:18.215004+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0257",
+        "coherence_score": 0.783152
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0261",
+        "coherence_score": 0.693078
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0280",
+        "coherence_score": 0.61955
+      }
+    ]
+  }
+}

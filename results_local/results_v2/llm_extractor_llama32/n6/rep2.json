@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0108",
+      "date": "2019-12-19",
+      "title": "Luis Montes y la exposición que el estallido social postergó"
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0219",
+      "date": "2020-02-25",
+      "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.894826416973956,
+    "peak_memory_mb": 0.3461599349975586,
+    "avg_edge_coherence": 0.6083396911621094,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and cohesive argument on the impact of the pandemic on Chile's society and politics, with a strong feminist perspective. However, some transitions between ideas could be smoother, leading to a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:10:33.830024+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T14:10:33.830060+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0108",
+        "date": "2019-12-19",
+        "title": "Luis Montes y la exposición que el estallido social postergó"
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0219",
+        "date": "2020-02-25",
+        "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0024",
+        "target": "art_0108",
+        "coherence_score": 0.480243
+      },
+      {
+        "source": "art_0108",
+        "target": "art_0196",
+        "coherence_score": 0.406377
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0196",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0219",
+        "coherence_score": 0.580158
+      },
+      {
+        "source": "art_0219",
+        "target": "art_0243",
+        "coherence_score": 0.57492
+      }
+    ]
+  }
+}

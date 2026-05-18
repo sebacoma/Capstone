@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.7693450830411166,
+    "peak_memory_mb": 0.20979022979736328,
+    "avg_edge_coherence": 0.586498212814331,
+    "api_cost_usd": 0.0006998625
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "La narrativa presenta una estructura clara y lógica, conectando eventos pasados con el presente y futuro de la Constitución chilena. Sin embargo, hay un pequeño saltamiento en el tiempo entre los eventos del 15-N y el Plebiscito constitucional, lo que reduce su coherencia.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:13:21.014957+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:13:21.015047+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0480",
+        "target": "art_0489",
+        "coherence_score": 0.69728
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0494",
+        "coherence_score": 0.448878
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0513",
+        "coherence_score": 0.519945
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0522",
+        "coherence_score": 0.598931
+      },
+      {
+        "source": "art_0522",
+        "target": "art_0536",
+        "coherence_score": 0.667456
+      }
+    ]
+  }
+}

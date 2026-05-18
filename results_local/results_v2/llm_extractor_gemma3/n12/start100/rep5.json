@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0587",
+      "date": "2022-02-22",
+      "title": "inician campaña para salvar a bar El Irlandés"
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    },
+    {
+      "id": "art_0615",
+      "date": "2022-05-13",
+      "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 24.26784104097169,
+    "peak_memory_mb": 0.2603492736816406,
+    "avg_edge_coherence": 0.7510844794186678,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, effectively conveying the experiences of several individuals who suffered from traumas oculares during protests in Colombia. However, some minor inconsistencies and transitions between stories could have been improved for a higher coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:04:04.725109+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:04:04.725394+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0587",
+        "date": "2022-02-22",
+        "title": "inician campaña para salvar a bar El Irlandés"
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      },
+      {
+        "id": "art_0615",
+        "date": "2022-05-13",
+        "title": "Las víctimas del paro se levantan: “Aunque nos quiten los ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0540",
+        "target": "art_0559",
+        "coherence_score": 0.593903
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0559",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0568",
+        "coherence_score": 0.555967
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0568",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0573",
+        "coherence_score": 0.679146
+      },
+      {
+        "source": "art_0573",
+        "target": "art_0582",
+        "coherence_score": 0.606623
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0582",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0587",
+        "coherence_score": 0.59062
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0587",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0587",
+        "target": "art_0610",
+        "coherence_score": 0.596973
+      },
+      {
+        "source": "art_0610",
+        "target": "art_0615",
+        "coherence_score": 0.638698
+      }
+    ]
+  }
+}

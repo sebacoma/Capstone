@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.6797644580947235,
+    "peak_memory_mb": 0.44561290740966797,
+    "avg_edge_coherence": 0.7563955160704526,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics and events without clear connections or transitions. The coherence score could be higher if the narrative were more cohesive and logically flowing.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:14:46.067789+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T14:14:46.067934+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0033",
+        "target": "art_0033",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0047",
+        "coherence_score": 0.603801
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0047",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0052",
+        "coherence_score": 0.530854
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0098",
+        "coherence_score": 0.658693
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0149",
+        "coherence_score": 0.52483
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0149",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0182",
+        "coherence_score": 0.499232
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0215",
+        "coherence_score": 0.502941
+      },
+      {
+        "source": "art_0215",
+        "target": "art_0215",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

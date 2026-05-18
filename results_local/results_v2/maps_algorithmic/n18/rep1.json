@@ -1,0 +1,425 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0005",
+      "date": "2019-11-15",
+      "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+    },
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0089",
+      "date": "2019-12-10",
+      "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    },
+    {
+      "id": "art_0122",
+      "date": "2019-12-23",
+      "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+    },
+    {
+      "id": "art_0131",
+      "date": "2019-12-28",
+      "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0163",
+      "date": "2020-01-18",
+      "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+    },
+    {
+      "id": "art_0187",
+      "date": "2020-02-03",
+      "title": "Presidente de la Cámara defiende vacaciones de diputados: \"Le hemos respondido a Chile\""
+    },
+    {
+      "id": "art_0196",
+      "date": "2020-02-06",
+      "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+    },
+    {
+      "id": "art_0210",
+      "date": "2020-02-19",
+      "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.19822291599120945,
+    "peak_memory_mb": 2.1387157440185547,
+    "avg_edge_coherence": 0.5629719886928797,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from Luis Escobar, a Chilean priest, which adds depth to the story. However, some sections feel disconnected or lack clear connections between ideas, resulting in a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:21.738856+00:00",
+    "num_documents": 17
+  },
+  "timestamp": "2026-05-18T13:09:21.739007+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0005",
+        "date": "2019-11-15",
+        "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+      },
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0089",
+        "date": "2019-12-10",
+        "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      },
+      {
+        "id": "art_0122",
+        "date": "2019-12-23",
+        "title": "Bárbara Riveros: \"Se tuvo que llegar a este nivel de ..."
+      },
+      {
+        "id": "art_0131",
+        "date": "2019-12-28",
+        "title": "Pablo Mackenna: “Este país podía cambiar y no se hizo ..."
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0163",
+        "date": "2020-01-18",
+        "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+      },
+      {
+        "id": "art_0187",
+        "date": "2020-02-03",
+        "title": "Presidente de la Cámara defiende vacaciones de diputados: \"Le hemos respondido a Chile\""
+      },
+      {
+        "id": "art_0196",
+        "date": "2020-02-06",
+        "title": "[Foto] Brutal: Mapa revela las comunas con más golpizas ..."
+      },
+      {
+        "id": "art_0210",
+        "date": "2020-02-19",
+        "title": "[Fotos] Destruyeron afiches e intervenciones: Así amaneció ..."
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0005",
+        "coherence_score": 0.674997
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0019",
+        "coherence_score": 0.657078
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0042",
+        "coherence_score": 0.534669
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0080",
+        "coherence_score": 0.45575
+      },
+      {
+        "source": "art_0001",
+        "target": "art_0089",
+        "coherence_score": 0.604325
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0019",
+        "coherence_score": 0.636384
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0042",
+        "coherence_score": 0.509533
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0080",
+        "coherence_score": 0.438019
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0089",
+        "coherence_score": 0.558621
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0042",
+        "coherence_score": 0.503603
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0080",
+        "coherence_score": 0.432154
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0089",
+        "coherence_score": 0.465853
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0080",
+        "coherence_score": 0.517317
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0089",
+        "coherence_score": 0.509816
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0112",
+        "coherence_score": 0.715802
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0122",
+        "coherence_score": 0.597715
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0089",
+        "coherence_score": 0.503966
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0112",
+        "coherence_score": 0.63974
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0122",
+        "coherence_score": 0.532286
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0131",
+        "coherence_score": 0.568127
+      },
+      {
+        "source": "art_0089",
+        "target": "art_0112",
+        "coherence_score": 0.605561
+      },
+      {
+        "source": "art_0089",
+        "target": "art_0122",
+        "coherence_score": 0.588012
+      },
+      {
+        "source": "art_0089",
+        "target": "art_0131",
+        "coherence_score": 0.520379
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0122",
+        "coherence_score": 0.730891
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0131",
+        "coherence_score": 0.704196
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0149",
+        "coherence_score": 0.575671
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0163",
+        "coherence_score": 0.775273
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0131",
+        "coherence_score": 0.668818
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0149",
+        "coherence_score": 0.53561
+      },
+      {
+        "source": "art_0122",
+        "target": "art_0163",
+        "coherence_score": 0.723397
+      },
+      {
+        "source": "art_0131",
+        "target": "art_0149",
+        "coherence_score": 0.54028
+      },
+      {
+        "source": "art_0131",
+        "target": "art_0163",
+        "coherence_score": 0.567701
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0163",
+        "coherence_score": 0.571129
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0187",
+        "coherence_score": 0.5624
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0196",
+        "coherence_score": 0.508429
+      },
+      {
+        "source": "art_0163",
+        "target": "art_0187",
+        "coherence_score": 0.615185
+      },
+      {
+        "source": "art_0163",
+        "target": "art_0196",
+        "coherence_score": 0.591051
+      },
+      {
+        "source": "art_0187",
+        "target": "art_0196",
+        "coherence_score": 0.490149
+      },
+      {
+        "source": "art_0187",
+        "target": "art_0210",
+        "coherence_score": 0.590608
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0210",
+        "coherence_score": 0.59474
+      },
+      {
+        "source": "art_0196",
+        "target": "art_0229",
+        "coherence_score": 0.52308
+      },
+      {
+        "source": "art_0210",
+        "target": "art_0229",
+        "coherence_score": 0.617962
+      },
+      {
+        "source": "art_0210",
+        "target": "art_0238",
+        "coherence_score": 0.447125
+      },
+      {
+        "source": "art_0229",
+        "target": "art_0238",
+        "coherence_score": 0.366478
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0247",
+        "coherence_score": 0.370093
+      }
+    ]
+  }
+}

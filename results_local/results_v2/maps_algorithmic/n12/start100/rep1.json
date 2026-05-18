@@ -1,0 +1,220 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0559",
+      "date": "2021-11-29",
+      "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0573",
+      "date": "2022-01-03",
+      "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.19909658294636756,
+    "peak_memory_mb": 0.45496177673339844,
+    "avg_edge_coherence": 0.6389660781080072,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of the events surrounding the Latam airline crisis, with a clear beginning, middle, and end. However, some minor inconsistencies and transitions between paragraphs could be improved to increase coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:09.026176+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:09:09.026260+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0559",
+        "date": "2021-11-29",
+        "title": "Wos, el rapero que convirtiÃ³ su mÃºsica en grito polÃ­tico: âHay que entender por quÃ© a los jÃ³venes les interpela lo que les interpelaâ"
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0573",
+        "date": "2022-01-03",
+        "title": "La dura crítica que lanzó Jorge Said Yarur por el caso Latam"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0471",
+        "coherence_score": 0.686235
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0485",
+        "coherence_score": 0.7343
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0489",
+        "coherence_score": 0.680468
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0489",
+        "coherence_score": 0.672011
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0499",
+        "coherence_score": 0.647576
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0508",
+        "coherence_score": 0.626386
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0527",
+        "coherence_score": 0.650848
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0531",
+        "coherence_score": 0.639506
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0531",
+        "coherence_score": 0.651026
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0545",
+        "coherence_score": 0.569031
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0545",
+        "coherence_score": 0.58091
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0559",
+        "coherence_score": 0.544221
+      },
+      {
+        "source": "art_0559",
+        "target": "art_0568",
+        "coherence_score": 0.555967
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0573",
+        "coherence_score": 0.679146
+      }
+    ]
+  }
+}

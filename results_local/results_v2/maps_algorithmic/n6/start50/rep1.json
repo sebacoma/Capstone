@@ -1,0 +1,120 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.271104707964696,
+    "peak_memory_mb": 0.37047672271728516,
+    "avg_edge_coherence": 0.5113829910755158,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives from different characters, which adds depth to the story and highlights the complexities of the situation. However, some transitions between scenes and conversations could be smoother, leading to a slight decrease in coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:08:37.931861+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:08:37.931915+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0233",
+        "target": "art_0247",
+        "coherence_score": 0.539198
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0247",
+        "coherence_score": 0.370093
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0257",
+        "coherence_score": 0.571806
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0270",
+        "coherence_score": 0.602028
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0275",
+        "coherence_score": 0.412646
+      }
+    ]
+  }
+}

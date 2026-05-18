@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    },
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 43.79409645893611,
+    "peak_memory_mb": 0.49150943756103516,
+    "avg_edge_coherence": 0.8597890734672546,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 6,
+    "justification": "The narrative presents multiple perspectives and opinions on various topics, including politics, security, and social issues, which can make it challenging to follow and evaluate its coherence. However, the overall tone and structure of the narrative suggest a critical analysis of the current political situation in Chile.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:05:02.575212+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:05:02.575359+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      },
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0731",
+        "target": "art_0731",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0731",
+        "target": "art_0736",
+        "coherence_score": 0.499511
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0769",
+        "coherence_score": 0.633231
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0773",
+        "coherence_score": 0.653106
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0792",
+        "coherence_score": 0.671833
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0792",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0792",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

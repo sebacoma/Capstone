@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 23.48021420801524,
+    "peak_memory_mb": 0.26065731048583984,
+    "avg_edge_coherence": 0.7474156022071838,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple sources and quotes from different experts, which adds to its coherence. However, some repetition in the text and lack of clear transitions between paragraphs slightly detract from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:58:51.869705+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T16:58:51.869865+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0252",
+        "coherence_score": 0.465553
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0270",
+        "coherence_score": 0.549218
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0303",
+        "coherence_score": 0.583035
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0322",
+        "coherence_score": 0.650176
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0340",
+        "coherence_score": 0.603557
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0373",
+        "coherence_score": 0.606725
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0392",
+        "coherence_score": 0.763307
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0392",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0392",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0392",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0392",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

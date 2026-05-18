@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0145",
+      "date": "2020-01-08",
+      "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+    },
+    {
+      "id": "art_0168",
+      "date": "2020-01-19",
+      "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 17.15152895799838,
+    "peak_memory_mb": 0.3702096939086914,
+    "avg_edge_coherence": 0.4912604331970215,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured overview of Latam's financial performance in 2019, highlighting its growth despite challenging market conditions. However, the coherence score is slightly lower due to the lack of explicit discussion on the impact of the coronavirus pandemic on Latam's future prospects.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:43:26.220345+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:43:26.220702+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0145",
+        "date": "2020-01-08",
+        "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+      },
+      {
+        "id": "art_0168",
+        "date": "2020-01-19",
+        "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0019",
+        "target": "art_0033",
+        "coherence_score": 0.577144
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0075",
+        "coherence_score": 0.379245
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0145",
+        "coherence_score": 0.506926
+      },
+      {
+        "source": "art_0145",
+        "target": "art_0168",
+        "coherence_score": 0.515938
+      },
+      {
+        "source": "art_0168",
+        "target": "art_0224",
+        "coherence_score": 0.47705
+      }
+    ]
+  }
+}

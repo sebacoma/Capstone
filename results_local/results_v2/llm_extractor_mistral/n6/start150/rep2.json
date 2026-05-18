@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 16.475139208021574,
+    "peak_memory_mb": 0.19257450103759766,
+    "avg_edge_coherence": 0.6472828388214111,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative has a clear structure and follows a logical flow, but it jumps abruptly between different topics such as Chile's constitutional process, Magdalena Piñera's statement, and Verónica Undurraga's inauguration of the commission of experts. The connections between these topics are not explicitly stated, resulting in a slightly disjointed reading experience.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:32:11.883249+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:32:11.883425+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0708",
+        "target": "art_0703",
+        "coherence_score": 0.511142
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0722",
+        "coherence_score": 0.534244
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0764",
+        "coherence_score": 0.574886
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0769",
+        "coherence_score": 0.616142
+      }
+    ]
+  }
+}

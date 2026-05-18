@@ -1,0 +1,287 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0182",
+      "date": "2020-01-27",
+      "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 7.432235374930315,
+    "peak_memory_mb": 0.5993547439575195,
+    "avg_edge_coherence": 0.8431214024038876
+  },
+  "judge": {},
+  "timestamp": "2026-05-18T12:59:25.262597+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0182",
+        "date": "2020-01-27",
+        "title": "la visita a Chile de Pablo Luna, el hijo de Pablo Zalaquett ..."
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0033",
+        "target": "art_0033",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0033",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0047",
+        "coherence_score": 0.603801
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0047",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0047",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0047",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0052",
+        "coherence_score": 0.530854
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0052",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0052",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0098",
+        "coherence_score": 0.658693
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0098",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0182",
+        "coherence_score": 0.613395
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0182",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0182",
+        "target": "art_0215",
+        "coherence_score": 0.502941
+      },
+      {
+        "source": "art_0215",
+        "target": "art_0215",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0215",
+        "target": "art_0396",
+        "coherence_score": 0.42338
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

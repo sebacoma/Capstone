@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0154",
+      "date": "2020-01-14",
+      "title": "El rearme de la Fuente Alemana tras las secuelas del ..."
+    },
+    {
+      "id": "art_0168",
+      "date": "2020-01-19",
+      "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 19.39276025001891,
+    "peak_memory_mb": 0.4585733413696289,
+    "avg_edge_coherence": 0.5191706955432892,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives on the Chilean Congress, including its increased activity since the economic crisis and the impact on public trust. However, the lack of a clear central theme or cohesive structure detracts from the overall coherence of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:10:21.983990+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T14:10:21.984604+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0154",
+        "date": "2020-01-14",
+        "title": "El rearme de la Fuente Alemana tras las secuelas del ..."
+      },
+      {
+        "id": "art_0168",
+        "date": "2020-01-19",
+        "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0019",
+        "target": "art_0033",
+        "coherence_score": 0.577144
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0038",
+        "coherence_score": 0.640468
+      },
+      {
+        "source": "art_0038",
+        "target": "art_0075",
+        "coherence_score": 0.351879
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0154",
+        "coherence_score": 0.459719
+      },
+      {
+        "source": "art_0154",
+        "target": "art_0168",
+        "coherence_score": 0.566644
+      }
+    ]
+  }
+}

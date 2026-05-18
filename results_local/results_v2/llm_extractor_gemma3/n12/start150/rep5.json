@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0834",
+      "date": "2023-07-10",
+      "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+    },
+    {
+      "id": "art_0834",
+      "date": "2023-07-10",
+      "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 48.047336791991256,
+    "peak_memory_mb": 0.4923219680786133,
+    "avg_edge_coherence": 0.7755858735604719,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 4,
+    "justification": "The narrative presents multiple conflicting ideas and opinions without clear resolution or synthesis, leading to a disjointed and confusing reading experience. The author's attempt to provide context and explanations for these contradictions is often superficial or incomplete, hindering the overall coherence of the text.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:08:06.370482+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T17:08:06.370579+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0834",
+        "date": "2023-07-10",
+        "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+      },
+      {
+        "id": "art_0834",
+        "date": "2023-07-10",
+        "title": "Encuesta Cadem revela que Evelyn Matthei es POR LEJOS la figura política mejor evaluada de Chile"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0703",
+        "target": "art_0769",
+        "coherence_score": 0.58374
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0792",
+        "coherence_score": 0.562702
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0792",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0792",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0801",
+        "coherence_score": 0.565223
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0834",
+        "coherence_score": 0.660286
+      },
+      {
+        "source": "art_0834",
+        "target": "art_0834",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0834",
+        "target": "art_0852",
+        "coherence_score": 0.552999
+      },
+      {
+        "source": "art_0852",
+        "target": "art_0857",
+        "coherence_score": 0.606495
+      },
+      {
+        "source": "art_0857",
+        "target": "art_0857",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

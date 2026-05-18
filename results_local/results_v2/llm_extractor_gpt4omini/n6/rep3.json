@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0112",
+      "date": "2019-12-21",
+      "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0163",
+      "date": "2020-01-18",
+      "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 8.525291291996837,
+    "peak_memory_mb": 0.35247039794921875,
+    "avg_edge_coherence": 0.607392430305481,
+    "api_cost_usd": 0.0019177875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical flow of ideas, with the author effectively exploring the connections between the pandemic, neoliberalism, and feminism. However, some transitions between sections feel abrupt, preventing the coherence score from reaching perfection.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:11:45.711622+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:11:45.711738+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0112",
+        "date": "2019-12-21",
+        "title": "Canciller Ribera y crisis: \"Lo que va a solucionar los problemas son las reformas al aparataje social, no a la Constitución\""
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0163",
+        "date": "2020-01-18",
+        "title": "De los $30 a la histórica caída de Piñera en la CEP: Los hitos de los tres meses de la crisis en que Chile \"cambió\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0014",
+        "target": "art_0080",
+        "coherence_score": 0.580505
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0112",
+        "coherence_score": 0.63974
+      },
+      {
+        "source": "art_0112",
+        "target": "art_0135",
+        "coherence_score": 0.660915
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0163",
+        "coherence_score": 0.60918
+      },
+      {
+        "source": "art_0163",
+        "target": "art_0243",
+        "coherence_score": 0.546622
+      }
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 27.262958000064828,
+    "peak_memory_mb": 0.599177360534668,
+    "avg_edge_coherence": 1.0,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives on the Chilean protests, including the government's response to the unrest and the impact on the economy. However, the story could benefit from a clearer structure and more cohesive connections between the different sections, which sometimes feel like separate news articles rather than a single narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:13:20.957820+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:13:20.958037+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0014",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

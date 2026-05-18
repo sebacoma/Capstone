@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0810",
+      "date": "2023-05-16",
+      "title": "Condenan a “profesor del torniquete” por daños a estación ..."
+    },
+    {
+      "id": "art_0820",
+      "date": "2023-06-08",
+      "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+    },
+    {
+      "id": "art_0848",
+      "date": "2023-08-02",
+      "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.93993141700048,
+    "peak_memory_mb": 0.4530143737792969,
+    "avg_edge_coherence": 0.5696106444705616,
+    "api_cost_usd": 0.0013612874999999998
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured argument about the crisis of housing in Chile, providing specific data and statistics to support its claims. However, the tone sometimes shifts between academic analysis and advocacy, which slightly detracts from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:18:58.736124+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:18:58.736229+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0810",
+        "date": "2023-05-16",
+        "title": "Condenan a “profesor del torniquete” por daños a estación ..."
+      },
+      {
+        "id": "art_0820",
+        "date": "2023-06-08",
+        "title": "Estuvo prófugo casi dos años: Detienen a imputado por quemar la iglesia de Carabineros durante el estallido social"
+      },
+      {
+        "id": "art_0848",
+        "date": "2023-08-02",
+        "title": "Sebastián Bowen: “La crisis de vivienda en Chile es como ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0736",
+        "coherence_score": 0.608695
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0741",
+        "coherence_score": 0.493892
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0750",
+        "coherence_score": 0.388686
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0764",
+        "coherence_score": 0.580467
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0787",
+        "coherence_score": 0.712517
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0806",
+        "coherence_score": 0.663886
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0810",
+        "coherence_score": 0.517471
+      },
+      {
+        "source": "art_0810",
+        "target": "art_0820",
+        "coherence_score": 0.631867
+      },
+      {
+        "source": "art_0820",
+        "target": "art_0848",
+        "coherence_score": 0.487386
+      }
+    ]
+  }
+}

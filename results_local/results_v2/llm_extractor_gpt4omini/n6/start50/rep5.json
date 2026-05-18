@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.186160916928202,
+    "peak_memory_mb": 0.1929645538330078,
+    "avg_edge_coherence": 0.5650714337825775,
+    "api_cost_usd": 0.00048442499999999997
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the consequences of the 2019 Chilean social unrest on individuals who suffered trauma ocular, providing a personal and relatable account of their experiences. However, the connection to the scientific study on the propagation of revueltas sociales using epidemiological models feels somewhat tenuous and could be further developed for maximum coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:12:53.876467+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:12:53.876505+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0266",
+        "coherence_score": 0.565188
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0270",
+        "coherence_score": 0.670128
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0280",
+        "coherence_score": 0.507712
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0284",
+        "coherence_score": 0.337219
+      }
+    ]
+  }
+}

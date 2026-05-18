@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.028516291058622,
+    "peak_memory_mb": 0.1798391342163086,
+    "avg_edge_coherence": 0.5683216094970703,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, following a logical flow from one topic to another. However, it jumps abruptly between different topics, such as the analysis of projects inadmissible or with great economic impact, and the discussion about the comité político ampliado, which could be seen as slightly disjointed.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:11:56.908068+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T14:11:56.908106+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0247",
+        "coherence_score": 0.539198
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0252",
+        "coherence_score": 0.4832
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0257",
+        "coherence_score": 0.532903
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0261",
+        "coherence_score": 0.693078
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0270",
+        "coherence_score": 0.593229
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0080",
+      "date": "2019-12-06",
+      "title": "Se registran incidentes en Providencia en una nueva ..."
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0126",
+      "date": "2019-12-27",
+      "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0229",
+      "date": "2020-03-05",
+      "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.396371459006332,
+    "peak_memory_mb": 0.4507732391357422,
+    "avg_edge_coherence": 0.5777241587638855,
+    "api_cost_usd": 0.002489775
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and distinct voice, with a strong opinion on various topics, but occasionally veers into tangential discussions or uses overly broad statements (e.g., 'La izquierda se llena la boca hablando de los pobres, los pobres, los pobres'). Overall, the coherence is good, but not perfect.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:15:24.099862+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:15:24.099904+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0080",
+        "date": "2019-12-06",
+        "title": "Se registran incidentes en Providencia en una nueva ..."
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0126",
+        "date": "2019-12-27",
+        "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0229",
+        "date": "2020-03-05",
+        "title": "Sacerdote exorcista por estallido social: “No hay duda de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0014",
+        "coherence_score": 0.609102
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0024",
+        "coherence_score": 0.697683
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0033",
+        "coherence_score": 0.52572
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0028",
+        "coherence_score": 0.578186
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0056",
+        "coherence_score": 0.46882
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0080",
+        "coherence_score": 0.497324
+      },
+      {
+        "source": "art_0080",
+        "target": "art_0103",
+        "coherence_score": 0.571671
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0126",
+        "coherence_score": 0.645086
+      },
+      {
+        "source": "art_0126",
+        "target": "art_0140",
+        "coherence_score": 0.611804
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0177",
+        "coherence_score": 0.607013
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0229",
+        "coherence_score": 0.542556
+      }
+    ]
+  }
+}

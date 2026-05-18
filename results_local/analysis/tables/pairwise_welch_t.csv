@@ -1,0 +1,16 @@
+t_stat,p_value,cohens_d,n_a,n_b,mean_a,mean_b,significant,method_a,method_b,metric,effect_size
+-0.8342,0.407408,-0.1841,41,58,7.878,7.9828,False,llm_extractor_gemma3,llm_extractor_gpt4omini,judge_score,negligible
+-0.6353,0.527972,-0.1414,41,44,7.878,7.9545,False,llm_extractor_gemma3,llm_extractor_llama32,judge_score,negligible
+0.5369,0.593896,0.1405,41,26,7.878,7.7692,False,llm_extractor_gemma3,llm_extractor_mistral,judge_score,negligible
+0.223,0.825615,0.0651,41,12,7.878,7.8333,False,llm_extractor_gemma3,maps_algorithmic,judge_score,negligible
+-1.0937,0.280631,-0.1929,41,12,7.878,8.0,False,llm_extractor_gemma3,trails_algorithmic,judge_score,negligible
+0.3844,0.70154,0.0731,58,44,7.9828,7.9545,False,llm_extractor_gpt4omini,llm_extractor_llama32,judge_score,negligible
+1.1944,0.241401,0.3554,58,26,7.9828,7.7692,False,llm_extractor_gpt4omini,llm_extractor_mistral,judge_score,small
+0.8473,0.411325,0.3219,58,12,7.9828,7.8333,False,llm_extractor_gpt4omini,maps_algorithmic,judge_score,small
+-0.2991,0.765925,-0.0429,58,12,7.9828,8.0,False,llm_extractor_gpt4omini,trails_algorithmic,judge_score,negligible
+1.0576,0.299093,0.322,44,26,7.9545,7.7692,False,llm_extractor_llama32,llm_extractor_mistral,judge_score,small
+0.7016,0.495578,0.3236,44,12,7.9545,7.8333,False,llm_extractor_llama32,maps_algorithmic,judge_score,small
+-1.0,0.322905,-0.1689,44,12,7.9545,8.0,False,llm_extractor_llama32,trails_algorithmic,judge_score,negligible
+-0.2699,0.789046,-0.0815,26,12,7.7692,7.8333,False,llm_extractor_mistral,maps_algorithmic,judge_score,negligible
+-1.3636,0.184836,-0.3209,26,12,7.7692,8.0,False,llm_extractor_mistral,trails_algorithmic,judge_score,small
+-1.0,0.338801,-0.4082,12,12,7.8333,8.0,False,maps_algorithmic,trails_algorithmic,judge_score,small

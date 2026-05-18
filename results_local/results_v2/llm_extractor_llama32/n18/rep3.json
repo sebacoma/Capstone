@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0219",
+      "date": "2020-02-25",
+      "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0359",
+      "date": "2020-10-21",
+      "title": "Navegando los 500 aÃ±os del estrecho de Magallanes"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 7.503007291001268,
+    "peak_memory_mb": 0.5991649627685547,
+    "avg_edge_coherence": 0.82806876652381,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the historical significance of Magallanes' voyage and its impact on indigenous populations in Chile. However, it could benefit from a more cohesive structure and clearer connections between ideas, resulting in a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:21:15.368592+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:21:15.368775+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0219",
+        "date": "2020-02-25",
+        "title": "Costo de seguros para empresas aumentan hasta 60% ..."
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0359",
+        "date": "2020-10-21",
+        "title": "Navegando los 500 aÃ±os del estrecho de Magallanes"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0075",
+        "target": "art_0140",
+        "coherence_score": 0.517277
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0219",
+        "coherence_score": 0.516914
+      },
+      {
+        "source": "art_0219",
+        "target": "art_0280",
+        "coherence_score": 0.452306
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0322",
+        "coherence_score": 0.547704
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0350",
+        "coherence_score": 0.580537
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0359",
+        "coherence_score": 0.462431
+      }
+    ]
+  }
+}

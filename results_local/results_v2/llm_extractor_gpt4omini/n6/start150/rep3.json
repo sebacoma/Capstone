@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.1152226669946685,
+    "peak_memory_mb": 0.20349502563476562,
+    "avg_edge_coherence": 0.6473361492156983,
+    "api_cost_usd": 0.0006239625
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple topics related to Chile's constitutional process, including the new constitution, the comission of experts, and the previous failed attempt. However, the coherence between these topics is not always clear, with abrupt transitions between them, which slightly reduces the overall coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:14:07.648024+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:14:07.648199+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0717",
+        "coherence_score": 0.681381
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0727",
+        "coherence_score": 0.66433
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0750",
+        "coherence_score": 0.601537
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0759",
+        "coherence_score": 0.583598
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0769",
+        "coherence_score": 0.705834
+      }
+    ]
+  }
+}

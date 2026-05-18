@@ -1,0 +1,298 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0568",
+      "date": "2021-12-20",
+      "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+    },
+    {
+      "id": "art_0657",
+      "date": "2022-08-27",
+      "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+    },
+    {
+      "id": "art_0657",
+      "date": "2022-08-27",
+      "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+    },
+    {
+      "id": "art_0657",
+      "date": "2022-08-27",
+      "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+    },
+    {
+      "id": "art_0671",
+      "date": "2022-09-21",
+      "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+    },
+    {
+      "id": "art_0671",
+      "date": "2022-09-21",
+      "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+    },
+    {
+      "id": "art_0671",
+      "date": "2022-09-21",
+      "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+    },
+    {
+      "id": "art_0685",
+      "date": "2022-10-13",
+      "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+    },
+    {
+      "id": "art_0685",
+      "date": "2022-10-13",
+      "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+    },
+    {
+      "id": "art_0685",
+      "date": "2022-10-13",
+      "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+    },
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 25.57545745896641,
+    "peak_memory_mb": 0.4552040100097656,
+    "avg_edge_coherence": 0.8663086540558759,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics without clear connections or transitions.",
+    "contextualization": null,
+    "inference": null,
+    "tone": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:23:58.323013+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:23:58.323246+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0568",
+        "date": "2021-12-20",
+        "title": "A 20 años del corralito: la medida que dio inicio al estallido ..."
+      },
+      {
+        "id": "art_0657",
+        "date": "2022-08-27",
+        "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+      },
+      {
+        "id": "art_0657",
+        "date": "2022-08-27",
+        "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+      },
+      {
+        "id": "art_0657",
+        "date": "2022-08-27",
+        "title": "Cristián Stewart, director de Idea País: «Defender el status ..."
+      },
+      {
+        "id": "art_0671",
+        "date": "2022-09-21",
+        "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+      },
+      {
+        "id": "art_0671",
+        "date": "2022-09-21",
+        "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+      },
+      {
+        "id": "art_0671",
+        "date": "2022-09-21",
+        "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+      },
+      {
+        "id": "art_0685",
+        "date": "2022-10-13",
+        "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+      },
+      {
+        "id": "art_0685",
+        "date": "2022-10-13",
+        "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+      },
+      {
+        "id": "art_0685",
+        "date": "2022-10-13",
+        "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+      },
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0540",
+        "target": "art_0568",
+        "coherence_score": 0.599412
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0568",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0568",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0568",
+        "target": "art_0657",
+        "coherence_score": 0.586638
+      },
+      {
+        "source": "art_0657",
+        "target": "art_0657",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0657",
+        "target": "art_0657",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0657",
+        "target": "art_0671",
+        "coherence_score": 0.65438
+      },
+      {
+        "source": "art_0671",
+        "target": "art_0671",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0671",
+        "target": "art_0671",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0671",
+        "target": "art_0685",
+        "coherence_score": 0.704267
+      },
+      {
+        "source": "art_0685",
+        "target": "art_0685",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0685",
+        "target": "art_0685",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0685",
+        "target": "art_0699",
+        "coherence_score": 0.627901
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0699",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0722",
+        "coherence_score": 0.55465
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

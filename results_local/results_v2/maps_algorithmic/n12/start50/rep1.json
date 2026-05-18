@@ -1,0 +1,236 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0289",
+      "date": "2020-08-08",
+      "title": "Mey Santamaría habla del episodio en programa de CHV ..."
+    },
+    {
+      "id": "art_0298",
+      "date": "2020-08-24",
+      "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.21742850006558,
+    "peak_memory_mb": 0.5563793182373047,
+    "avg_edge_coherence": 0.5334603786468506,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics such as the metro, Felipe Camiroaga's accident, and TV critics' opinions, lacking a clear thread throughout.",
+    "contextualization": null,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:02.785321+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:09:02.785418+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0289",
+        "date": "2020-08-08",
+        "title": "Mey Santamaría habla del episodio en programa de CHV ..."
+      },
+      {
+        "id": "art_0298",
+        "date": "2020-08-24",
+        "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0233",
+        "target": "art_0243",
+        "coherence_score": 0.718322
+      },
+      {
+        "source": "art_0233",
+        "target": "art_0247",
+        "coherence_score": 0.539198
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0247",
+        "coherence_score": 0.370093
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0252",
+        "coherence_score": 0.440866
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0252",
+        "coherence_score": 0.4832
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0261",
+        "coherence_score": 0.497555
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0275",
+        "coherence_score": 0.559855
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0280",
+        "coherence_score": 0.579785
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0284",
+        "coherence_score": 0.337219
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0289",
+        "coherence_score": 0.480192
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0298",
+        "coherence_score": 0.417766
+      },
+      {
+        "source": "art_0289",
+        "target": "art_0298",
+        "coherence_score": 0.546504
+      },
+      {
+        "source": "art_0289",
+        "target": "art_0303",
+        "coherence_score": 0.581398
+      },
+      {
+        "source": "art_0298",
+        "target": "art_0303",
+        "coherence_score": 0.57837
+      }
+    ]
+  }
+}

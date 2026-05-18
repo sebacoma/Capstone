@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0070",
+      "date": "2019-12-05",
+      "title": "10 protagonistas de la mayor crisis política en 30 años"
+    },
+    {
+      "id": "art_0089",
+      "date": "2019-12-10",
+      "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+    },
+    {
+      "id": "art_0117",
+      "date": "2019-12-22",
+      "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0215",
+      "date": "2020-02-23",
+      "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.9313118329737335,
+    "peak_memory_mb": 0.34615135192871094,
+    "avg_edge_coherence": 0.5531319379806519,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics and events without clear connections or transitions. The coherence score could be higher if the narrative were more cohesive and logically flowing.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:10:58.373840+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T14:10:58.373881+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0070",
+        "date": "2019-12-05",
+        "title": "10 protagonistas de la mayor crisis política en 30 años"
+      },
+      {
+        "id": "art_0089",
+        "date": "2019-12-10",
+        "title": "El K-Pop supera a Piñera y hashtag #ChileDespertó encabeza el listado de lo más tuiteado en Chile durante 2019"
+      },
+      {
+        "id": "art_0117",
+        "date": "2019-12-22",
+        "title": "Rocío Marengo: \"Sigo vigente en Chile porque no tengo ..."
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0215",
+        "date": "2020-02-23",
+        "title": "El Kramer más político lleva el estallido social a la Quinta ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0042",
+        "target": "art_0070",
+        "coherence_score": 0.588519
+      },
+      {
+        "source": "art_0070",
+        "target": "art_0089",
+        "coherence_score": 0.555534
+      },
+      {
+        "source": "art_0089",
+        "target": "art_0117",
+        "coherence_score": 0.588905
+      },
+      {
+        "source": "art_0117",
+        "target": "art_0140",
+        "coherence_score": 0.551009
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0215",
+        "coherence_score": 0.481692
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0084",
+      "date": "2019-12-07",
+      "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+    },
+    {
+      "id": "art_0126",
+      "date": "2019-12-27",
+      "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+    },
+    {
+      "id": "art_0173",
+      "date": "2020-01-23",
+      "title": "Las protestas de Chile cuestionan\nla historia oficial de las esculturas"
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.808963666087948,
+    "peak_memory_mb": 0.35224151611328125,
+    "avg_edge_coherence": 0.5220408320426941,
+    "api_cost_usd": 0.0019135875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical flow of ideas, with a cohesive structure that explores the intersection of feminism, neoliberalism, and the COVID-19 pandemic in Chile. However, some transitions between sections could be smoother, and a few minor inconsistencies in dates and details detract from an otherwise well-crafted argument.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:12:07.378214+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:12:07.378266+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0084",
+        "date": "2019-12-07",
+        "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+      },
+      {
+        "id": "art_0126",
+        "date": "2019-12-27",
+        "title": "El presidente de Chile seÃ±ala que Gobiernos e instituciones extranjeras influyeron en el estallido social"
+      },
+      {
+        "id": "art_0173",
+        "date": "2020-01-23",
+        "title": "Las protestas de Chile cuestionan\nla historia oficial de las esculturas"
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0042",
+        "target": "art_0052",
+        "coherence_score": 0.595882
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0084",
+        "coherence_score": 0.535015
+      },
+      {
+        "source": "art_0084",
+        "target": "art_0126",
+        "coherence_score": 0.483593
+      },
+      {
+        "source": "art_0126",
+        "target": "art_0173",
+        "coherence_score": 0.557155
+      },
+      {
+        "source": "art_0173",
+        "target": "art_0243",
+        "coherence_score": 0.438559
+      }
+    ]
+  }
+}

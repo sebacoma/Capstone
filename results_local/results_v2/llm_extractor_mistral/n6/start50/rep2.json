@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 23.664543249993585,
+    "peak_memory_mb": 0.18527507781982422,
+    "avg_edge_coherence": 0.633157205581665,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and organized structure, effectively conveying the struggles and challenges faced by individuals who suffered trauma ocular during the Chilean social unrest. However, some minor inconsistencies and lack of depth in certain aspects prevent it from achieving a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:27:57.177417+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:27:57.177511+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0257",
+        "coherence_score": 0.783152
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0266",
+        "coherence_score": 0.587987
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0280",
+        "coherence_score": 0.449194
+      }
+    ]
+  }
+}

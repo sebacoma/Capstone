@@ -1,0 +1,28 @@
+{
+  "model": "gemma3:4b",
+  "n": 18,
+  "start_index": 0,
+  "seed": 1,
+  "selected_ids": [
+    "art_0252",
+    "art_0266",
+    "art_0270",
+    "art_0280",
+    "art_0308",
+    "art_0308",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0378",
+    "art_0401",
+    "art_0457",
+    "art_0471",
+    "art_0471"
+  ],
+  "justification": "Los IDs seleccionados representan una variedad de artículos relacionados con la economía chilena, la política y los eventos que ocurrieron durante y después del estallido social de 2019, incluyendo análisis económicos, debates políticos y la evolución de figuras clave.",
+  "api_cost_usd": 0.0
+}

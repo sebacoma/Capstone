@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0522",
+      "date": "2021-10-18",
+      "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0666",
+      "date": "2022-09-05",
+      "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0685",
+      "date": "2022-10-13",
+      "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+    },
+    {
+      "id": "art_0689",
+      "date": "2022-10-14",
+      "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+    },
+    {
+      "id": "art_0694",
+      "date": "2022-10-16",
+      "title": "Iván Poduje a tres años del 18-O: “Los que mandaban ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0731",
+      "date": "2022-11-04",
+      "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.996919790981337,
+    "peak_memory_mb": 0.3831310272216797,
+    "avg_edge_coherence": 0.6173141248085919,
+    "api_cost_usd": 0.002089275
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from different individuals, which adds depth to the story but also makes it challenging to follow at times. The coherence score is moderate due to the complexity of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:22:56.813613+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:22:56.813723+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0522",
+        "date": "2021-10-18",
+        "title": "#LaNoCelebración: Los Ojos De Chile lanza campaña ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0666",
+        "date": "2022-09-05",
+        "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0685",
+        "date": "2022-10-13",
+        "title": "Ministro de Transportes y subsecretario Monsalve se ..."
+      },
+      {
+        "id": "art_0689",
+        "date": "2022-10-14",
+        "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+      },
+      {
+        "id": "art_0694",
+        "date": "2022-10-16",
+        "title": "Iván Poduje a tres años del 18-O: “Los que mandaban ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0731",
+        "date": "2022-11-04",
+        "title": "INDH sobre facultad de acreditar a \"víctimas del estallido\": Se \"vulneró la autonomía del instituto\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0494",
+        "target": "art_0513",
+        "coherence_score": 0.519945
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0517",
+        "coherence_score": 0.541563
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0522",
+        "coherence_score": 0.667202
+      },
+      {
+        "source": "art_0522",
+        "target": "art_0531",
+        "coherence_score": 0.655324
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0540",
+        "coherence_score": 0.654839
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0545",
+        "coherence_score": 0.619844
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0582",
+        "coherence_score": 0.567681
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0666",
+        "coherence_score": 0.614019
+      },
+      {
+        "source": "art_0666",
+        "target": "art_0680",
+        "coherence_score": 0.702323
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0685",
+        "coherence_score": 0.713411
+      },
+      {
+        "source": "art_0685",
+        "target": "art_0689",
+        "coherence_score": 0.603502
+      },
+      {
+        "source": "art_0689",
+        "target": "art_0694",
+        "coherence_score": 0.579747
+      },
+      {
+        "source": "art_0694",
+        "target": "art_0713",
+        "coherence_score": 0.623087
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0722",
+        "coherence_score": 0.576754
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0727",
+        "coherence_score": 0.616917
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0731",
+        "coherence_score": 0.529084
+      }
+    ]
+  }
+}

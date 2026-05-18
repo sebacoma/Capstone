@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0550",
+      "date": "2021-11-17",
+      "title": "Algunos datos básicos que debes saber sobre Chile"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0564",
+      "date": "2021-12-15",
+      "title": "Â¿Chile, en peligro?"
+    },
+    {
+      "id": "art_0578",
+      "date": "2022-01-14",
+      "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0596",
+      "date": "2022-03-15",
+      "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+    },
+    {
+      "id": "art_0601",
+      "date": "2022-03-26",
+      "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 11.41920270898845,
+    "peak_memory_mb": 0.2521543502807617,
+    "avg_edge_coherence": 0.5999221964315935,
+    "api_cost_usd": 0.001221375
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it lacks depth and context. The connection between the tarot reading and the 2019 social unrest is not fully explained, making the story feel incomplete.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:18:01.220671+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:18:01.220841+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0550",
+        "date": "2021-11-17",
+        "title": "Algunos datos básicos que debes saber sobre Chile"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0564",
+        "date": "2021-12-15",
+        "title": "Â¿Chile, en peligro?"
+      },
+      {
+        "id": "art_0578",
+        "date": "2022-01-14",
+        "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0596",
+        "date": "2022-03-15",
+        "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+      },
+      {
+        "id": "art_0601",
+        "date": "2022-03-26",
+        "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0489",
+        "target": "art_0513",
+        "coherence_score": 0.527868
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0527",
+        "coherence_score": 0.597875
+      },
+      {
+        "source": "art_0527",
+        "target": "art_0531",
+        "coherence_score": 0.651026
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0540",
+        "coherence_score": 0.654839
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0550",
+        "coherence_score": 0.581658
+      },
+      {
+        "source": "art_0550",
+        "target": "art_0554",
+        "coherence_score": 0.627425
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0564",
+        "coherence_score": 0.649094
+      },
+      {
+        "source": "art_0564",
+        "target": "art_0578",
+        "coherence_score": 0.605828
+      },
+      {
+        "source": "art_0578",
+        "target": "art_0582",
+        "coherence_score": 0.593192
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0596",
+        "coherence_score": 0.613896
+      },
+      {
+        "source": "art_0596",
+        "target": "art_0601",
+        "coherence_score": 0.496443
+      }
+    ]
+  }
+}

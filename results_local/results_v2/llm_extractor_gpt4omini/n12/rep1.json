@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0056",
+      "date": "2019-11-29",
+      "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0084",
+      "date": "2019-12-07",
+      "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0135",
+      "date": "2019-12-29",
+      "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0201",
+      "date": "2020-02-11",
+      "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 10.473496542079374,
+    "peak_memory_mb": 0.4509124755859375,
+    "avg_edge_coherence": 0.5501234233379364,
+    "api_cost_usd": 0.002482875
+  },
+  "judge": {
+    "coherence_score": 6,
+    "justification": "The narrative jumps between different events and topics without clear connections or transitions, leading to a sense of disjointedness. However, it does provide some relevant information about the Chilean protests and their impact on the economy and law enforcement.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:14:43.605825+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:14:43.606030+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0056",
+        "date": "2019-11-29",
+        "title": "Llegada de turistas extranjeros cae 17,1% en mes de estallido social y autoridades advierten mayor impacto a futuro"
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0084",
+        "date": "2019-12-07",
+        "title": "Desconocidos lanzaron piedras y rayaron los muros de la casa del alcalde de La Serena"
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0135",
+        "date": "2019-12-29",
+        "title": "\"Lo peor de la crisis ya pasó\": Piñera habla del estallido ..."
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0201",
+        "date": "2020-02-11",
+        "title": "El estallido social en Chile y Colombia obliga al mayor banco de AmÃ©rica Latina a disparar sus provisiones"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0010",
+        "target": "art_0014",
+        "coherence_score": 0.607045
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0019",
+        "coherence_score": 0.602372
+      },
+      {
+        "source": "art_0019",
+        "target": "art_0052",
+        "coherence_score": 0.558881
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0056",
+        "coherence_score": 0.544133
+      },
+      {
+        "source": "art_0056",
+        "target": "art_0075",
+        "coherence_score": 0.473736
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0084",
+        "coherence_score": 0.389789
+      },
+      {
+        "source": "art_0084",
+        "target": "art_0103",
+        "coherence_score": 0.572492
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0135",
+        "coherence_score": 0.549887
+      },
+      {
+        "source": "art_0135",
+        "target": "art_0177",
+        "coherence_score": 0.598956
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0201",
+        "coherence_score": 0.646067
+      },
+      {
+        "source": "art_0201",
+        "target": "art_0317",
+        "coherence_score": 0.508001
+      }
+    ]
+  }
+}

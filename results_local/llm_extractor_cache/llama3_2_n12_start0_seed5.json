@@ -1,0 +1,22 @@
+{
+  "model": "llama3.2",
+  "n": 12,
+  "start_index": 0,
+  "seed": 5,
+  "selected_ids": [
+    "art_0559",
+    "art_0568",
+    "art_0573",
+    "art_0573",
+    "art_0582",
+    "art_0582",
+    "art_0582",
+    "art_0582",
+    "art_0587",
+    "art_0587",
+    "art_0610",
+    "art_0610"
+  ],
+  "justification": "Articulos relacionados con el tema de los estallidos sociales y la política en América Latina",
+  "api_cost_usd": 0.0
+}

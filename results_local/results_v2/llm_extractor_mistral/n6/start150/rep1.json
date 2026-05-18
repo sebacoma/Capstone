@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 16.899643791955896,
+    "peak_memory_mb": 0.19249916076660156,
+    "avg_edge_coherence": 0.48941906690597536,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple storylines about Chile's constitutional process, including the new commission of experts and its leader Verónica Undurraga, as well as Pellegrini's football career and his views on the country's future. The coherence score is 8 because the narrative effectively weaves together these different threads, although some minor inconsistencies and transitions between sections could be improved.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:31:48.261554+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:31:48.261605+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0703",
+        "target": "art_0717",
+        "coherence_score": 0.555054
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0741",
+        "coherence_score": 0.419557
+      },
+      {
+        "source": "art_0741",
+        "target": "art_0755",
+        "coherence_score": 0.31518
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0759",
+        "coherence_score": 0.451471
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0769",
+        "coherence_score": 0.705834
+      }
+    ]
+  }
+}

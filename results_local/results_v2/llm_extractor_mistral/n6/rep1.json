@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0019",
+      "date": "2019-11-19",
+      "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0075",
+      "date": "2019-12-06",
+      "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+    },
+    {
+      "id": "art_0168",
+      "date": "2020-01-19",
+      "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 18.925870541017503,
+    "peak_memory_mb": 0.3461904525756836,
+    "avg_edge_coherence": 0.5077591657638549,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative provides a clear and concise overview of the current situation in Chile, including the impact of the coronavirus pandemic on the country's economy and society. However, the coherence score is slightly lower due to some minor inconsistencies and lack of depth in certain aspects, such as the specific details about the economic projections and the author's opinions.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:25:20.579635+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:25:20.579793+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0019",
+        "date": "2019-11-19",
+        "title": "\"Doctor File\" dice que el estallido social en Chile “está ..."
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0075",
+        "date": "2019-12-06",
+        "title": "CIDH condenó uso excesivo de la fuerza de Carabineros ..."
+      },
+      {
+        "id": "art_0168",
+        "date": "2020-01-19",
+        "title": "Congreso ha sesionado un 40% más desde el estallido social en comparación al mismo período pasado"
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0019",
+        "target": "art_0033",
+        "coherence_score": 0.577144
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0038",
+        "coherence_score": 0.640468
+      },
+      {
+        "source": "art_0038",
+        "target": "art_0075",
+        "coherence_score": 0.351879
+      },
+      {
+        "source": "art_0075",
+        "target": "art_0168",
+        "coherence_score": 0.518905
+      },
+      {
+        "source": "art_0168",
+        "target": "art_0238",
+        "coherence_score": 0.4504
+      }
+    ]
+  }
+}

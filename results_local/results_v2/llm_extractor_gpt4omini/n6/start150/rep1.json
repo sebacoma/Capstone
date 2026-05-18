@@ -1,0 +1,134 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 4.106198124936782,
+    "peak_memory_mb": 0.20357513427734375,
+    "avg_edge_coherence": 0.5570864617824555,
+    "api_cost_usd": 0.0006241125
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear structure and timeline of events, but lacks depth and nuance in its reporting, resulting in an overall coherence score of 8 out of 10.",
+    "entities": {
+      "people": [
+        "Verónica Undurraga",
+        "Sebastián Soto",
+        "Augusto Pinochet",
+        "Ricardo Lagos"
+      ],
+      "organizations": [
+        "Partido por la Democracia",
+        "Evópoli",
+        "Partido Comunista",
+        "Frente Amplio de Boric",
+        "Apruebo Dignidad"
+      ],
+      "locations": [
+        "Chile",
+        "Santiago de Chile"
+      ]
+    },
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:13:51.162729+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:13:51.162770+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0708",
+        "coherence_score": 0.554357
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0750",
+        "coherence_score": 0.477004
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0769",
+        "coherence_score": 0.57322
+      }
+    ]
+  }
+}

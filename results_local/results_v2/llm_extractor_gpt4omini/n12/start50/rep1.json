@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0345",
+      "date": "2020-10-18",
+      "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+    },
+    {
+      "id": "art_0354",
+      "date": "2020-10-19",
+      "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+    },
+    {
+      "id": "art_0364",
+      "date": "2020-10-29",
+      "title": "Errática señal contra el vandalismo"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    },
+    {
+      "id": "art_0401",
+      "date": "2021-01-27",
+      "title": "Operadora de heladería Bravissimo solicita la quiebra"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 3.1123478329973295,
+    "peak_memory_mb": 0.2616891860961914,
+    "avg_edge_coherence": 0.5796723745085977,
+    "api_cost_usd": 0.001343625
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and consistent message about body positivity and self-acceptance, with a strong emotional connection between the author and her audience. However, some transitions and connections between ideas could be smoother, resulting in a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:16:03.037619+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:16:03.037786+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0345",
+        "date": "2020-10-18",
+        "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+      },
+      {
+        "id": "art_0354",
+        "date": "2020-10-19",
+        "title": "Piñera mantiene silencio y La Moneda condena violencia ..."
+      },
+      {
+        "id": "art_0364",
+        "date": "2020-10-29",
+        "title": "Errática señal contra el vandalismo"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      },
+      {
+        "id": "art_0401",
+        "date": "2021-01-27",
+        "title": "Operadora de heladería Bravissimo solicita la quiebra"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0275",
+        "coherence_score": 0.602753
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0284",
+        "coherence_score": 0.351533
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0312",
+        "coherence_score": 0.515822
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0317",
+        "coherence_score": 0.655226
+      },
+      {
+        "source": "art_0317",
+        "target": "art_0340",
+        "coherence_score": 0.48156
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0345",
+        "coherence_score": 0.651937
+      },
+      {
+        "source": "art_0345",
+        "target": "art_0354",
+        "coherence_score": 0.627551
+      },
+      {
+        "source": "art_0354",
+        "target": "art_0364",
+        "coherence_score": 0.607377
+      },
+      {
+        "source": "art_0364",
+        "target": "art_0382",
+        "coherence_score": 0.605853
+      },
+      {
+        "source": "art_0382",
+        "target": "art_0401",
+        "coherence_score": 0.531673
+      }
+    ]
+  }
+}

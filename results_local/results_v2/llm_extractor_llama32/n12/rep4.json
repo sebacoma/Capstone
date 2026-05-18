@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0061",
+      "date": "2019-12-01",
+      "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+    },
+    {
+      "id": "art_0061",
+      "date": "2019-12-01",
+      "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+    },
+    {
+      "id": "art_0061",
+      "date": "2019-12-01",
+      "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0140",
+      "date": "2020-01-02",
+      "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0177",
+      "date": "2020-01-24",
+      "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+    },
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.41001720901113,
+    "peak_memory_mb": 0.4455680847167969,
+    "avg_edge_coherence": 0.8165210918946699,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the application of epidemiological models to understand social unrest, providing a unique perspective on the topic. However, the explanation could benefit from more depth and nuance in its discussion of the limitations and complexities of this approach.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:15:17.695170+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T14:15:17.695313+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0061",
+        "date": "2019-12-01",
+        "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+      },
+      {
+        "id": "art_0061",
+        "date": "2019-12-01",
+        "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+      },
+      {
+        "id": "art_0061",
+        "date": "2019-12-01",
+        "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0140",
+        "date": "2020-01-02",
+        "title": "el duro cruce entre diputados Schalper y Winter | Crónica"
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0177",
+        "date": "2020-01-24",
+        "title": "Baltasar Garzón y crisis social: \"La responsabilidad política para mí está clara. Es de quien tiene el mando supremo del país\""
+      },
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0052",
+        "target": "art_0061",
+        "coherence_score": 0.66199
+      },
+      {
+        "source": "art_0061",
+        "target": "art_0061",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0061",
+        "target": "art_0061",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0061",
+        "target": "art_0140",
+        "coherence_score": 0.629393
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0140",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0140",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0140",
+        "target": "art_0177",
+        "coherence_score": 0.607013
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0177",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0177",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0177",
+        "target": "art_0233",
+        "coherence_score": 0.530946
+      },
+      {
+        "source": "art_0233",
+        "target": "art_0284",
+        "coherence_score": 0.55239
+      }
+    ]
+  }
+}

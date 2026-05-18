@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0047",
+      "date": "2019-11-26",
+      "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+    },
+    {
+      "id": "art_0108",
+      "date": "2019-12-19",
+      "title": "Luis Montes y la exposición que el estallido social postergó"
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 16.419697458972223,
+    "peak_memory_mb": 0.3461904525756836,
+    "avg_edge_coherence": 0.5226965546607971,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and logical flow of ideas, with the author discussing the impact of the pandemic on Chile's society and politics. However, some transitions between topics feel abrupt, preventing the narrative from reaching a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:25:43.631807+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:25:43.631854+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0047",
+        "date": "2019-11-26",
+        "title": "El perro \"Negro Matapacos\" amaneció pintado de verde"
+      },
+      {
+        "id": "art_0108",
+        "date": "2019-12-19",
+        "title": "Luis Montes y la exposición que el estallido social postergó"
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0010",
+        "target": "art_0014",
+        "coherence_score": 0.607045
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0024",
+        "coherence_score": 0.697683
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0047",
+        "coherence_score": 0.435975
+      },
+      {
+        "source": "art_0047",
+        "target": "art_0108",
+        "coherence_score": 0.475918
+      },
+      {
+        "source": "art_0108",
+        "target": "art_0243",
+        "coherence_score": 0.396862
+      }
+    ]
+  }
+}

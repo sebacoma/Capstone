@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0783",
+      "date": "2023-04-04",
+      "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+    },
+    {
+      "id": "art_0783",
+      "date": "2023-04-04",
+      "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0824",
+      "date": "2023-06-18",
+      "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+    },
+    {
+      "id": "art_0824",
+      "date": "2023-06-18",
+      "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 35.99612825002987,
+    "peak_memory_mb": 0.48761558532714844,
+    "avg_edge_coherence": 0.7594982521100477,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 4,
+    "justification": "The narrative presents multiple conflicting ideas and opinions without clear resolution or synthesis, leading to a disjointed and confusing reading experience. The author's attempt to provide context and explanations for these contradictions is often superficial or incomplete, hindering the overall coherence of the text.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:49:34.128413+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:49:34.128549+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0783",
+        "date": "2023-04-04",
+        "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+      },
+      {
+        "id": "art_0783",
+        "date": "2023-04-04",
+        "title": "Un 'boom' de huertos urbanos para pintar de verde el gris ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0824",
+        "date": "2023-06-18",
+        "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+      },
+      {
+        "id": "art_0824",
+        "date": "2023-06-18",
+        "title": "Sebastián Edwards, académico UCLA: \"El neoliberalismo en Chile está en retirada o moribundo, esto se terminó\""
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0717",
+        "target": "art_0736",
+        "coherence_score": 0.673534
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0736",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0736",
+        "target": "art_0769",
+        "coherence_score": 0.633231
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0783",
+        "coherence_score": 0.641612
+      },
+      {
+        "source": "art_0783",
+        "target": "art_0783",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0783",
+        "target": "art_0806",
+        "coherence_score": 0.588649
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0824",
+        "coherence_score": 0.498615
+      },
+      {
+        "source": "art_0824",
+        "target": "art_0824",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0824",
+        "target": "art_0838",
+        "coherence_score": 0.613395
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0857",
+        "coherence_score": 0.705445
+      },
+      {
+        "source": "art_0857",
+        "target": "art_0857",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

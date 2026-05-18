@@ -1,0 +1,205 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0461",
+      "date": "2021-06-11",
+      "title": "AmÃ©rica Latina: diÃ¡logo o suicidio colectivo"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0457",
+      "date": "2021-06-01",
+      "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+    },
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.013799540931358933,
+    "peak_memory_mb": 0.17733001708984375,
+    "avg_edge_coherence": 0.6801026246764443,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and structured account of the events surrounding the Chilean protests in October 2019, with a logical flow of ideas and a consistent tone. However, some minor inconsistencies and transitions between paragraphs could have been improved for a higher coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:10:23.385391+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:10:23.385577+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0461",
+        "date": "2021-06-11",
+        "title": "AmÃ©rica Latina: diÃ¡logo o suicidio colectivo"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0457",
+        "date": "2021-06-01",
+        "title": "Gabriel Boric: “Yo no me siento amarillo” | Crónica"
+      },
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0461",
+        "coherence_score": 0.683949
+      },
+      {
+        "source": "art_0461",
+        "target": "art_0452",
+        "coherence_score": 0.723852
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0457",
+        "coherence_score": 0.677969
+      },
+      {
+        "source": "art_0457",
+        "target": "art_0471",
+        "coherence_score": 0.701379
+      },
+      {
+        "source": "art_0471",
+        "target": "art_0480",
+        "coherence_score": 0.706572
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0485",
+        "coherence_score": 0.673031
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0489",
+        "coherence_score": 0.672011
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0499",
+        "coherence_score": 0.647576
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0503",
+        "coherence_score": 0.682222
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0508",
+        "coherence_score": 0.627647
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0517",
+        "coherence_score": 0.684921
+      }
+    ]
+  }
+}

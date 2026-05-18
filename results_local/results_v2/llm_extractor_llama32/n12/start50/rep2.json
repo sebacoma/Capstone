@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    },
+    {
+      "id": "art_0396",
+      "date": "2021-01-24",
+      "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 19.57657883304637,
+    "peak_memory_mb": 0.3343963623046875,
+    "avg_edge_coherence": 0.7637220892039213,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics and events without clear connections or transitions. The story could benefit from more cohesive linking between its various elements to create a smoother flow.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:16:16.018945+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T14:16:16.019086+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      },
+      {
+        "id": "art_0396",
+        "date": "2021-01-24",
+        "title": "el chef español Sergi Arola cuenta cómo se enamoró de su ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0247",
+        "target": "art_0257",
+        "coherence_score": 0.571806
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0270",
+        "coherence_score": 0.602028
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0280",
+        "coherence_score": 0.507712
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0322",
+        "coherence_score": 0.547704
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0340",
+        "coherence_score": 0.603558
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0396",
+        "coherence_score": 0.568135
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0396",
+        "target": "art_0396",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0345",
+      "date": "2020-10-18",
+      "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0401",
+      "date": "2021-01-27",
+      "title": "Operadora de heladería Bravissimo solicita la quiebra"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 8.19326795800589,
+    "peak_memory_mb": 0.2623462677001953,
+    "avg_edge_coherence": 0.5532965768467296,
+    "api_cost_usd": 0.001368675
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple storylines and events, including student protests, social movements, and business failures, which are woven together to explore the role of youth in Chile's current political landscape. While some connections between these elements are clear, others feel somewhat tenuous or disconnected, preventing a perfect coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:16:59.971199+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:16:59.971348+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0345",
+        "date": "2020-10-18",
+        "title": "La disputa simbÃ³lica en Chile por el monumento del epicentro de las protestas"
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0401",
+        "date": "2021-01-27",
+        "title": "Operadora de heladería Bravissimo solicita la quiebra"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0270",
+        "coherence_score": 0.477135
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0280",
+        "coherence_score": 0.507712
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0294",
+        "coherence_score": 0.397963
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0312",
+        "coherence_score": 0.565836
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0317",
+        "coherence_score": 0.655226
+      },
+      {
+        "source": "art_0317",
+        "target": "art_0322",
+        "coherence_score": 0.53728
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0350",
+        "coherence_score": 0.580537
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0345",
+        "coherence_score": 0.557926
+      },
+      {
+        "source": "art_0345",
+        "target": "art_0373",
+        "coherence_score": 0.711428
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0401",
+        "coherence_score": 0.635288
+      }
+    ]
+  }
+}

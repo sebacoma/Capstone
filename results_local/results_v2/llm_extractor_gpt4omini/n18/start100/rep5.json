@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0531",
+      "date": "2021-10-18",
+      "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0550",
+      "date": "2021-11-17",
+      "title": "Algunos datos básicos que debes saber sobre Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0596",
+      "date": "2022-03-15",
+      "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+    },
+    {
+      "id": "art_0624",
+      "date": "2022-06-01",
+      "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+    },
+    {
+      "id": "art_0666",
+      "date": "2022-09-05",
+      "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0689",
+      "date": "2022-10-14",
+      "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 11.85517129197251,
+    "peak_memory_mb": 0.38303661346435547,
+    "avg_edge_coherence": 0.5940773329314064,
+    "api_cost_usd": 0.0020961749999999996
+  },
+  "judge": {
+    "coherence_score": 9,
+    "justification": "The narrative is well-structured and easy to follow, with a clear chronological order and logical connections between ideas. The only minor issue is that some transitions between paragraphs could be smoother, but overall the story flows smoothly.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:23:34.292410+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:23:34.292457+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0531",
+        "date": "2021-10-18",
+        "title": "Cinco analistas responden: ¿Cómo cambió Chile después ..."
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0550",
+        "date": "2021-11-17",
+        "title": "Algunos datos básicos que debes saber sobre Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0596",
+        "date": "2022-03-15",
+        "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+      },
+      {
+        "id": "art_0624",
+        "date": "2022-06-01",
+        "title": "DDHH: Boric anuncia Plan Nacional de Búsqueda de ..."
+      },
+      {
+        "id": "art_0666",
+        "date": "2022-09-05",
+        "title": "Las razones detrás del rechazo a la nueva constitución de ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0689",
+        "date": "2022-10-14",
+        "title": "Gobierno sale a abordar críticas por antiguos tuits de ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0489",
+        "target": "art_0494",
+        "coherence_score": 0.448878
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0503",
+        "coherence_score": 0.583797
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0508",
+        "coherence_score": 0.627647
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0517",
+        "coherence_score": 0.684921
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0531",
+        "coherence_score": 0.626971
+      },
+      {
+        "source": "art_0531",
+        "target": "art_0536",
+        "coherence_score": 0.684692
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0540",
+        "coherence_score": 0.616545
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0545",
+        "coherence_score": 0.619844
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0550",
+        "coherence_score": 0.402656
+      },
+      {
+        "source": "art_0550",
+        "target": "art_0582",
+        "coherence_score": 0.511869
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0596",
+        "coherence_score": 0.613896
+      },
+      {
+        "source": "art_0596",
+        "target": "art_0624",
+        "coherence_score": 0.715568
+      },
+      {
+        "source": "art_0624",
+        "target": "art_0666",
+        "coherence_score": 0.584885
+      },
+      {
+        "source": "art_0666",
+        "target": "art_0680",
+        "coherence_score": 0.702323
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0689",
+        "coherence_score": 0.560546
+      },
+      {
+        "source": "art_0689",
+        "target": "art_0708",
+        "coherence_score": 0.515518
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0722",
+        "coherence_score": 0.598759
+      }
+    ]
+  }
+}

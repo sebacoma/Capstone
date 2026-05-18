@@ -1,0 +1,22 @@
+{
+  "model": "gemma3:4b",
+  "n": 12,
+  "start_index": 0,
+  "seed": 3,
+  "selected_ids": [
+    "art_0503",
+    "art_0503",
+    "art_0517",
+    "art_0517",
+    "art_0536",
+    "art_0554",
+    "art_0554",
+    "art_0559",
+    "art_0559",
+    "art_0601",
+    "art_0601",
+    "art_0615"
+  ],
+  "justification": "La selección de artículos refleja la cobertura mediática del estallido social en Chile, incluyendo análisis de la polarización política, la respuesta de líderes políticos, y el impacto social y emocional del evento, así como el uso de metáforas y la percepción de la sociedad.",
+  "api_cost_usd": 0.0
+}

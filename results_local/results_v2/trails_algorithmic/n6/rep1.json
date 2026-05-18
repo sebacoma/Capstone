@@ -1,0 +1,115 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.01517691696062684,
+    "peak_memory_mb": 0.3689451217651367,
+    "avg_edge_coherence": 0.7224310398101806,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "El narrativo presenta una estructura clara y cronológica, pero muestra algunas lacunas en la explicación de los eventos y consecuencias del estallido social en Chile, lo que reduce su coherencia.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:46.937095+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:09:46.937261+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0001",
+        "target": "art_0028",
+        "coherence_score": 0.687526
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0098",
+        "coherence_score": 0.700615
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0014",
+        "coherence_score": 0.767889
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0052",
+        "coherence_score": 0.734572
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0024",
+        "coherence_score": 0.721553
+      }
+    ]
+  }
+}

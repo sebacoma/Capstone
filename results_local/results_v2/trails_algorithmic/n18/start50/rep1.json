@@ -1,0 +1,295 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0224",
+      "date": "2020-03-04",
+      "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0145",
+      "date": "2020-01-08",
+      "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+    },
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0010",
+      "date": "2019-11-16",
+      "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+    },
+    {
+      "id": "art_0005",
+      "date": "2019-11-15",
+      "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+    },
+    {
+      "id": "art_0024",
+      "date": "2019-11-20",
+      "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+    },
+    {
+      "id": "art_0014",
+      "date": "2019-11-18",
+      "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+    },
+    {
+      "id": "art_0042",
+      "date": "2019-11-25",
+      "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+    },
+    {
+      "id": "art_0033",
+      "date": "2019-11-21",
+      "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+    },
+    {
+      "id": "art_0038",
+      "date": "2019-11-22",
+      "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+    },
+    {
+      "id": "art_0061",
+      "date": "2019-12-01",
+      "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+    },
+    {
+      "id": "art_0052",
+      "date": "2019-11-27",
+      "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+    },
+    {
+      "id": "art_0028",
+      "date": "2019-11-21",
+      "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+    },
+    {
+      "id": "art_0001",
+      "date": "2019-11-15",
+      "title": "Shirley Manson le toma el pulso al estallido social chileno"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.03585733310319483,
+    "peak_memory_mb": 0.49861907958984375,
+    "avg_edge_coherence": 0.6551194857148563,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively conveys the scope and diversity of the cultural response to the Chilean protests, showcasing various artists, writers, and intellectuals who have joined the movement. However, some transitions between sections feel abrupt, which slightly detracts from the overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:10:41.408497+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:10:41.408535+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0224",
+        "date": "2020-03-04",
+        "title": "Latam salva un 2019 complicado con 190 millones de dÃ³lares de beneficio, un 5% mÃ¡s"
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0145",
+        "date": "2020-01-08",
+        "title": "Iquique recibe habitual flujo de visitantes a pesar del estallido social, a diferencia de otros balnearios del país"
+      },
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0010",
+        "date": "2019-11-16",
+        "title": "Protesta en los muros: grafitis, rayados y afiches en el ..."
+      },
+      {
+        "id": "art_0005",
+        "date": "2019-11-15",
+        "title": "Mon Laferte estrena canción inspirada en la crisis social ..."
+      },
+      {
+        "id": "art_0024",
+        "date": "2019-11-20",
+        "title": "A un mes del estallido social: Ventas de autos y motos registran importante descenso"
+      },
+      {
+        "id": "art_0014",
+        "date": "2019-11-18",
+        "title": "A un mes de su inicio: el estallido social en Chile desde ..."
+      },
+      {
+        "id": "art_0042",
+        "date": "2019-11-25",
+        "title": "Ministra Rubilar: \"Creo que la democracia, como nosotros la entendemos, ha tenido momentos frágiles\""
+      },
+      {
+        "id": "art_0033",
+        "date": "2019-11-21",
+        "title": "Caiozzama: “La calle se transformó en el lienzo de los ..."
+      },
+      {
+        "id": "art_0038",
+        "date": "2019-11-22",
+        "title": "feriante le exigió a Viñuela el juego de la gomita durante ..."
+      },
+      {
+        "id": "art_0061",
+        "date": "2019-12-01",
+        "title": "Se suma a la lista: Lo Vásquez, suspendida | Crónica"
+      },
+      {
+        "id": "art_0052",
+        "date": "2019-11-27",
+        "title": "Comisaría bajo amenaza: así permanece la tenencia más ..."
+      },
+      {
+        "id": "art_0028",
+        "date": "2019-11-21",
+        "title": "La cultura sale a la calle en Chile para apoyar las protestas"
+      },
+      {
+        "id": "art_0001",
+        "date": "2019-11-15",
+        "title": "Shirley Manson le toma el pulso al estallido social chileno"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0243",
+        "coherence_score": 0.718322
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0238",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0224",
+        "coherence_score": 0.610346
+      },
+      {
+        "source": "art_0224",
+        "target": "art_0191",
+        "coherence_score": 0.629569
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0145",
+        "coherence_score": 0.639204
+      },
+      {
+        "source": "art_0145",
+        "target": "art_0098",
+        "coherence_score": 0.614014
+      },
+      {
+        "source": "art_0098",
+        "target": "art_0010",
+        "coherence_score": 0.643379
+      },
+      {
+        "source": "art_0010",
+        "target": "art_0005",
+        "coherence_score": 0.639218
+      },
+      {
+        "source": "art_0005",
+        "target": "art_0024",
+        "coherence_score": 0.62775
+      },
+      {
+        "source": "art_0024",
+        "target": "art_0014",
+        "coherence_score": 0.697683
+      },
+      {
+        "source": "art_0014",
+        "target": "art_0042",
+        "coherence_score": 0.66943
+      },
+      {
+        "source": "art_0042",
+        "target": "art_0033",
+        "coherence_score": 0.647103
+      },
+      {
+        "source": "art_0033",
+        "target": "art_0038",
+        "coherence_score": 0.640468
+      },
+      {
+        "source": "art_0038",
+        "target": "art_0061",
+        "coherence_score": 0.616073
+      },
+      {
+        "source": "art_0061",
+        "target": "art_0052",
+        "coherence_score": 0.66199
+      },
+      {
+        "source": "art_0052",
+        "target": "art_0028",
+        "coherence_score": 0.649845
+      },
+      {
+        "source": "art_0028",
+        "target": "art_0001",
+        "coherence_score": 0.687526
+      }
+    ]
+  }
+}

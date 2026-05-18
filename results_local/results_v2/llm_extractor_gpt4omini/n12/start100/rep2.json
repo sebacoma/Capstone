@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0513",
+      "date": "2021-10-15",
+      "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+    },
+    {
+      "id": "art_0540",
+      "date": "2021-10-29",
+      "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0578",
+      "date": "2022-01-14",
+      "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0592",
+      "date": "2022-03-11",
+      "title": "El barrio Bellavista se rearma y hace un positivo balance ..."
+    },
+    {
+      "id": "art_0596",
+      "date": "2022-03-15",
+      "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+    },
+    {
+      "id": "art_0601",
+      "date": "2022-03-26",
+      "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+    },
+    {
+      "id": "art_0610",
+      "date": "2022-04-29",
+      "title": "“Incidentes menores” en Colombia durante jornada de ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 4.5543302920414135,
+    "peak_memory_mb": 0.2508983612060547,
+    "avg_edge_coherence": 0.5467939322645013,
+    "api_cost_usd": 0.001221375
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear structure and timeline of events, but lacks specific details and concrete evidence to support its claims. The inclusion of unrelated information, such as the video from Psíquicos, disrupts the coherence of the narrative.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:17:18.778472+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:17:18.778644+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0513",
+        "date": "2021-10-15",
+        "title": "Tribunal declara culpable por homicidio a hombre de Curicó por muerte ocurrida tras el estallido social"
+      },
+      {
+        "id": "art_0540",
+        "date": "2021-10-29",
+        "title": "“Las sombras de Allende y Pinochet siguen planeando ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0578",
+        "date": "2022-01-14",
+        "title": "Evelyn Matthei defiende gestión de Piñera en el estallido ..."
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0592",
+        "date": "2022-03-11",
+        "title": "El barrio Bellavista se rearma y hace un positivo balance ..."
+      },
+      {
+        "id": "art_0596",
+        "date": "2022-03-15",
+        "title": "Ministra de Justicia afirma que aún quedan querellas del 18-O por revisar: \"No se descarta que podamos retirar otras\""
+      },
+      {
+        "id": "art_0601",
+        "date": "2022-03-26",
+        "title": "Reflotan video de tarotista del programa Psíquicos que ..."
+      },
+      {
+        "id": "art_0610",
+        "date": "2022-04-29",
+        "title": "“Incidentes menores” en Colombia durante jornada de ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0489",
+        "coherence_score": 0.581921
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0513",
+        "coherence_score": 0.527868
+      },
+      {
+        "source": "art_0513",
+        "target": "art_0540",
+        "coherence_score": 0.558481
+      },
+      {
+        "source": "art_0540",
+        "target": "art_0545",
+        "coherence_score": 0.619844
+      },
+      {
+        "source": "art_0545",
+        "target": "art_0554",
+        "coherence_score": 0.569569
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0578",
+        "coherence_score": 0.586153
+      },
+      {
+        "source": "art_0578",
+        "target": "art_0582",
+        "coherence_score": 0.593192
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0592",
+        "coherence_score": 0.445407
+      },
+      {
+        "source": "art_0592",
+        "target": "art_0596",
+        "coherence_score": 0.493177
+      },
+      {
+        "source": "art_0596",
+        "target": "art_0601",
+        "coherence_score": 0.496443
+      },
+      {
+        "source": "art_0601",
+        "target": "art_0610",
+        "coherence_score": 0.542678
+      }
+    ]
+  }
+}

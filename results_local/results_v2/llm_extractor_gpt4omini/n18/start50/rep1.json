@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0312",
+      "date": "2020-09-30",
+      "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0392",
+      "date": "2021-01-13",
+      "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+    },
+    {
+      "id": "art_0415",
+      "date": "2021-03-06",
+      "title": "Con la recuperaciÃ³n econÃ³mica de Chile vuelve a salir a flote la desigualdad "
+    },
+    {
+      "id": "art_0443",
+      "date": "2021-05-04",
+      "title": "Pirópolis: el documental acerca de los bomberos de ..."
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0461",
+      "date": "2021-06-11",
+      "title": "AmÃ©rica Latina: diÃ¡logo o suicidio colectivo"
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 11.036556040984578,
+    "peak_memory_mb": 0.44065093994140625,
+    "avg_edge_coherence": 0.5903076196418089,
+    "api_cost_usd": 0.004029225
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative provides a clear and structured overview of the Chilean constitutional process, effectively conveying the key events, actors, and challenges involved. However, some minor inconsistencies and transitions between sections could be improved to enhance overall coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:21:05.231742+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:21:05.232696+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0312",
+        "date": "2020-09-30",
+        "title": "Desempleo trimestre junio-agosto baja del 13% y anota el primer descenso mensual tras el estallido social"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0392",
+        "date": "2021-01-13",
+        "title": "Parten obras en eje Santa Rosa-Alameda que priorizará ..."
+      },
+      {
+        "id": "art_0415",
+        "date": "2021-03-06",
+        "title": "Con la recuperaciÃ³n econÃ³mica de Chile vuelve a salir a flote la desigualdad "
+      },
+      {
+        "id": "art_0443",
+        "date": "2021-05-04",
+        "title": "Pirópolis: el documental acerca de los bomberos de ..."
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0461",
+        "date": "2021-06-11",
+        "title": "AmÃ©rica Latina: diÃ¡logo o suicidio colectivo"
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0257",
+        "coherence_score": 0.571806
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0275",
+        "coherence_score": 0.65509
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0280",
+        "coherence_score": 0.579785
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0284",
+        "coherence_score": 0.337219
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0312",
+        "coherence_score": 0.515822
+      },
+      {
+        "source": "art_0312",
+        "target": "art_0317",
+        "coherence_score": 0.655226
+      },
+      {
+        "source": "art_0317",
+        "target": "art_0322",
+        "coherence_score": 0.53728
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0350",
+        "coherence_score": 0.580537
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0392",
+        "coherence_score": 0.503852
+      },
+      {
+        "source": "art_0392",
+        "target": "art_0415",
+        "coherence_score": 0.701866
+      },
+      {
+        "source": "art_0415",
+        "target": "art_0443",
+        "coherence_score": 0.656532
+      },
+      {
+        "source": "art_0443",
+        "target": "art_0452",
+        "coherence_score": 0.671741
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0461",
+        "coherence_score": 0.723852
+      },
+      {
+        "source": "art_0461",
+        "target": "art_0475",
+        "coherence_score": 0.553329
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0485",
+        "coherence_score": 0.659349
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0489",
+        "coherence_score": 0.672011
+      }
+    ]
+  }
+}

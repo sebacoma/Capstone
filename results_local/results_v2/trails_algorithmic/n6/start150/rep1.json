@@ -1,0 +1,115 @@
+{
+  "method": "trails_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0675",
+      "date": "2022-09-22",
+      "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+    },
+    {
+      "id": "art_0671",
+      "date": "2022-09-21",
+      "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.006948499940335751,
+    "peak_memory_mb": 0.09363555908203125,
+    "avg_edge_coherence": 0.7365078449249267,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and opinions on the current situation in Chile, including the government's policies and the president's popularity. However, some transitions between ideas could be smoother, and a few minor inconsistencies were noticed.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:10:05.111267+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:10:05.111303+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0675",
+        "date": "2022-09-22",
+        "title": "Pablo Iglesias, el ex líder de Podemos y cercano a Boric ..."
+      },
+      {
+        "id": "art_0671",
+        "date": "2022-09-21",
+        "title": "Perfil: Javier Velasco, el embajador de Chile en España ..."
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0675",
+        "coherence_score": 0.711462
+      },
+      {
+        "source": "art_0675",
+        "target": "art_0671",
+        "coherence_score": 0.835749
+      },
+      {
+        "source": "art_0671",
+        "target": "art_0680",
+        "coherence_score": 0.713254
+      },
+      {
+        "source": "art_0680",
+        "target": "art_0713",
+        "coherence_score": 0.712976
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      }
+    ]
+  }
+}

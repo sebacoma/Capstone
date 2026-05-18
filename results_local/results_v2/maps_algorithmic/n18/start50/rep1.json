@@ -1,0 +1,365 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0270",
+      "date": "2020-05-24",
+      "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0280",
+      "date": "2020-07-02",
+      "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    },
+    {
+      "id": "art_0298",
+      "date": "2020-08-24",
+      "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0326",
+      "date": "2020-10-14",
+      "title": "Estallido Social: Formalizarán a capitán del Ejército que ..."
+    },
+    {
+      "id": "art_0331",
+      "date": "2020-10-16",
+      "title": "El balance del INDH a un año del estallido social"
+    },
+    {
+      "id": "art_0336",
+      "date": "2020-10-17",
+      "title": "Galería CIMA: el valor histórico de un registro visual ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.16418508300557733,
+    "peak_memory_mb": 0.7133016586303711,
+    "avg_edge_coherence": 0.5918738877072054,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it occasionally jumps between different ideas and events without clear connections or transitions. The author effectively conveys their passion and commitment to the project, but could benefit from more cohesive linking between sections.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:09:27.957687+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T13:09:27.957751+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0270",
+        "date": "2020-05-24",
+        "title": "Segpres trabaja en \"mecanismo\" para analizar proyectos de ley inadmisibles o de gran impacto económico"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0280",
+        "date": "2020-07-02",
+        "title": "la solitaria rehabilitación de las víctimas de trauma ocular"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      },
+      {
+        "id": "art_0298",
+        "date": "2020-08-24",
+        "title": "Metro: Estación Del Sol reabrió sus puertas tras 10 meses ..."
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0326",
+        "date": "2020-10-14",
+        "title": "Estallido Social: Formalizarán a capitán del Ejército que ..."
+      },
+      {
+        "id": "art_0331",
+        "date": "2020-10-16",
+        "title": "El balance del INDH a un año del estallido social"
+      },
+      {
+        "id": "art_0336",
+        "date": "2020-10-17",
+        "title": "Galería CIMA: el valor histórico de un registro visual ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0233",
+        "target": "art_0243",
+        "coherence_score": 0.718322
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0243",
+        "coherence_score": 0.74511
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0257",
+        "coherence_score": 0.783152
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0261",
+        "coherence_score": 0.693078
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0266",
+        "coherence_score": 0.587987
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0270",
+        "coherence_score": 0.602028
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0266",
+        "coherence_score": 0.619869
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0270",
+        "coherence_score": 0.593229
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0275",
+        "coherence_score": 0.559855
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0270",
+        "coherence_score": 0.670128
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0275",
+        "coherence_score": 0.455544
+      },
+      {
+        "source": "art_0270",
+        "target": "art_0275",
+        "coherence_score": 0.412646
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0280",
+        "coherence_score": 0.579785
+      },
+      {
+        "source": "art_0280",
+        "target": "art_0284",
+        "coherence_score": 0.337219
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0294",
+        "coherence_score": 0.552413
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0298",
+        "coherence_score": 0.417766
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0298",
+        "coherence_score": 0.436312
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0303",
+        "coherence_score": 0.543332
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0308",
+        "coherence_score": 0.533639
+      },
+      {
+        "source": "art_0298",
+        "target": "art_0303",
+        "coherence_score": 0.57837
+      },
+      {
+        "source": "art_0298",
+        "target": "art_0308",
+        "coherence_score": 0.607403
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0308",
+        "coherence_score": 0.653257
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0322",
+        "coherence_score": 0.634629
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0326",
+        "coherence_score": 0.581385
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0326",
+        "coherence_score": 0.580021
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0331",
+        "coherence_score": 0.634394
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0336",
+        "coherence_score": 0.700915
+      },
+      {
+        "source": "art_0326",
+        "target": "art_0331",
+        "coherence_score": 0.56898
+      },
+      {
+        "source": "art_0326",
+        "target": "art_0336",
+        "coherence_score": 0.625586
+      },
+      {
+        "source": "art_0331",
+        "target": "art_0336",
+        "coherence_score": 0.616545
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0471",
+      "date": "2021-07-01",
+      "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+    },
+    {
+      "id": "art_0475",
+      "date": "2021-07-05",
+      "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0485",
+      "date": "2021-07-20",
+      "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 21.01797174999956,
+    "peak_memory_mb": 0.21748924255371094,
+    "avg_edge_coherence": 0.6186626553535461,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple topics such as the indulto, AFPs and el cuarto retiro in a coherent manner, but lacks depth and analysis on some of these issues. The discussion is mostly focused on the political aspects rather than providing a comprehensive view.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:49:52.182529+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:49:52.182633+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0471",
+        "date": "2021-07-01",
+        "title": "Franja electoral: Presidenciables de Chile Vamos defienden sus apuestas y Briones explica comentado capítulo"
+      },
+      {
+        "id": "art_0475",
+        "date": "2021-07-05",
+        "title": "Las tensiones, negociaciones y gestos que marcaron una ..."
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0485",
+        "date": "2021-07-20",
+        "title": "Convención discute regulación de nuevas comisiones: Objetivos de instancia de DD.HH. genera intenso debate"
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0471",
+        "target": "art_0475",
+        "coherence_score": 0.638907
+      },
+      {
+        "source": "art_0475",
+        "target": "art_0480",
+        "coherence_score": 0.625508
+      },
+      {
+        "source": "art_0480",
+        "target": "art_0485",
+        "coherence_score": 0.673031
+      },
+      {
+        "source": "art_0485",
+        "target": "art_0494",
+        "coherence_score": 0.556373
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0545",
+        "coherence_score": 0.599494
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0545",
+      "date": "2021-11-03",
+      "title": "Presidente designa como nuevo comandante en Jefe del ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 5.996524999965914,
+    "peak_memory_mb": 0.1964263916015625,
+    "avg_edge_coherence": 0.5713849723339081,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and events from different angles, but lacks a clear central thread or cohesive structure, resulting in an overall coherence score of 8. The author effectively weaves together various details to create a comprehensive picture of the Chilean crisis, but could have further refined the connections between ideas for maximum impact.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:12:59.864298+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T14:12:59.864439+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0545",
+        "date": "2021-11-03",
+        "title": "Presidente designa como nuevo comandante en Jefe del ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0480",
+        "target": "art_0494",
+        "coherence_score": 0.565017
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0499",
+        "coherence_score": 0.436829
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0508",
+        "coherence_score": 0.626386
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0517",
+        "coherence_score": 0.684921
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0545",
+        "coherence_score": 0.543772
+      }
+    ]
+  }
+}

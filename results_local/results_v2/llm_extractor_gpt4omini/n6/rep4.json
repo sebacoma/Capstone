@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 0,
+  "narrative": [
+    {
+      "id": "art_0098",
+      "date": "2019-12-15",
+      "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+    },
+    {
+      "id": "art_0103",
+      "date": "2019-12-17",
+      "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+    },
+    {
+      "id": "art_0149",
+      "date": "2020-01-10",
+      "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+    },
+    {
+      "id": "art_0191",
+      "date": "2020-02-05",
+      "title": "Chile pone una pausa a las protestas a la espera ..."
+    },
+    {
+      "id": "art_0243",
+      "date": "2020-03-31",
+      "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.5964974589878693,
+    "peak_memory_mb": 0.35247802734375,
+    "avg_edge_coherence": 0.5700961709022522,
+    "api_cost_usd": 0.0019153875
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and opinions on the Chilean crisis, including its impact on the system patriarcal y neoliberal, the role of the state in addressing the pandemic, and the potential for social change. However, some connections between these ideas could be more explicitly drawn to achieve a higher coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:11:54.401253+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:11:54.401294+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0098",
+        "date": "2019-12-15",
+        "title": "OEA: \"Nadie puede creer que fue espontáneo atacar cuatro o cinco lugares a la vez en puntos estratégicos de Santiago\""
+      },
+      {
+        "id": "art_0103",
+        "date": "2019-12-17",
+        "title": "Hasta que valga la pena vivir: Las cicatrices del estallido ..."
+      },
+      {
+        "id": "art_0149",
+        "date": "2020-01-10",
+        "title": "2019: el año en que los jóvenes se volvieron a movilizar"
+      },
+      {
+        "id": "art_0191",
+        "date": "2020-02-05",
+        "title": "Chile pone una pausa a las protestas a la espera ..."
+      },
+      {
+        "id": "art_0243",
+        "date": "2020-03-31",
+        "title": "Filósofa Olga Grau y la conexión entre el estallido social y ..."
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0098",
+        "target": "art_0103",
+        "coherence_score": 0.694663
+      },
+      {
+        "source": "art_0103",
+        "target": "art_0149",
+        "coherence_score": 0.521918
+      },
+      {
+        "source": "art_0149",
+        "target": "art_0191",
+        "coherence_score": 0.572647
+      },
+      {
+        "source": "art_0191",
+        "target": "art_0243",
+        "coherence_score": 0.601322
+      },
+      {
+        "source": "art_0243",
+        "target": "art_0247",
+        "coherence_score": 0.459931
+      }
+    ]
+  }
+}

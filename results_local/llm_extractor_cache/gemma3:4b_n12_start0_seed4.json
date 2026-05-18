@@ -1,0 +1,22 @@
+{
+  "model": "gemma3:4b",
+  "n": 12,
+  "start_index": 0,
+  "seed": 4,
+  "selected_ids": [
+    "art_0708",
+    "art_0727",
+    "art_0741",
+    "art_0769",
+    "art_0787",
+    "art_0815",
+    "art_0838",
+    "art_0848",
+    "art_0848",
+    "art_0848",
+    "art_0848",
+    "art_0848"
+  ],
+  "justification": "Los artículos seleccionados abarcan desde el saqueo de una farmacia durante el estallido social hasta el intento de reunión de Los Prisioneros, y la búsqueda de consenso para redactar una nueva Constitución, mostrando una variedad de eventos y temas relacionados con el estallido social y sus consecuencias.",
+  "api_cost_usd": 0.0
+}

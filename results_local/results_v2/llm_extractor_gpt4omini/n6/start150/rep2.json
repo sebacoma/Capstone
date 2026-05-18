@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.2912547079613432,
+    "peak_memory_mb": 0.20348167419433594,
+    "avg_edge_coherence": 0.5250233829021453,
+    "api_cost_usd": 0.0006257625
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear structure and timeline of events, but lacks depth and nuance in its analysis of the Chilean constitutional process. The writing is straightforward and easy to follow, but could benefit from more context and supporting evidence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:13:59.409610+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:13:59.409657+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0713",
+        "coherence_score": 0.635975
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0727",
+        "coherence_score": 0.635468
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0750",
+        "coherence_score": 0.601537
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0769",
+        "coherence_score": 0.377743
+      }
+    ]
+  }
+}

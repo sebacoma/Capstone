@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    },
+    {
+      "id": "art_0852",
+      "date": "2023-08-11",
+      "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+    },
+    {
+      "id": "art_0880",
+      "date": "2023-09-30",
+      "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+    },
+    {
+      "id": "art_0880",
+      "date": "2023-09-30",
+      "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+    },
+    {
+      "id": "art_0880",
+      "date": "2023-09-30",
+      "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+    },
+    {
+      "id": "art_0890",
+      "date": "2023-10-15",
+      "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+    },
+    {
+      "id": "art_0890",
+      "date": "2023-10-15",
+      "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+    },
+    {
+      "id": "art_0904",
+      "date": "2023-10-18",
+      "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+    },
+    {
+      "id": "art_0918",
+      "date": "2023-11-06",
+      "title": "Estallido social: ratifican más de 12 años de cárcel a dos ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 22.335784291964956,
+    "peak_memory_mb": 0.5992603302001953,
+    "avg_edge_coherence": 0.8204661905765533,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from individuals involved in the Chilean protests, providing a comprehensive view of the events. However, some minor inconsistencies and lack of concrete evidence hinder the coherence score from reaching perfection.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:27:55.767634+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:27:55.767822+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      },
+      {
+        "id": "art_0852",
+        "date": "2023-08-11",
+        "title": "Vecinos de Santiago: renombre de calles y derrota de Irací"
+      },
+      {
+        "id": "art_0880",
+        "date": "2023-09-30",
+        "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+      },
+      {
+        "id": "art_0880",
+        "date": "2023-09-30",
+        "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+      },
+      {
+        "id": "art_0880",
+        "date": "2023-09-30",
+        "title": "José Maza y estallido social: \"Fue una pataleta de un ..."
+      },
+      {
+        "id": "art_0890",
+        "date": "2023-10-15",
+        "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+      },
+      {
+        "id": "art_0890",
+        "date": "2023-10-15",
+        "title": "Bomberos de Santiago y el estallido social: “Es una de las ..."
+      },
+      {
+        "id": "art_0904",
+        "date": "2023-10-18",
+        "title": "A cuatro años del estallido de 2019 en Chile: ¿cómo se ..."
+      },
+      {
+        "id": "art_0918",
+        "date": "2023-11-06",
+        "title": "Estallido social: ratifican más de 12 años de cárcel a dos ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0703",
+        "target": "art_0703",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0773",
+        "coherence_score": 0.651768
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0773",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0801",
+        "coherence_score": 0.587628
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0801",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0801",
+        "target": "art_0852",
+        "coherence_score": 0.622969
+      },
+      {
+        "source": "art_0852",
+        "target": "art_0880",
+        "coherence_score": 0.449612
+      },
+      {
+        "source": "art_0880",
+        "target": "art_0880",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0880",
+        "target": "art_0880",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0880",
+        "target": "art_0890",
+        "coherence_score": 0.429197
+      },
+      {
+        "source": "art_0890",
+        "target": "art_0890",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0890",
+        "target": "art_0904",
+        "coherence_score": 0.585528
+      },
+      {
+        "source": "art_0904",
+        "target": "art_0918",
+        "coherence_score": 0.621224
+      }
+    ]
+  }
+}

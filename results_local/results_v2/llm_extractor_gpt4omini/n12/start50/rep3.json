@@ -1,0 +1,208 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0233",
+      "date": "2020-03-09",
+      "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+    },
+    {
+      "id": "art_0238",
+      "date": "2020-03-15",
+      "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+    },
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0257",
+      "date": "2020-04-29",
+      "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    },
+    {
+      "id": "art_0294",
+      "date": "2020-08-18",
+      "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+    },
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0317",
+      "date": "2020-10-02",
+      "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+    },
+    {
+      "id": "art_0340",
+      "date": "2020-10-17",
+      "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+    },
+    {
+      "id": "art_0382",
+      "date": "2020-12-10",
+      "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 3.8233152499888092,
+    "peak_memory_mb": 0.26216983795166016,
+    "avg_edge_coherence": 0.5321701141920957,
+    "api_cost_usd": 0.0013524750000000001
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The author presents themselves as an expert in their field and provides credible sources to support their claims, lending credibility to the narrative.",
+    "contextualization_score": 9,
+    "emotional_resonance_score": 7,
+    "credibility_score": 9,
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:16:36.441540+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:16:36.441722+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0233",
+        "date": "2020-03-09",
+        "title": "Las 5 cosas que debes saber este 9 de marzo: Un día sin ..."
+      },
+      {
+        "id": "art_0238",
+        "date": "2020-03-15",
+        "title": "Ex economista jefe del FMI, Kenneth Rogoff: \"Es una realidad que vamos a tener una recesión global este 2020\""
+      },
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0257",
+        "date": "2020-04-29",
+        "title": "“Efecto pandemia”: Prensa escrita, medios online y la TV ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      },
+      {
+        "id": "art_0294",
+        "date": "2020-08-18",
+        "title": "Carabineros revela que disparó 104 mil tiros de escopeta en las primeras dos semanas del estallido social"
+      },
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0317",
+        "date": "2020-10-02",
+        "title": "A casi un año del 18 de octubre, las cifras del Gobierno ..."
+      },
+      {
+        "id": "art_0340",
+        "date": "2020-10-17",
+        "title": "Mario Rozas: Las grietas que el 18-O abrió en Carabineros"
+      },
+      {
+        "id": "art_0382",
+        "date": "2020-12-10",
+        "title": "Rocío Hormazabal, activista por los cuerpos disidentes"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0233",
+        "target": "art_0238",
+        "coherence_score": 0.600343
+      },
+      {
+        "source": "art_0238",
+        "target": "art_0247",
+        "coherence_score": 0.370093
+      },
+      {
+        "source": "art_0247",
+        "target": "art_0257",
+        "coherence_score": 0.571806
+      },
+      {
+        "source": "art_0257",
+        "target": "art_0261",
+        "coherence_score": 0.693078
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0275",
+        "coherence_score": 0.559855
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0284",
+        "coherence_score": 0.351533
+      },
+      {
+        "source": "art_0284",
+        "target": "art_0294",
+        "coherence_score": 0.552413
+      },
+      {
+        "source": "art_0294",
+        "target": "art_0308",
+        "coherence_score": 0.533639
+      },
+      {
+        "source": "art_0308",
+        "target": "art_0317",
+        "coherence_score": 0.505559
+      },
+      {
+        "source": "art_0317",
+        "target": "art_0340",
+        "coherence_score": 0.48156
+      },
+      {
+        "source": "art_0340",
+        "target": "art_0382",
+        "coherence_score": 0.633992
+      }
+    ]
+  }
+}

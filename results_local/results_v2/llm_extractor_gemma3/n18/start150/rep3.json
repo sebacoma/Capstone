@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0736",
+      "date": "2022-11-14",
+      "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0769",
+      "date": "2023-03-06",
+      "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    },
+    {
+      "id": "art_0838",
+      "date": "2023-07-19",
+      "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+    },
+    {
+      "id": "art_0857",
+      "date": "2023-08-22",
+      "title": "Chile tóxico: polarización y nihilismo"
+    },
+    {
+      "id": "art_0871",
+      "date": "2023-09-15",
+      "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+    },
+    {
+      "id": "art_0876",
+      "date": "2023-09-22",
+      "title": "expresidente Piñera dice que durante el estallido social su ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    },
+    {
+      "id": "art_0885",
+      "date": "2023-10-14",
+      "title": "Filme sobre del estallido social gana en Festival ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 25.81382158305496,
+    "peak_memory_mb": 0.5969648361206055,
+    "avg_edge_coherence": 0.8447102483581094,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is well-structured and easy to follow, but it suffers from some minor inconsistencies and repetitive information that prevent it from being perfect. The coherence score is therefore 8 out of 10.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T17:26:16.567576+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T17:26:16.567777+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0736",
+        "date": "2022-11-14",
+        "title": "Seguridad sostenible, la alternativa a la mano dura de la que empieza a hablar LatinoamÃ©rica "
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0769",
+        "date": "2023-03-06",
+        "title": "Chile busca el consenso al redactar la nueva Constitución ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      },
+      {
+        "id": "art_0838",
+        "date": "2023-07-19",
+        "title": "Miguel Tapia revela que intentó reunir a Los Prisioneros"
+      },
+      {
+        "id": "art_0857",
+        "date": "2023-08-22",
+        "title": "Chile tóxico: polarización y nihilismo"
+      },
+      {
+        "id": "art_0871",
+        "date": "2023-09-15",
+        "title": "Juzgado falla a favor de generales sumariados por sus actuaciones en el estallido, pero Contraloría apelará"
+      },
+      {
+        "id": "art_0876",
+        "date": "2023-09-22",
+        "title": "expresidente Piñera dice que durante el estallido social su ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      },
+      {
+        "id": "art_0885",
+        "date": "2023-10-14",
+        "title": "Filme sobre del estallido social gana en Festival ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0736",
+        "target": "art_0769",
+        "coherence_score": 0.633231
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0769",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0769",
+        "target": "art_0806",
+        "coherence_score": 0.678353
+      },
+      {
+        "source": "art_0806",
+        "target": "art_0838",
+        "coherence_score": 0.63506
+      },
+      {
+        "source": "art_0838",
+        "target": "art_0857",
+        "coherence_score": 0.705445
+      },
+      {
+        "source": "art_0857",
+        "target": "art_0871",
+        "coherence_score": 0.533309
+      },
+      {
+        "source": "art_0871",
+        "target": "art_0876",
+        "coherence_score": 0.579268
+      },
+      {
+        "source": "art_0876",
+        "target": "art_0885",
+        "coherence_score": 0.595409
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0885",
+        "target": "art_0885",
+        "coherence_score": 1.0
+      }
+    ]
+  }
+}

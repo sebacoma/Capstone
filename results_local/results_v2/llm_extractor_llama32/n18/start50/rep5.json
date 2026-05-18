@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0308",
+      "date": "2020-09-15",
+      "title": "Lorena Recabarren otra vez en el ojo del huracán"
+    },
+    {
+      "id": "art_0336",
+      "date": "2020-10-17",
+      "title": "Galería CIMA: el valor histórico de un registro visual ..."
+    },
+    {
+      "id": "art_0415",
+      "date": "2021-03-06",
+      "title": "Con la recuperaciÃ³n econÃ³mica de Chile vuelve a salir a flote la desigualdad "
+    },
+    {
+      "id": "art_0438",
+      "date": "2021-04-20",
+      "title": "\"Ella ve mucha tele...\", respondió la \"Tía Pikachu\" a la \" ..."
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0452",
+      "date": "2021-05-25",
+      "title": "Las crisis no previstas 2019-2021"
+    },
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0480",
+      "date": "2021-07-13",
+      "title": "El estallido social cubano | Opinión"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 6.898350875009783,
+    "peak_memory_mb": 0.3600196838378906,
+    "avg_edge_coherence": 0.8545073288328507,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and historical references, but sometimes jumps abruptly between ideas or uses overly broad generalizations. However, it also effectively conveys a clear message about the Cuban government's response to protests and its implications for the population.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:24:31.139851+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:24:31.139992+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0308",
+        "date": "2020-09-15",
+        "title": "Lorena Recabarren otra vez en el ojo del huracán"
+      },
+      {
+        "id": "art_0336",
+        "date": "2020-10-17",
+        "title": "Galería CIMA: el valor histórico de un registro visual ..."
+      },
+      {
+        "id": "art_0415",
+        "date": "2021-03-06",
+        "title": "Con la recuperaciÃ³n econÃ³mica de Chile vuelve a salir a flote la desigualdad "
+      },
+      {
+        "id": "art_0438",
+        "date": "2021-04-20",
+        "title": "\"Ella ve mucha tele...\", respondió la \"Tía Pikachu\" a la \" ..."
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0452",
+        "date": "2021-05-25",
+        "title": "Las crisis no previstas 2019-2021"
+      },
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0480",
+        "date": "2021-07-13",
+        "title": "El estallido social cubano | Opinión"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0308",
+        "target": "art_0336",
+        "coherence_score": 0.63487
+      },
+      {
+        "source": "art_0336",
+        "target": "art_0415",
+        "coherence_score": 0.541019
+      },
+      {
+        "source": "art_0415",
+        "target": "art_0438",
+        "coherence_score": 0.481205
+      },
+      {
+        "source": "art_0438",
+        "target": "art_0452",
+        "coherence_score": 0.554277
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0452",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0452",
+        "target": "art_0466",
+        "coherence_score": 0.642256
+      },
+      {
+        "source": "art_0466",
+        "target": "art_0480",
+        "coherence_score": 0.672998
+      }
+    ]
+  }
+}

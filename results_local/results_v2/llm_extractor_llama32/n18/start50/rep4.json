@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0303",
+      "date": "2020-09-02",
+      "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0322",
+      "date": "2020-10-07",
+      "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0350",
+      "date": "2020-10-18",
+      "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0373",
+      "date": "2020-11-18",
+      "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+    },
+    {
+      "id": "art_0447",
+      "date": "2021-05-15",
+      "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 7.111018624971621,
+    "peak_memory_mb": 0.35997486114501953,
+    "avg_edge_coherence": 0.8573750923661625,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and cohesive structure, exploring the contrast between the past and present in Plaza Italia, but it lacks depth and nuance in its analysis of the election's significance and impact on Chile's future.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:24:18.267519+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:24:18.267703+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0303",
+        "date": "2020-09-02",
+        "title": "El juicio que hace de Felipe Camiroaga el número uno de ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0322",
+        "date": "2020-10-07",
+        "title": "La primera evasión masiva: El tenso preludio del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0350",
+        "date": "2020-10-18",
+        "title": "Módulo 14: la vida de los presos primerizos del estallido ..."
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0373",
+        "date": "2020-11-18",
+        "title": "Jóvenes y participación: desafíos y oportunidades frente al ..."
+      },
+      {
+        "id": "art_0447",
+        "date": "2021-05-15",
+        "title": "De las barricadas de Plaza Italia a las urnas, la vÃ­spera de la votaciÃ³n en Chile desde la zona cero de las protestas"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0261",
+        "target": "art_0261",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0275",
+        "coherence_score": 0.559855
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0275",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0303",
+        "coherence_score": 0.582968
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0303",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0303",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0303",
+        "target": "art_0322",
+        "coherence_score": 0.650176
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0322",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0322",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0322",
+        "target": "art_0350",
+        "coherence_score": 0.580537
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0350",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0350",
+        "target": "art_0373",
+        "coherence_score": 0.618326
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0373",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0373",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0373",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0373",
+        "target": "art_0447",
+        "coherence_score": 0.583515
+      }
+    ]
+  }
+}

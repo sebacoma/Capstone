@@ -1,0 +1,28 @@
+{
+  "model": "gemma3:4b",
+  "n": 18,
+  "start_index": 0,
+  "seed": 3,
+  "selected_ids": [
+    "art_0736",
+    "art_0769",
+    "art_0769",
+    "art_0769",
+    "art_0769",
+    "art_0806",
+    "art_0838",
+    "art_0857",
+    "art_0871",
+    "art_0876",
+    "art_0885",
+    "art_0885",
+    "art_0885",
+    "art_0885",
+    "art_0885",
+    "art_0885",
+    "art_0885",
+    "art_0885"
+  ],
+  "justification": "Los artículos seleccionados abarcan la respuesta del gobierno de Piñera al estallido social, el impacto económico en las aseguradoras, la experiencia personal de un manifestante herido, la polarización política en Chile, y el fallo judicial en el caso de los generales de Carabineros, así como el inicio del proceso de redacción de una nueva Constitución.",
+  "api_cost_usd": 0.0
+}

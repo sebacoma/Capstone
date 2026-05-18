@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 50,
+  "narrative": [
+    {
+      "id": "art_0247",
+      "date": "2020-04-07",
+      "title": "Estación Baquedano volverá a estar operativa para ..."
+    },
+    {
+      "id": "art_0252",
+      "date": "2020-04-16",
+      "title": "El complejo escenario del factoring, la industria “ ..."
+    },
+    {
+      "id": "art_0261",
+      "date": "2020-05-14",
+      "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+    },
+    {
+      "id": "art_0266",
+      "date": "2020-05-19",
+      "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+    },
+    {
+      "id": "art_0275",
+      "date": "2020-06-12",
+      "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+    },
+    {
+      "id": "art_0284",
+      "date": "2020-07-28",
+      "title": "Científicos buscan establecer las dinámicas del estallido ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 20.260232499917038,
+    "peak_memory_mb": 0.41055870056152344,
+    "avg_edge_coherence": 0.48154009580612184,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative effectively explores the connection between epidemiological models and social unrest, providing a unique perspective on the 2019 Chilean protests. However, some transitions and explanations could be smoother, leading to a slightly lower coherence score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:46:55.367850+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:46:55.368017+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0247",
+        "date": "2020-04-07",
+        "title": "Estación Baquedano volverá a estar operativa para ..."
+      },
+      {
+        "id": "art_0252",
+        "date": "2020-04-16",
+        "title": "El complejo escenario del factoring, la industria “ ..."
+      },
+      {
+        "id": "art_0261",
+        "date": "2020-05-14",
+        "title": "¿Ha influido la crisis de confianza post 18-O en el manejo de la pandemia? : Expertos analizan la tesis de Mañalich"
+      },
+      {
+        "id": "art_0266",
+        "date": "2020-05-19",
+        "title": "¿Cómo enfrentar un nuevo estallido? La discusión que se ..."
+      },
+      {
+        "id": "art_0275",
+        "date": "2020-06-12",
+        "title": "la reconversión de los voluntarios de salud de la Zona Cero"
+      },
+      {
+        "id": "art_0284",
+        "date": "2020-07-28",
+        "title": "Científicos buscan establecer las dinámicas del estallido ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0247",
+        "target": "art_0252",
+        "coherence_score": 0.4832
+      },
+      {
+        "source": "art_0252",
+        "target": "art_0261",
+        "coherence_score": 0.497555
+      },
+      {
+        "source": "art_0261",
+        "target": "art_0266",
+        "coherence_score": 0.619869
+      },
+      {
+        "source": "art_0266",
+        "target": "art_0275",
+        "coherence_score": 0.455544
+      },
+      {
+        "source": "art_0275",
+        "target": "art_0284",
+        "coherence_score": 0.351533
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_mistral",
+  "model": "mistral",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0466",
+      "date": "2021-06-19",
+      "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+    },
+    {
+      "id": "art_0489",
+      "date": "2021-07-27",
+      "title": "Todo lo que necesitas saber sobre la Convención ..."
+    },
+    {
+      "id": "art_0499",
+      "date": "2021-08-22",
+      "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+    },
+    {
+      "id": "art_0503",
+      "date": "2021-08-31",
+      "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+    },
+    {
+      "id": "art_0517",
+      "date": "2021-10-17",
+      "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+    },
+    {
+      "id": "art_0527",
+      "date": "2021-10-18",
+      "title": "Saqueos, incendios y barricadas se registraron durante ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 17.182282875059173,
+    "peak_memory_mb": 0.19897174835205078,
+    "avg_edge_coherence": 0.6202536463737488,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple events and locations across different regions of Chile, but they are not fully integrated or connected, resulting in a somewhat disjointed reading experience. However, the use of similar structures and phrases throughout the article helps to maintain a sense of coherence.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:31:24.098315+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:31:24.098490+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0466",
+        "date": "2021-06-19",
+        "title": "Roberto Ampuero: “La política no solo debe basarse en ..."
+      },
+      {
+        "id": "art_0489",
+        "date": "2021-07-27",
+        "title": "Todo lo que necesitas saber sobre la Convención ..."
+      },
+      {
+        "id": "art_0499",
+        "date": "2021-08-22",
+        "title": "Empresa de mote con huesillo \"Copihue\" se declaró en ..."
+      },
+      {
+        "id": "art_0503",
+        "date": "2021-08-31",
+        "title": "Provoste responde a críticas de Boric por su rol en el Mineduc y cuestiona compromiso de Sichel con los DD.HH."
+      },
+      {
+        "id": "art_0517",
+        "date": "2021-10-17",
+        "title": "Estallido, revuelta, insurrección...: Y usted, ¿cómo le dice al ..."
+      },
+      {
+        "id": "art_0527",
+        "date": "2021-10-18",
+        "title": "Saqueos, incendios y barricadas se registraron durante ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0466",
+        "target": "art_0489",
+        "coherence_score": 0.581921
+      },
+      {
+        "source": "art_0489",
+        "target": "art_0499",
+        "coherence_score": 0.647576
+      },
+      {
+        "source": "art_0499",
+        "target": "art_0503",
+        "coherence_score": 0.682222
+      },
+      {
+        "source": "art_0503",
+        "target": "art_0517",
+        "coherence_score": 0.614524
+      },
+      {
+        "source": "art_0517",
+        "target": "art_0527",
+        "coherence_score": 0.575025
+      }
+    ]
+  }
+}

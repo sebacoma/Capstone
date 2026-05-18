@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0806",
+      "date": "2023-05-12",
+      "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 9.812318374984898,
+    "peak_memory_mb": 0.5968837738037109,
+    "avg_edge_coherence": 0.951197624206543,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but lacks depth and context in its discussion of the economic impact of the 18-O protests on the insurance industry. The inclusion of specific data points and expert opinions adds credibility to the report.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:26:28.814329+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:26:28.814467+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0806",
+        "date": "2023-05-12",
+        "title": "Informe de GPS: Estallido social tuvo un costo de US$3 mil millones para aseguradoras y superó crisis de otros países"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0713",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0722",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0806",
+        "coherence_score": 0.585317
+      }
+    ]
+  }
+}

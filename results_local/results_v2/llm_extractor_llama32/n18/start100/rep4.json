@@ -1,0 +1,295 @@
+{
+  "method": "llm_extractor_llama32",
+  "model": "llama3.2",
+  "n": 18,
+  "window_days": 30,
+  "start_index": 100,
+  "narrative": [
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0494",
+      "date": "2021-08-02",
+      "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+    },
+    {
+      "id": "art_0508",
+      "date": "2021-09-20",
+      "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0536",
+      "date": "2021-10-25",
+      "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0554",
+      "date": "2021-11-23",
+      "title": "Â¿QuÃ© pasÃ³ en Chile?"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0582",
+      "date": "2022-02-13",
+      "title": "Gabriel Boric y el contrato social en Chile"
+    },
+    {
+      "id": "art_0606",
+      "date": "2022-04-13",
+      "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+    },
+    {
+      "id": "art_0606",
+      "date": "2022-04-13",
+      "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+    },
+    {
+      "id": "art_0680",
+      "date": "2022-10-04",
+      "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 14.496431790990755,
+    "peak_memory_mb": 0.4405832290649414,
+    "avg_edge_coherence": 0.8676120358354905,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents a clear and consistent ideological stance, showcasing the author's commitment to social justice and human rights. However, some transitions between ideas feel abrupt, and the discussion of specific policies (e.g., security measures) could be more explicitly linked to the broader themes.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T14:25:39.441843+00:00",
+    "num_documents": 18
+  },
+  "timestamp": "2026-05-18T14:25:39.442001+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0494",
+        "date": "2021-08-02",
+        "title": "Provoste y Narváez coinciden en una \"salida política\" para \"detenidos del estallido social\" y Maldonado apuesta a una \"mirada integral\""
+      },
+      {
+        "id": "art_0508",
+        "date": "2021-09-20",
+        "title": "Paulina Flores, joven escritora chilena, repasa el poliamor"
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0536",
+        "date": "2021-10-25",
+        "title": "La relevancia del 25-O: A dos años de la gran marcha pacífica y a uno del Plebiscito constitucional"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0554",
+        "date": "2021-11-23",
+        "title": "Â¿QuÃ© pasÃ³ en Chile?"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0582",
+        "date": "2022-02-13",
+        "title": "Gabriel Boric y el contrato social en Chile"
+      },
+      {
+        "id": "art_0606",
+        "date": "2022-04-13",
+        "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+      },
+      {
+        "id": "art_0606",
+        "date": "2022-04-13",
+        "title": "Óscar Aranda, ex director de Inteligencia de la Armada"
+      },
+      {
+        "id": "art_0680",
+        "date": "2022-10-04",
+        "title": "Gabriel Boric: “Los motivos profundos del malestar chileno ..."
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0494",
+        "target": "art_0494",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0494",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0494",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0494",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0494",
+        "target": "art_0508",
+        "coherence_score": 0.49236
+      },
+      {
+        "source": "art_0508",
+        "target": "art_0536",
+        "coherence_score": 0.710287
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0536",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0536",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0536",
+        "target": "art_0554",
+        "coherence_score": 0.639583
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0554",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0554",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0554",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0554",
+        "target": "art_0582",
+        "coherence_score": 0.619709
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0582",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0582",
+        "target": "art_0606",
+        "coherence_score": 0.595862
+      },
+      {
+        "source": "art_0606",
+        "target": "art_0606",
+        "coherence_score": 1.0
+      },
+      {
+        "source": "art_0606",
+        "target": "art_0680",
+        "coherence_score": 0.691605
+      }
+    ]
+  }
+}

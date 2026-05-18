@@ -1,0 +1,205 @@
+{
+  "method": "llm_extractor_gpt4omini",
+  "model": "gpt-4o-mini",
+  "n": 12,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0727",
+      "date": "2022-10-29",
+      "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    },
+    {
+      "id": "art_0764",
+      "date": "2023-02-08",
+      "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+    },
+    {
+      "id": "art_0773",
+      "date": "2023-03-24",
+      "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+    },
+    {
+      "id": "art_0787",
+      "date": "2023-04-11",
+      "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+    },
+    {
+      "id": "art_0792",
+      "date": "2023-04-14",
+      "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+    },
+    {
+      "id": "art_0801",
+      "date": "2023-05-02",
+      "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 2.3457557080546394,
+    "peak_memory_mb": 0.4528493881225586,
+    "avg_edge_coherence": 0.5969112948937849,
+    "api_cost_usd": 0.0013569374999999999
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives and quotes from politicians, which adds depth to the story but also creates some disconnections between ideas. Overall, the coherence is good, but not perfect, due to the varied sources and opinions presented.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:18:37.073764+00:00",
+    "num_documents": 12
+  },
+  "timestamp": "2026-05-18T13:18:37.073799+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0727",
+        "date": "2022-10-29",
+        "title": "Pablo Piñera: “Hay una interpretación errada del 18 de ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      },
+      {
+        "id": "art_0764",
+        "date": "2023-02-08",
+        "title": "“No quiero llorar más por esto”: Hermana de Sebastián ..."
+      },
+      {
+        "id": "art_0773",
+        "date": "2023-03-24",
+        "title": "Por qué el gobierno le quitó el piso al alcalde Carter"
+      },
+      {
+        "id": "art_0787",
+        "date": "2023-04-11",
+        "title": "Piñera declaró ante la fiscal Chong por delitos de lesa ..."
+      },
+      {
+        "id": "art_0792",
+        "date": "2023-04-14",
+        "title": "Navarrete y gobierno de Boric: no se le reconoce autoridad"
+      },
+      {
+        "id": "art_0801",
+        "date": "2023-05-02",
+        "title": "El peso de la historia: Allende y Boric. Por Daniel Mansuy"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0703",
+        "target": "art_0708",
+        "coherence_score": 0.511142
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0727",
+        "coherence_score": 0.616917
+      },
+      {
+        "source": "art_0727",
+        "target": "art_0750",
+        "coherence_score": 0.601537
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0759",
+        "coherence_score": 0.583598
+      },
+      {
+        "source": "art_0759",
+        "target": "art_0764",
+        "coherence_score": 0.593395
+      },
+      {
+        "source": "art_0764",
+        "target": "art_0773",
+        "coherence_score": 0.625324
+      },
+      {
+        "source": "art_0773",
+        "target": "art_0787",
+        "coherence_score": 0.639147
+      },
+      {
+        "source": "art_0787",
+        "target": "art_0792",
+        "coherence_score": 0.648891
+      },
+      {
+        "source": "art_0792",
+        "target": "art_0801",
+        "coherence_score": 0.565223
+      }
+    ]
+  }
+}

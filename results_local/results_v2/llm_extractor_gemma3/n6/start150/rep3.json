@@ -1,0 +1,115 @@
+{
+  "method": "llm_extractor_gemma3",
+  "model": "gemma3:4b",
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0717",
+      "date": "2022-10-22",
+      "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+    },
+    {
+      "id": "art_0745",
+      "date": "2022-12-06",
+      "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+    },
+    {
+      "id": "art_0750",
+      "date": "2022-12-30",
+      "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+    },
+    {
+      "id": "art_0755",
+      "date": "2023-01-01",
+      "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+    },
+    {
+      "id": "art_0759",
+      "date": "2023-01-11",
+      "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 10.351422125007957,
+    "peak_memory_mb": 0.20238018035888672,
+    "avg_edge_coherence": 0.5309091627597808,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative is coherent and well-structured, but it jumps abruptly between different topics such as football, Chile's history, and the Estallido Social, which makes it feel disjointed at times.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T16:51:54.582772+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T16:51:54.582810+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0717",
+        "date": "2022-10-22",
+        "title": "Sin luna de miel: por qué la popularidad de Gabriel Boric ..."
+      },
+      {
+        "id": "art_0745",
+        "date": "2022-12-06",
+        "title": "Francisco Covarrubias: “Los grandes creadores de fake ..."
+      },
+      {
+        "id": "art_0750",
+        "date": "2022-12-30",
+        "title": "Gobierno rectifica y señala que Presidente Boric indultó ..."
+      },
+      {
+        "id": "art_0755",
+        "date": "2023-01-01",
+        "title": "18-O: La falsa historia de torturas en la estación Baquedano"
+      },
+      {
+        "id": "art_0759",
+        "date": "2023-01-11",
+        "title": "Manuel Pellegrini se refirió al golpe militar de 1973"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0713",
+        "target": "art_0717",
+        "coherence_score": 0.709097
+      },
+      {
+        "source": "art_0717",
+        "target": "art_0745",
+        "coherence_score": 0.587787
+      },
+      {
+        "source": "art_0745",
+        "target": "art_0750",
+        "coherence_score": 0.531798
+      },
+      {
+        "source": "art_0750",
+        "target": "art_0755",
+        "coherence_score": 0.374393
+      },
+      {
+        "source": "art_0755",
+        "target": "art_0759",
+        "coherence_score": 0.451471
+      }
+    ]
+  }
+}

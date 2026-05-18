@@ -1,0 +1,145 @@
+{
+  "method": "maps_algorithmic",
+  "model": null,
+  "n": 6,
+  "window_days": 30,
+  "start_index": 150,
+  "narrative": [
+    {
+      "id": "art_0699",
+      "date": "2022-10-17",
+      "title": "A tres años del estallido: cómo fueron las anteriores ..."
+    },
+    {
+      "id": "art_0703",
+      "date": "2022-10-18",
+      "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+    },
+    {
+      "id": "art_0708",
+      "date": "2022-10-18",
+      "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+    },
+    {
+      "id": "art_0713",
+      "date": "2022-10-19",
+      "title": "Exconvencional Patricio Fernández a tres años del ..."
+    },
+    {
+      "id": "art_0722",
+      "date": "2022-10-25",
+      "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+    },
+    {
+      "id": "art_0741",
+      "date": "2022-11-23",
+      "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+    }
+  ],
+  "metrics": {
+    "wall_time_seconds": 0.2009756249608472,
+    "peak_memory_mb": 0.3124818801879883,
+    "avg_edge_coherence": 0.5567464470863343,
+    "api_cost_usd": 0.0
+  },
+  "judge": {
+    "coherence_score": 8,
+    "justification": "The narrative presents multiple perspectives on the SIMCE evaluation, highlighting its limitations and potential biases. However, the coherence between these perspectives is not fully established, leading to a moderate score.",
+    "evaluation_type": "pointwise",
+    "judge_model": "llama3.2",
+    "timestamp": "2026-05-18T13:08:50.162921+00:00",
+    "num_documents": 6
+  },
+  "timestamp": "2026-05-18T13:08:50.162970+00:00",
+  "graph": {
+    "nodes": [
+      {
+        "id": "art_0699",
+        "date": "2022-10-17",
+        "title": "A tres años del estallido: cómo fueron las anteriores ..."
+      },
+      {
+        "id": "art_0703",
+        "date": "2022-10-18",
+        "title": "Chambonada de Interior: reconocen que correos de Galli ..."
+      },
+      {
+        "id": "art_0708",
+        "date": "2022-10-18",
+        "title": "Delincuentes saquean farmacia en sector de Plaza Italia ..."
+      },
+      {
+        "id": "art_0713",
+        "date": "2022-10-19",
+        "title": "Exconvencional Patricio Fernández a tres años del ..."
+      },
+      {
+        "id": "art_0722",
+        "date": "2022-10-25",
+        "title": "Jens Johannson recordó el concierto de Stratovarius en ..."
+      },
+      {
+        "id": "art_0741",
+        "date": "2022-11-23",
+        "title": "CARTAS: ¿Cuál es el propósito del SIMCE en 2022?"
+      }
+    ],
+    "edges": [
+      {
+        "source": "art_0699",
+        "target": "art_0703",
+        "coherence_score": 0.635134
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0708",
+        "coherence_score": 0.554357
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0713",
+        "coherence_score": 0.635975
+      },
+      {
+        "source": "art_0699",
+        "target": "art_0722",
+        "coherence_score": 0.55465
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0708",
+        "coherence_score": 0.511142
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0713",
+        "coherence_score": 0.591367
+      },
+      {
+        "source": "art_0703",
+        "target": "art_0722",
+        "coherence_score": 0.534244
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0713",
+        "coherence_score": 0.595807
+      },
+      {
+        "source": "art_0708",
+        "target": "art_0722",
+        "coherence_score": 0.598759
+      },
+      {
+        "source": "art_0713",
+        "target": "art_0722",
+        "coherence_score": 0.585043
+      },
+      {
+        "source": "art_0722",
+        "target": "art_0741",
+        "coherence_score": 0.456605
+      }
+    ]
+  }
+}
