@@ -1,0 +1,7 @@
+method,llama_mean,llama_std,llama_n,claude_mean,claude_std,claude_n,gemini_mean,gemini_std,gemini_n,spearman_claude_vs_gemini,p_value_spearman,cohen_kappa_claude_vs_gemini
+llm_extractor_gemma3,7.878,0.714,41,2.9756,1.1723,41,4.3171,2.0789,41,0.5887,5.2e-05,0.1633
+llm_extractor_gpt4omini,7.9828,0.439,58,5.2931,1.2141,58,6.8103,1.5498,58,0.4204,0.001016,0.2412
+llm_extractor_llama32,7.9545,0.3015,44,2.9111,1.4274,45,3.4444,1.9605,45,0.5331,0.000163,0.3541
+llm_extractor_mistral,7.7692,0.8629,26,3.8462,1.4884,26,4.2692,2.2191,26,0.6022,0.001133,0.539
+maps_algorithmic,7.8333,0.5774,12,3.6667,0.8876,12,5.6667,1.8257,12,0.6388,0.025347,0.0
+trails_algorithmic,8.0,0.0,12,4.9167,1.2401,12,6.25,1.4222,12,0.2197,0.492705,0.2105

@@ -29,6 +29,7 @@ from functools import partial
 from math import ceil, sqrt
 from typing import Any, Callable
 
+import anthropic
 import numpy as np
 import ollama
 import pulp
@@ -193,6 +194,17 @@ def _parse_extractor_response(text: str, valid_ids: set, n: int) -> dict | None:
         try:
             data = json.loads(match.group())
             ids = data.get("selected_ids", [])
+            # Eliminar duplicados preservando orden
+            seen = set()
+            deduped = []
+            for fid in ids:
+                if fid not in seen:
+                    seen.add(fid)
+                    deduped.append(fid)
+            if len(deduped) < len(ids):
+                logger.warning("LLM retorno %d IDs duplicados, tratando como seleccion fallida",
+                               len(ids) - len(deduped))
+            ids = deduped
         except json.JSONDecodeError:
             logger.warning("JSON malformado: %s", match.group()[:200])
 
@@ -422,6 +434,98 @@ def evaluate_narrative(narrative: list[dict], judge_model: str = "llama3.2") -> 
     result["timestamp"] = datetime.now(timezone.utc).isoformat()
     result["num_documents"] = len(narrative)
     return result
+
+
+def evaluate_narrative_claude(
+    narrative: list[dict],
+    model: str = "claude-sonnet-4-6",
+    max_retries: int = 6,
+) -> dict:
+    """Evaluar narrativa usando Claude como juez vía Anthropic API."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY_PERSONAL")
+    if not api_key:
+        raise ValueError(
+            "ANTHROPIC_API_KEY_PERSONAL no configurada. Exportala con:\n"
+            "  export ANTHROPIC_API_KEY_PERSONAL='sk-ant-...'"
+        )
+
+    narrative_text = _format_narrative(narrative)
+    prompt = (
+        "You are evaluating the quality of a narrative extracted from a news corpus.\n"
+        "The narrative is a sequence of documents that should tell a coherent story "
+        "with logical and temporal progression.\n\n"
+        f"NARRATIVE ({len(narrative)} documents):\n{narrative_text}\n\n"
+        "Evaluate this narrative and respond in valid JSON with exactly these fields:\n"
+        '"coherence_score": integer from 0 to 10 (0 = no coherence, 10 = perfect narrative)\n'
+        '"justification": a brief explanation of your score (max 2 sentences)\n\n'
+        "Respond ONLY with the JSON object, no other text."
+    )
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    for attempt in range(max_retries):
+        try:
+            response = client.messages.create(
+                model=model,
+                max_tokens=512,
+                temperature=0.0,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text_out = response.content[0].text
+            input_tokens = response.usage.input_tokens
+            output_tokens = response.usage.output_tokens
+            # Claude Sonnet 4.6: $3/MTok input, $15/MTok output
+            api_cost = input_tokens * 3e-6 + output_tokens * 15e-6
+
+            result = _parse_json_response(text_out)
+            if "coherence_score" not in result:
+                result["coherence_score"] = -1
+                result["justification"] = result.pop("parse_error", "Unknown parse failure")
+            result["evaluation_type"] = "pointwise"
+            result["judge_model"] = model
+            result["timestamp"] = datetime.now(timezone.utc).isoformat()
+            result["num_documents"] = len(narrative)
+            result["input_tokens"] = input_tokens
+            result["output_tokens"] = output_tokens
+            result["api_cost_usd"] = api_cost
+            return result
+
+        except anthropic.RateLimitError:
+            wait = min(2 ** (attempt + 2), 120)  # 4, 8, 16, 32, 64, 120
+            logger.warning("Rate limit, esperando %ds (intento %d/%d)", wait, attempt + 1, max_retries)
+            time.sleep(wait)
+        except anthropic.APIError as e:
+            wait = min(2 ** (attempt + 2), 120)
+            logger.warning("API error: %s, esperando %ds (intento %d/%d)", e, wait, attempt + 1, max_retries)
+            time.sleep(wait)
+
+    logger.error("Claude judge falló después de %d intentos", max_retries)
+    return {
+        "coherence_score": -1,
+        "justification": f"API failed after {max_retries} retries",
+        "evaluation_type": "pointwise",
+        "judge_model": model,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "num_documents": len(narrative),
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "api_cost_usd": 0.0,
+    }
+
+
+# ============================================================
+# JACCARD SIMILARITY
+# ============================================================
+def calculate_jaccard_similarity(narrative_a: list[str], narrative_b: list[str]) -> float:
+    """Calcula Jaccard Similarity entre dos narrativas a nivel de nodos."""
+    set_a = set(narrative_a)
+    set_b = set(narrative_b)
+    if not set_a and not set_b:
+        return 1.0
+    intersection = len(set_a & set_b)
+    union = len(set_a | set_b)
+    return intersection / union if union > 0 else 0.0
+
 
 # ============================================================
 # NARRATIVE MAPS (LP Relaxation)

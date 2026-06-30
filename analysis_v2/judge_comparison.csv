@@ -1,0 +1,7 @@
+method,n_valid,llama_mean,llama_std,claude_mean,claude_std,spearman_rho,spearman_p,llama_variance,claude_variance,variance_ratio
+llm_extractor_gemma3,41,7.878,0.714,2.9756,1.1723,0.086,0.59291,0.5098,1.3744,2.6962
+llm_extractor_gpt4omini,58,7.9828,0.439,5.2931,1.2141,-0.1118,0.403382,0.1927,1.474,7.6499
+llm_extractor_llama32,44,7.9545,0.3015,2.9318,1.437,0.1111,0.472698,0.0909,2.065,22.7151
+llm_extractor_mistral,26,7.7692,0.8629,3.8462,1.4884,0.2727,0.177705,0.7446,2.2154,2.9752
+maps_algorithmic,12,7.8333,0.5774,3.6667,0.8876,-0.4625,0.130045,0.3333,0.7879,2.3636
+trails_algorithmic,12,8.0,0.0,4.9167,1.2401,,,0.0,1.5379,

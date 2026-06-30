@@ -1,0 +1,7 @@
+,llm_extractor_gemma3,llm_extractor_gpt4omini,llm_extractor_llama32,llm_extractor_mistral,maps_algorithmic,trails_algorithmic
+llm_extractor_gemma3,1.0,0.17,0.2449,0.2275,0.1428,0.1227
+llm_extractor_gpt4omini,0.17,1.0,0.144,0.185,0.1746,0.1345
+llm_extractor_llama32,0.2449,0.144,1.0,0.2618,0.123,0.0895
+llm_extractor_mistral,0.2275,0.185,0.2618,1.0,0.1576,0.1264
+maps_algorithmic,0.1428,0.1746,0.123,0.1576,1.0,0.1933
+trails_algorithmic,0.1227,0.1345,0.0895,0.1264,0.1933,1.0

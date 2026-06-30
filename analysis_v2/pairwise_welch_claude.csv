@@ -1,0 +1,16 @@
+method_a,method_b,mean_a,mean_b,t_stat,p_value,p_bonferroni,cohens_d,effect_size,significant_bonferroni,n_a,n_b
+llm_extractor_gemma3,llm_extractor_gpt4omini,2.9756,5.2931,-9.5462,0.0,0.0,-1.936,large,True,41,58
+llm_extractor_gemma3,llm_extractor_llama32,2.9756,2.9111,0.2298,0.818833,1.0,0.0492,negligible,False,41,45
+llm_extractor_gemma3,llm_extractor_mistral,2.9756,3.8462,-2.5265,0.015171,0.227569,-0.6681,medium,False,41,26
+llm_extractor_gemma3,maps_algorithmic,2.9756,3.6667,-2.1943,0.038382,0.575727,-0.6186,medium,False,41,12
+llm_extractor_gemma3,trails_algorithmic,2.9756,4.9167,-4.8274,0.000153,0.002295,-1.6349,large,True,41,12
+llm_extractor_gpt4omini,llm_extractor_llama32,5.2931,2.9111,8.9591,0.0,0.0,1.8166,large,True,58,45
+llm_extractor_gpt4omini,llm_extractor_mistral,5.2931,3.8462,4.3505,8.9e-05,0.001341,1.1098,large,True,58,26
+llm_extractor_gpt4omini,maps_algorithmic,5.2931,3.6667,5.3895,2.6e-05,0.000386,1.3931,large,True,58,12
+llm_extractor_gpt4omini,trails_algorithmic,5.2931,4.9167,0.9606,0.351341,1.0,0.309,small,False,58,12
+llm_extractor_llama32,llm_extractor_mistral,2.9111,3.8462,-2.5885,0.012556,0.188334,-0.645,medium,False,45,26
+llm_extractor_llama32,maps_algorithmic,2.9111,3.6667,-2.2685,0.031184,0.46776,-0.5651,medium,False,45,12
+llm_extractor_llama32,trails_algorithmic,2.9111,4.9167,-4.8158,0.000112,0.001676,-1.4408,large,True,45,12
+llm_extractor_mistral,maps_algorithmic,3.8462,3.6667,0.4621,0.647006,1.0,0.1346,negligible,False,26,12
+llm_extractor_mistral,trails_algorithmic,3.8462,4.9167,-2.3176,0.028766,0.431497,-0.7554,medium,False,26,12
+maps_algorithmic,trails_algorithmic,3.6667,4.9167,-2.8393,0.010158,0.152369,-1.1592,large,False,12,12
